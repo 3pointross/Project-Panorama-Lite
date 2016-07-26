@@ -1,0 +1,377 @@
+/* Custom Icons */
+
+#adminmenu .menu-icon-psp_projects div.wp-menu-image:before {
+    content: "\f183";
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font: normal 20px/1 'dashicons';
+    vertical-align: top;
+}
+
+.group { padding: 0 0 30px 0; margin: 0 0 30px 0; border-bottom: 1px solid #ddd;  }
+
+.psp_metabox label { font-weight: bold; display: block; }
+.psp_metabox label span { font-weight: normal; color: #555; }
+
+.psp_metabox input[type='text'] { width: 100%; max-width: 250px; }
+.psp_metabox textarea { width: 100%; max-width: 250px; }
+.psp_metabox hr { border: 1px solid #ddd; display: block; margin: 30px 0; }
+
+/* Project Listing */
+
+.psp_user_assigned { clear: both; padding: 7px 0;}
+.psp_user_assigned span { display: inline-block; line-height: 25px !important; float: left; }
+.psp_user_assigned img { display: inline-block; width: 25px; height: 25px; border-radius: 100%; margin-right: 10px; float: left; }
+
+.psp-user-list-title img { width: 50px; height: 50px; float: left; margin-right: 10px; border-radius: 100%; }
+.psp-user-list-title span { line-height: 50px; float: left; }
+
+#psp-user-list-table { margin-top: 30px; }
+
+p.psp-fl { float: left; margin-right: 5px; }
+
+.w150 { width: 100px; }
+
+.psp-activation-notice {
+    display: inline-block;
+    padding: 5px 10px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.psp-settings-tab { display: none; }
+.psp-settings-tab-active { display: block; }
+
+/* Editor Styles */
+
+.field_key-field_527d5dd02fa2a label { font-size: 18px !important; }
+.field_key-field_527d5dfd2fa2d th,
+.field_key-field_532b8d8b9c46b th,
+.field_key-field_52a9e4634b147 th {
+    background: #555 !important; color: #fff !important; border-right: 0px !important; font-weight: bold;
+}
+
+.field_key-field_527d5dfd2fa2d .repeater td,
+.field_key-field_532b8d8b9c46b .repeater td,
+.field_key-field_52a9e4634b147 .repeater td {
+    border-right: 0px !important;
+}
+
+#acf-phases table.acf_input > tbody > tr > td,
+#acf-documents table.acf_input > tbody > tr > td { border-top: 0px !important; }
+
+.field_key-field_52c46f3fcf957 { display: none; }
+
+.repeater-button-cell { background: #f4f4f4 !important; border-right: 0px !important; }
+
+/* Documents */
+
+.field_key-field_52a9e4964b14a p { word-wrap: break-word; }
+
+.field_key-field_52a9e4964b14a strong.acf-file-title { display: block; max-width: 200px; }
+.field_key-field_52a9e4964b14a a.acf-file-name { display: block; max-width: 200px; }
+
+#acf_acf_milestones div.acf-tab_group-show,
+#acf_acf_milestones > .inside > .field,
+#acf_acf_overview > .inside > .field
+{
+    border-top: 0px !important;
+}
+
+.psp-status-message {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    overflow: auto;
+    height: 300px;
+}
+
+/* ========== */
+/* = Tables = */
+/* ========== */
+
+table.psp_table td { vertical-align: top; }
+table.psp_twocol td { padding: 0 15px 0 0; vertical-align: top; }
+.psp_metabox table textarea { width: 100%; max-width: 100% !important; }
+
+.task-row { display: table-row; }
+.task-row p { display: table-cell; padding: 5px 5px 5px 0; }
+
+.task-row.completed input[type=text] { border: 0px; text-decoration: line-through; background: transparent; }
+
+.milestone-row, .document-row { padding: 15px 0; border-bottom: 1px solid #ddd; }
+.clear { clear: both; }
+
+/* ================ */
+/* = Link Styling = */
+/* ================ */
+
+a.nuke { padding: 0 0 0 18px; color: #ff0000; }
+label.psp-disabled { color: #888; }
+
+/* =========== */
+/* = Actions = */
+/* =========== */
+
+ul.psp-actions { padding: 15px 0; list-style: none; margin: 0; }
+ul.psp-actions li { display: inline; padding: 0 5px 0 0; }
+
+.psp_progress { max-width: 500px; padding-bottom: 30px;  }
+#psp_slider { background: #fff; }
+
+#psp_percentage_complete { display: none; }
+
+/* ========= */
+/* = Modal = */
+/* ========= */
+
+.psp-hide-table { display: none; }
+.psp-hide-table th, .psp-hide-table td { padding: 5px 10px 5px 0 !important; }
+
+.psp-part-option-row, .psp-single-tasks-row { display: none; }
+
+/* ==================== */
+/* = Dashboard Widget = */
+/* ==================== */
+
+.psp-chart,
+.psp-short-progress-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    margin: -50px auto;
+}
+
+.psp-chart canvas,
+.psp-short-progress-wrapper canvas {
+    width: 100%;
+    position: relative;
+}
+
+.psp-chart div {
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+}
+.psp-chart div svg {
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.psp-chart .tooltip {
+    margin-left: -5px;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.psp-dashboard-widget-table { width: 100%; border: 0px; margin: 10px 0 30px 0; border-collapse: collapse;}
+.psp-dashboard-widget-table th { background: #2A3542; color: #ddd; text-transform: uppercase; text-align: left; border: 0px; padding: 5px; }
+.psp-dashboard-widget-table tr { background: #f9f9f9; }
+.psp-dashboard-widget-table tr:nth-child(odd) { background: #fcfcfc !important; }
+.psp-dashboard-widget-table tr td { padding: 5px; }
+.psp-dwt-date { font-size: 11px; }
+
+.psp-projects-overview { list-style: none; margin: 0; padding: 0; }
+.psp-projects-overview li { width: 22%; padding: 5px 1.5%; float: left; }
+.psp-projects-overview span { display: block; font-size: 64px; line-height: 1em; text-align: center; font-weight: bold; color: #666;}
+.psp-projects-overview strong { padding: 4px 0; font-size: 12px; text-transform: uppercase; text-align: center; display: block; color: #777;}
+
+.psp-dw-active { color: #3299bb !important; }
+
+#psp_dashboard_overview h4 { text-align: center; margin: 30px 0; text-transform: uppercase; color: #999; }
+#psp_dashboard_overview hr { border: 1px solid #efefef; height: 1px; display: block; clear: both; }
+
+.dashboard-chart-legend { text-align: center; margin: 0 0 30px 0; }
+.dashboard-chart-legend li { display: inline-block; font-weight: bold; padding: 5px 10px; text-align: center;}
+.dashboard-chart-legend li span { color: #fff; }
+.dashboard-chart-legend li:first-child { color: #666; background: #666; }
+.dashboard-chart-legend li:nth-child(2) { color: #3299bb; background: #3299bb; }
+.dashboard-chart-legend li:nth-child(3) { color: #2a3542; background: #2a3542; }
+
+.psp-dw-completed { color: #2a3542 !important; }
+
+/* ============== */
+/* = Milestones = */
+/* ============== */
+
+.milestone-row { padding: 15px 0; border-bottom: 1px solid #ddd; }
+
+/* Options Page */
+
+.psp-fieldset { margin: 30px 0; }
+.psp-fieldset legend { font-size: 18px; padding: 0; }
+
+/* Notifications */
+
+.psp-notify-list li {
+    display: inline-block;
+    padding: 5px;
+}
+.psp-notify-list li.all-line {
+    background: #f3f3f3;
+    border-right: 6px;
+}
+
+.psp-notification-modal,
+.psp-notification-edit {
+    display: none;
+}
+
+.psp-notify-warning {
+    border: 1px solid #efefef;
+    border-radius: 2px;
+    border-left: 4px solid #dd3d36;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    padding: 1px 12px;
+    display: none;
+    margin: 12px 0;
+}
+
+.psp-notify-message {
+    width: 100%;
+    height: 150px;
+}
+
+.psp-notify-ok {
+    color: #fff !important;
+}
+
+#psp-notification-subject {
+    width: 100%;
+}
+
+/* =========== */
+/* = Warning = */
+/* =========== */
+
+.psp-warning span { 
+	border: 1px solid;
+	margin: 10px 0px;
+	padding:15px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	color: #9F6000;
+	background-color: #FEEFB3;
+	display: inline-block;
+}
+
+/* ============ */
+/* = Progress = */
+/* ============ */
+
+p.psp-progress { border-radius: 2px; background: #fff; margin: 0; height: 20px; background: #f3f3f3; text-align: left;  }
+p.psp-progress span { display: inline-block; height: 20px; background: #3299BB; text-align: right; border-radius: 2px 0 0 2px; }
+
+p.psp-progress.psp-behind span {
+    background: #c44d58;
+}
+
+p.psp-progress.psp-ontime span {
+    background: #cbe86b;
+}
+
+
+p.psp-progress span strong { color: #fff; padding-right: 5px; }
+.psp-1 { width: 1%; }
+.psp-2 { width: 2%; }
+.psp-3 { width: 3%; }
+.psp-4 { width: 4%; }
+.psp-5 { width: 5%; }
+.psp-6 { width: 6%; }
+.psp-7 { width: 7%; }
+.psp-8 { width: 8%; }
+.psp-9 { width: 9%; }
+.psp-10 { width: 10%; }
+.psp-11 { width: 11%; }
+.psp-12 { width: 12%; }
+.psp-13 { width: 13%; }
+.psp-14 { width: 14%; }
+.psp-15 { width: 15%; }
+.psp-16 { width: 16%; }
+.psp-17 { width: 17%; }
+.psp-18 { width: 18%; }
+.psp-19 { width: 19%; }
+.psp-20 { width: 20%; }
+.psp-21 { width: 21%; }
+.psp-22 { width: 22%; }
+.psp-23 { width: 23%; }
+.psp-24 { width: 24%; }
+.psp-25 { width: 25%; }
+.psp-26 { width: 26%; }
+.psp-27 { width: 27%; }
+.psp-28 { width: 28%; }
+.psp-29 { width: 29%; }
+.psp-30 { width: 30%; }
+.psp-31 { width: 31%; }
+.psp-32 { width: 32%; }
+.psp-33 { width: 33%; }
+.psp-34 { width: 34%; }
+.psp-35 { width: 35%; }
+.psp-36 { width: 36%; }
+.psp-37 { width: 37%; }
+.psp-38 { width: 38%; }
+.psp-39 { width: 39%; }
+.psp-40 { width: 40%; }
+.psp-41 { width: 41%; }
+.psp-42 { width: 42%; }
+.psp-43 { width: 43%; }
+.psp-44 { width: 44%; }
+.psp-45 { width: 45%; }
+.psp-46 { width: 46%; }
+.psp-47 { width: 47%; }
+.psp-48 { width: 48%; }
+.psp-49 { width: 49%; }
+.psp-50 { width: 50%; }
+.psp-51 { width: 51%; }
+.psp-52 { width: 52%; }
+.psp-53 { width: 53%; }
+.psp-54 { width: 54%; }
+.psp-55 { width: 55%; }
+.psp-56 { width: 56%; }
+.psp-57 { width: 57%; }
+.psp-58 { width: 58%; }
+.psp-59 { width: 59%; }
+.psp-60 { width: 60%; }
+.psp-61 { width: 61%; }
+.psp-62 { width: 62%; }
+.psp-63 { width: 63%; }
+.psp-64 { width: 64%; }
+.psp-65 { width: 65%; }
+.psp-66 { width: 66%; }
+.psp-67 { width: 67%; }
+.psp-68 { width: 68%; }
+.psp-69 { width: 69%; }
+.psp-70 { width: 70%; }
+.psp-71 { width: 71%; }
+.psp-72 { width: 72%; }
+.psp-73 { width: 73%; }
+.psp-74 { width: 74%; }
+.psp-75 { width: 75%; }
+.psp-76 { width: 76%; }
+.psp-77 { width: 77%; }
+.psp-78 { width: 78%; }
+.psp-79 { width: 79%; }
+.psp-80 { width: 80%; }
+.psp-81 { width: 81%; }
+.psp-82 { width: 82%; }
+.psp-83 { width: 83%; }
+.psp-84 { width: 84%; }
+.psp-85 { width: 85%; }
+.psp-86 { width: 86%; }
+.psp-87 { width: 87%; }
+.psp-88 { width: 88%; }
+.psp-89 { width: 89%; }
+.psp-90 { width: 90%; }
+.psp-91 { width: 91%; }
+.psp-92 { width: 92%; }
+.psp-93 { width: 93%; }
+.psp-94 { width: 94%; }
+.psp-95 { width: 95%; }
+.psp-96 { width: 96%; }
+.psp-97 { width: 97%; }
+.psp-98 { width: 98%; }
+.psp-99 { width: 99%; }
+.psp-100 { width: 100%; background: #2a3542 !important; }

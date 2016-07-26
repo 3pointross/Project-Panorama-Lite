@@ -1,0 +1,20 @@
+/*
+ * Let's target IE to respect aspect ratios and sizes for img tags containing SVG files
+ *
+ * [1] IE9
+ * [2] IE10+
+ */
+/* 1 */
+  
+.psp-chart svg {
+width: 100%;
+height: auto; overflow: visible !important; }
+.psp-chart, .psp-chart div, .psp-chart svg { overflow: visible !important; }
+
+.psp-chart div { width: 100%; padding-bottom: 50%; }
+
+@media only screen and (max-width: 800px) { 
+
+	.psp-chart div { padding-bottom: 55%; }
+
+}
