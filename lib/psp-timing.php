@@ -245,27 +245,27 @@ function psp_calculate_timing($post_id) {
         $post_id = $post->ID;
     }
 
-    $startDate = get_field('start_date',$post_id);
-    $endDate = get_field('end_date',$post_id);
+    $startDate  = get_field('start_date',$post_id);
+    $endDate    = get_field('end_date',$post_id);
 
-    $today = time();
-    $s_year = substr($startDate,0,4);
-    $s_month = substr($startDate,4,2);
-    $s_day = substr($startDate,6,2);
+    $today      = time();
+    $s_year     = substr( $startDate,0,4);
+    $s_month    = substr( $startDate,4,2);
+    $s_day      = substr( $startDate,6,2);
 
-    $e_year = substr($endDate,0,4);
-    $e_month = substr($endDate,4,2);
-    $e_day = substr($endDate,6,2);
+    $e_year     = substr( $endDate,0,4);
+    $e_month    = substr( $endDate,4,2);
+    $e_day      = substr( $endDate,6,2);
 
-    $startDate = strtotime($s_year.'-'.$s_month.'-'.$s_day);
-    $endDate = strtotime($e_year.'-'.$e_month.'-'.$e_day);
+    $startDate  = strtotime( $s_year . '-' . $s_month . '-' . $s_day );
+    $endDate    = strtotime( $e_year . '-' . $e_month . '-' . $e_day );
 
-    $total_days = abs($startDate - $endDate);
-    $total_days = floor($total_days/(60*60*24));
+    $total_days = abs( $startDate - $endDate );
+    $total_days = floor( $total_days / ( 60 * 60 * 24 ) );
 
-    $datediff = abs($today - $endDate);
+    $datediff   = abs( $today - $endDate );
 
-    $time_completed = floor($datediff/(60*60*24));
+    $time_completed = floor( $datediff / ( 60 * 60 * 24 ) );
 
 	if($startDate > $today) {
 
@@ -285,22 +285,22 @@ function psp_calculate_timing($post_id) {
 
 	}
 
-    $all_time = array($time_percentage,$total_days,$time_completed);
+    $all_time = array( $time_percentage, $total_days, $time_completed );
 
     return $all_time;
 
 }
 
-function psp_verbal_status($all_time,$calc_completed) {
+function psp_verbal_status( $all_time, $calc_completed ) {
 
-    if($all_time[0] > $calc_completed) { return 'behind'; } else { return 'time'; }
+    if( $all_time[ 0 ] > $calc_completed ) { return 'behind'; } else { return 'time'; }
 
 }
 
-function psp_the_timing_bar($post_id) {
+function psp_the_timing_bar( $post_id ) {
 
-    $time_elapsed = psp_calculate_timing($post_id);
-    $completed = psp_compute_progress($post_id);
+    $time_elapsed   = psp_calculate_timing($post_id);
+    $completed      = psp_compute_progress($post_id);
 
     if($completed < $time_elapsed[0]) {
         $progress_class = 'psp-behind';
@@ -329,11 +329,13 @@ function psp_the_timing_bar($post_id) {
 
  }
 
- function psp_lite_project_calendar_page() { ?>
+ function psp_lite_project_calendar_page() {
+
+     psp_admin_assets( 'calendar' ); ?>
 
      <div class="wrap">
 
-        <h1><?php _e('Project Calendar','psp_projects'); ?></h1>
+        <h1><?php esc_html_e( 'Project Calendar', 'psp_projects' ); ?></h1>
 
         <br>
 
@@ -353,7 +355,7 @@ function psp_lite_get_dates_json_feed() {
 
 function psp_lite_output_project_calendar() {
 
-    $cuser = wp_get_current_user();
+    $cuser      = wp_get_current_user();
 
     $date_url = ( get_option( 'permalink_structure' ) ? site_url() . '/psp-dates/' . $cuser->ID . '/' : site_url() . '/index.php?psp_dates=' . $cuser->ID );
 
@@ -438,7 +440,7 @@ function psp_lite_dates_endpoint_data() {
         		'title'  		=> 	__( 'End: ', 'psp_projects' ) . get_the_title(),
 				'start'			=>	$e_year . '-' . $e_month . '-' . $e_day,
             	'url' 			=> 	get_permalink(),
-				'description' 	=> get_field('client'),
+				'description' 	=> get_field( 'client' ),
 				'color'			=>	'#C44D58'
 			);
 
