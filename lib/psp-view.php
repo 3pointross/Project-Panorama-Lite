@@ -9,10 +9,13 @@
  **/
 
 add_action('psp_the_essentials','psp_echo_essentials');
-function psp_echo_essentials() {
+function psp_echo_essentials( $id ) {
 
     global $post;
-    echo psp_essentials($post->ID);
+
+    $id = ( isset( $id ) ? $id : $post->ID );
+
+    echo psp_essentials( $id );
 
 }
 
@@ -24,11 +27,11 @@ function psp_echo_essentials() {
  * @return HTML output
  **/
 
-function psp_essentials($id,$style = null,$docs = null) {
+function psp_essentials( $id, $style = null, $docs = null ) {
 
     ob_start();
 
-	include(psp_template_hierarchy('/parts/overview.php'));
+	include( psp_template_hierarchy( '/parts/overview.php' ) );
 
     return ob_get_clean();
 
@@ -54,7 +57,7 @@ add_action('psp_the_progress','psp_echo_total_progress');
 function psp_echo_total_progress() {
 
     global $post;
-	
+
 	echo psp_total_progress($post->ID);
 
 }
@@ -145,12 +148,12 @@ function psp_echo_phases() {
 function psp_phases($id, $style = null, $taskStyle = null) {
 
     ob_start();
-		
-	if(PSP_PLUGIN_TYPE == 'lite') { 
-		
+
+	if(PSP_PLUGIN_TYPE == 'lite') {
+
 		include(psp_template_hierarchy('parts/phases-lite.php'));
 
-	} else { 
+	} else {
 
 		include(psp_template_hierarchy('/parts/phases.php'));
 
@@ -233,12 +236,12 @@ function psp_task_table($post_id,$shortcode = null, $taskStyle = null) {
  *
  */
 
-function psp_documents($post_id) {
+function psp_documents( $id, $style ) {
 
     ob_start();
 
-	include(psp_template_hierarchy('/parts/documents.php'));
-		
+	include( psp_template_hierarchy( '/parts/documents-lite.php' ) );
+
     return ob_get_clean();
 
 }
@@ -423,13 +426,13 @@ function psp_populate_dashboard_widget() {
     $percent_complete = floor($completed_projects/$total_projects * 100);
     $percent_not_started = floor($not_started/$total_projects * 100);
     $percent_remaining = 100 - $percent_complete - $percent_not_started;
-	
+
 	ob_start(); ?>
-	
+
 	<div class="psp-chart">
 		<canvas id="psp-dashboard-chart" width="100%" height="150"></canvas>
 	</div>
-	
+
 	<script>
 
         jQuery(document).ready(function() {
@@ -508,8 +511,8 @@ function psp_populate_dashboard_widget() {
 				</tr>
     			<?php endwhile; ?>
 		</table>
-	
-	<?php 
+
+	<?php
     return ob_get_clean();
 
 } ?>

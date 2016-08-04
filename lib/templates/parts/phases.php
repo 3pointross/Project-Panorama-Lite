@@ -141,7 +141,7 @@
 
 							<h5><?php _e('Description','psp_projects'); ?></h5>
 
-							<?php the_sub_field('description'); ?>
+							<?php echo do_shortcode( get_sub_field( 'description' ) ); ?>
 
 						</div>
 					</div> <!-- tasks is '.$taskStyle.'-->

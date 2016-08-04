@@ -132,6 +132,74 @@ function edd_panorama_license_page() {
                     </tbody>
                 </table>
 
+				<table class="form-table">
+					<tbody>
+						<tr>
+							<th scope="row" valign="top">
+								<label for="psp_calendar_language"><?php esc_html_e( 'Calendar Language', 'psp_projects' ); ?></label>
+							</th>
+							<td>
+								<select id="psp_calendar_langauge" name="psp_calendar_language">
+		                            <option value="<?php echo get_option( 'psp_calendar_language', 'en' ); ?>"><?php echo get_option( 'psp_calendar_language', 'en' ); ?></option>
+		                            <option value="---" disabled>---</option>
+		                            <option value="en">en</option>
+		                            <option value="ar-ma">ar-ma</option>
+		                            <option value="ar-sa">ar-sa</option>
+		                            <option value="ar-tn">ar-tn</option>
+		                            <option value="ar">ar</option>
+		                            <option value="bg">bg</option>
+		                            <option value="ca">ca</option>
+		                            <option value="cs">cs</option>
+		                            <option value="da">da</option>
+		                            <option value="de-at">de-at</option>
+		                            <option value="de">de</option>
+		                            <option value="el">el</option>
+		                            <option value="en-au">en-au</option>
+		                            <option value="en-ca">en-ca</option>
+		                            <option value="en-gb">en-gb</option>
+		                            <option value="en-ie">en-ie</option>
+		                            <option value="en-nz">en-nz</option>
+		                            <option value="es">es</option>
+		                            <option value="fa">fa</option>
+		                            <option value="fi">fi</option>
+		                            <option value="fr-ca">fr-ca</option>
+		                            <option value="fr-ch">fr-ch</option>
+		                            <option value="fr">fr</option>
+		                            <option value="he">he</option>
+		                            <option value="hi">hi</option>
+		                            <option value="hr">hr</option>
+		                            <option value="hu">hu</option>
+		                            <option value="id">id</option>
+		                            <option value="is">is</option>
+		                            <option value="it">it</option>
+		                            <option value="ja">ja</option>
+		                            <option value="ko">ko</option>
+		                            <option value="lt">lt</option>
+		                            <option value="lv">lv</option>
+		                            <option value="nb">nb</option>
+		                            <option value="nl">nl</option>
+		                            <option value="pl">pl</option>
+		                            <option value="pt-br">pt-br</option>
+		                            <option value="pt">pt</option>
+		                            <option value="ro">ro</option>
+		                            <option value="ru">ru</option>
+		                            <option value="sk">sk</option>
+		                            <option value="sl">sl</option>
+		                            <option value="sr-cyrl">sr-cyrl</option>
+		                            <option value="sr">sr</option>
+		                            <option value="sv">sv</option>
+		                            <option value="th">th</option>
+		                            <option value="tr">tr</option>
+		                            <option value="uk">uk</option>
+		                            <option value="vi">vi</option>
+		                            <option value="zh-cn">zh-cn</option>
+		                            <option value="zh-tw">zh-tw</option>
+		                        </select>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+
                 <table class="form-table">
                     <tbody>
                         <tr>
@@ -149,21 +217,21 @@ function edd_panorama_license_page() {
                                 <label for="psp_use_custom_template"><?php _e('Choose Custom Template'); ?></label>
                             </th>
                             <td>
-								
-							
-								
+
+
+
                                 <?php
                                     $templates = wp_get_theme()->get_page_templates();
-									
+
                                     if (!empty($templates)) :
 
                                         $templates['page.php'] = 'Standard Page';
-                                	
-									else: 
-										
+
+									else:
+
 										$templates['single.php'] = 'Single Post';
-										
-										
+
+
 									endif;
 									?>
 
@@ -176,7 +244,7 @@ function edd_panorama_license_page() {
                                         <?php endforeach; ?>
 
                                     </select>
-									
+
 									<div class="psp-warning">
 										<span><?php _e('Warning: This is an unsupported feature and might not work or display well with all themes.','psp-projects'); ?></span>
 									</div>
@@ -296,10 +364,10 @@ function edd_panorama_license_page() {
                     </table>
 
                 </fieldset>
-				
+
 				<fieldset class="psp-fieldset">
 					<legend><?php _e('Phases','psp_projects'); ?></legend>
-					
+
 					<table class="form-table psp-color-table">
 						<tr>
 							<th scope="row" valign="top">
@@ -383,10 +451,10 @@ function edd_panorama_license_page() {
 						</tr>
 					</table>
 				</fieldset>
-				
+
                 <p><input type="button" class="psp-reset-colors button-secondary" value="Reset Colors to Default" name="psp-reset-colors"></p>
-				
-							
+
+
                 <fieldset class="psp-fieldset">
                     <legend><?php _e('Custom Styling','psp_projects'); ?></legend>
                     <table class="form-table">
@@ -453,7 +521,7 @@ function edd_panorama_license_page() {
                 </fieldset>
 
             </div>
-			
+
             <div id="psp_advanced" class="psp-settings-tab <?php if($active_tab == 'psp_advanced') { echo "psp-settings-tab-active"; } ?>">
 
                 <table class="form-table">
@@ -469,7 +537,7 @@ function edd_panorama_license_page() {
                         </tr>
                     </tbody>
                 </table>
-				
+
 			</div>
 
             <?php do_action('psp_settings_page'); ?>
@@ -490,12 +558,14 @@ function edd_panorama_register_options() {
 	add_option('psp_flush_rewrites');
     add_option('psp_rewrites_flushed');
 	add_option('psp_back');
+	add_option( 'psp_calendar_language', 'en' );
 
 	register_setting( 'edd_panorama_license', 'psp_slug' );
 	register_setting( 'edd_panorama_license', 'psp_logo' );
 	register_setting( 'edd_panorama_license', 'psp_flush_rewrites' );
     register_setting( 'edd_panorama_license', 'psp_rewrites_flushed' );
 	register_setting( 'edd_panorama_license', 'psp_back');
+	register_setting( 'edd_panorama_license', 'psp_calendar_language' );
 
     // Notifications
     register_setting( 'edd_panorama_license', 'psp_from_name');
@@ -528,9 +598,9 @@ function edd_panorama_register_options() {
     add_option('psp_body_link','#000');
     add_option('psp_body_heading','#999');
     add_option('psp_footer_background','#2a3542');
-	
+
 	// Phases
-	
+
 	$options = array(
 		'psp_accent_color_1' 		=> '#3299BB',
 		'psp_accent_color_1_txt'	=> '#ffffff',
@@ -539,12 +609,12 @@ function edd_panorama_register_options() {
 		'psp_accent_color_3' 		=> '#CBE86B',
 		'psp_accent_color_3_txt'	=> '#ffffff',
 		'psp_accent_color_4' 		=> '#FF6B6B',
-		'psp_accent_color_4_txt'	=> '#ffffff',	
+		'psp_accent_color_4_txt'	=> '#ffffff',
 		'psp_accent_color_5' 		=> '#C44D58',
 		'psp_accent_color_5_txt'	=> '#ffffff',
 		'psp_timeline_color'		=> '#99C262'
 	);
-	
+
 	foreach($options as $option => $val) {
 		register_setting('edd_panorama_license',$option);
 	}
@@ -573,10 +643,10 @@ function edd_panorama_register_options() {
     // Custom Template
     register_setting('edd_panorama_license', 'psp_use_custom_template');
     register_setting('edd_panorama_license', 'psp_custom_template');
-	
+
 	// Advanced
 	register_setting('edd_panorama_license', 'psp_disable_js');
-	
+
 }
 
 add_action('admin_init', 'edd_panorama_register_options');

@@ -36,7 +36,7 @@
 				<div>
 					<?php if($display_milestones) { ?>
 						<h4><?php the_field('25%_title',$id); ?></h4>
-						<p><?php the_field('25%_description',$id); ?></p>
+						<p><?php echo do_shortcode( get_field( '25%_description', $id ) ); ?></p>
 					<?php } ?>
 					<span><?php echo $first; ?>%</span>
 				</div>
@@ -45,7 +45,7 @@
 				<div>
 				<?php if($display_milestones) { ?>
 					<h4><?php the_field('75%_title',$id); ?></h4>
-					<p><?php the_field('75%_description',$id); ?></p>
+					<p><?php echo do_shortcode( get_field( '75%_description', $id ) ); ?></p>
 				<?php } ?>
 					<span><?php echo $third; ?>%</span>
 				</div>
@@ -69,7 +69,7 @@
 						<span><?php echo $second; ?>%</span>
 						<?php if($display_milestones) { ?>
 							<h4><?php the_field('50%_title',$id); ?></h4>
-							<p><?php the_field('50%_description',$id); ?></p>
+							<p><?php echo do_shortcode( get_field( '50%_description', $id ) ); ?></p>
 						<?php } ?>
 					</div>
 				</li>
@@ -81,7 +81,7 @@
 					<span><?php echo $fourth; ?>%</span>
 					<?php if($display_milestones) { ?>
 						<h4><?php the_field('100%_title',$id); ?></h4>
-						<p><?php the_field('100%_description',$id); ?></p>
+						<p><?php echo do_shortcode( get_field( '100%_description', $id ) ); ?></p>
 					<?php } ?>
 				</div>
 			</li>
@@ -103,21 +103,21 @@
 				<th class="psp-milestones <?php if($completed >= $first) { echo 'completed'; } ?>"><span><?php echo $first; ?>%</span></th>
 				<td>
 					<h4><?php the_field('25%_title',$id); ?></h4>
-					<p><?php the_field('25%_description',$id); ?></p>
+					<p><?php echo do_shortcode( get_field( '25%_description', $id ) ); ?></p>
 				</td>
 			</tr>
 			<tr>
 				<th class="psp-milestones <?php if($completed >= $second) { echo 'completed'; } ?>"><span><?php echo $second; ?>%</span></th>
 				<td>
 					<h4><?php the_field('50%_title',$id); ?></h4>
-					<p><?php the_field('50%_description',$id); ?></p>
+					<p><?php echo do_shortcode( get_field( '50%_description', $id ) ); ?></p>
 				</td>
 			</tr>
 			<tr>
 				<th class="psp-milestones <?php if($completed >= $third) { echo 'completed'; } ?>"><span><?php echo $third; ?>%</span></th>
 				<td>
 					<h4><?php the_field('75%_title',$id); ?></h4>
-					<p><?php the_field('75%_description',$id); ?></p>
+					<p><?php echo do_shortcode( get_field( '75%_description', $id ) ); ?></p>
 				</td>
 			</tr>
 			<?php if($frequency == 'fifths'): ?>
@@ -125,7 +125,7 @@
 				<th class="psp-milestones <?php if($completed >= $fourth) { echo 'completed'; } ?>"><span><?php echo $fourth; ?>%</span></th>
 				<td>
 					<h4><?php the_field('100%_title',$id); ?></h4>
-					<p><?php the_field('100%_description',$id); ?></p>
+					<p><?php echo do_shortcode( get_field( '100%_description', $id ) ); ?></p>
 				</td>
 			</tr>
 			<?php endif;?>

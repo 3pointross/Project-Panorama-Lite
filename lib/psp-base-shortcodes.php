@@ -26,23 +26,23 @@ function psp_current_projects($atts) {
 
 	if($sort == 'start') {
 
-		$meta_sort = 'start_date';
-		$order_by = 'meta_value';
+		$meta_sort    = 'start_date';
+		$order_by     = 'meta_value';
 
 	} elseif ($sort == 'end') {
 
-		$meta_sort = 'end_date';
-		$order_by = 'meta_value';
+		$meta_sort    = 'end_date';
+		$order_by     = 'meta_value';
 
 	} elseif ($sort == 'title') {
 
-		$meta_sort = NULL;
-		$order_by = 'title';
+		$meta_sort    = NULL;
+		$order_by     = 'title';
 
 	} else {
 
-		$meta_sort = 'start_date';
-		$order_by = 'menu_order';
+		$meta_sort    = 'start_date';
+		$order_by     = 'menu_order';
 
 	}
 

@@ -24,7 +24,7 @@ function psp_project_part($atts) {
 
             $output .= '<div id="psp-essentials" class="psp-shortcode"><div id="project-documents">';
 
-            $output .= psp_documents($id,'psp-shortcode');
+            $output .= psp_documents( $id, 'psp-shortcode' );
 
             $output .= '</div></div>';
 
@@ -88,7 +88,7 @@ function psp_single_project($atts) {
 
         if($overview == 'yes') {
 
-            $psp_shortcode .= psp_essentials($id,'psp-shortcode');
+            $psp_shortcode .= psp_essentials( $id, 'psp-shortcode' );
 
         }
 

@@ -131,7 +131,7 @@ $wrapper_class = ( $style == 'psp-shortcode' ? 'psp-shortcode-phases' : 'psp-row
 
 					<h5><?php _e('Description','psp_projects'); ?></h5>
 
-					<?php echo $phase['description']; ?>
+					<?php echo do_shortcode( $phase[ 'description' ] ); ?>
 
 				</div>
 			</div> <!-- tasks is '.$taskStyle.'-->

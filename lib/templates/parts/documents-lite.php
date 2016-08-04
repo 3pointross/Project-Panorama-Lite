@@ -1,21 +1,24 @@
-<?php $i = 0; global $post; $id = $post->ID;?>
+<?php
+$i = 0;
+global $post;
+$id = ( isset( $id ) ? $id : $post->ID ); ?>
 
 <div id="psp-documents-list">
-	
+
 	<div id="psp-document-nav">
-		<input id="psp-documents-live-search" type="text" placeholder="Search..." class="psp-col-md-6"> 
+		<input id="psp-documents-live-search" type="text" placeholder="Search..." class="psp-col-md-6">
 	</div>
-		
+
 	<ul class="psp-documents-row list">
 
         <?php
-		
+
 		$documents = get_post_meta($id,'_pano_documents',true);
-				
-		if(!empty($documents)) { 
+
+		if(!empty($documents)) {
 
 			foreach($documents as $doc):
-			
+
 				if(isset($doc['file'])) { $file = $doc['file']; }
 				if(isset($doc['link'])) { $url = $doc['link']; }
 
@@ -28,7 +31,7 @@
 				}
 
 				$icon = psp_get_icon_class($doc_link);
-			
+
 				$doc_status = psp_translate_doc_status($doc['status']);
 
 				?>
