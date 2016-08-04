@@ -25,57 +25,57 @@
 			$i = 0; $c = 0; while(has_sub_field('phases',$id)): $i++; $c++; $p++;
 
 				if($c == 1) {
-					
+
 					$color = 'blue';
-					
-					if(get_option('psp_accent_color_1')) { 
+
+					if(get_option('psp_accent_color_1')) {
 						$chex = get_option('psp_accent_color_1');
-					} else { 
+					} else {
 						$chex = '#3299BB';
 					}
-					
+
 				} elseif ($c == 2) {
-					
+
 					$color = 'teal';
-					
-					if(get_option('psp_accent_color_2')) { 
+
+					if(get_option('psp_accent_color_2')) {
 						$chex = get_option('psp_accent_color_2');
-					} else { 
+					} else {
 						$chex = '#4ECDC4';
 					}
-				
+
 				} elseif ($c == 3) {
-					
+
 					$color = 'green';
-					
-					if(get_option('psp_accent_color_3')) { 
+
+					if(get_option('psp_accent_color_3')) {
 						$chex = get_option('psp_accent_color_3');
-					} else { 					
+					} else {
 						$chex = '#CBE86B';
 					}
-					
+
 				} elseif ($c == 4) {
-					
+
 					$color = 'pink';
-					
-					if(get_option('psp_accent_color_4')) { 
+
+					if(get_option('psp_accent_color_4')) {
 						$chex = get_option('psp_accent_color_4');
-					} else { 
+					} else {
 						$chex = '#FF6B6B';
 					}
-					
+
 				} elseif ($c == 5) {
 					$color = 'maroon';
-					
-					if(get_option('psp_accent_color_5')) { 
+
+					if(get_option('psp_accent_color_5')) {
 						$chex = get_option('psp_accent_color_5');
-					} else { 
+					} else {
 						$chex = '#C44D58';
 					}
-					
+
 					$c = 0;
 				}
-									
+
 		?>
 		<div class="psp-phase color-<?php echo $color; ?>" id="phase-<?php echo $i; ?>">
 
@@ -83,10 +83,10 @@
 
             // Get an array with critical phase information
 
-			$phase_data = psp_get_phase_completed($id);
+			$phase_data  = psp_get_phase_completed($id);
 
-			$completed = $phase_data[0];
-			$tasks = $phase_data[1];
+			$completed       = $phase_data[0];
+			$tasks           = $phase_data[1];
 			$completed_tasks = $phase_data[2];
 
 			$remaining = 100 - $completed;
@@ -140,14 +140,14 @@
 						<div class="psp-phase-info">
 
 							<h5><?php _e('Description','psp_projects'); ?></h5>
-							
+
 							<?php the_sub_field('description'); ?>
-							
+
 						</div>
 					</div> <!-- tasks is '.$taskStyle.'-->
 
 					<div class="psp-task-list-wrapper">
-				
+
 					<?php if((get_sub_field('tasks',$id)) && ($taskStyle != 'no')):
 
 					$taskList = psp_populate_tasks($id,$taskStyle,$phase_id);

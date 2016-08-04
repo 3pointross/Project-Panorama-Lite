@@ -38,7 +38,7 @@ function psp_the_end_date($id) {
     $e_year = substr($endDate,0,4);
     $e_month = substr($endDate,4,2);
     $e_day = substr($endDate,6,2); ?>
-	
+
     <div class="psp-date">
         <span class="cal">
 	        <span class="month"><?php echo $months[$e_month - 1]; ?></span>
@@ -52,21 +52,21 @@ function psp_the_end_date($id) {
 
 }
 
-function psp_text_date($date) { 
-	
+function psp_text_date($date) {
+
     $year = substr($date,0,4);
     $month = substr($date,4,2);
     $day = substr($date,6,2);
-	
+
     return $month.'/'.$day.'/'.$year;
-	
+
 }
 
-function psp_the_timebar($id) { 
+function psp_the_timebar($id) {
 
     $startDate = get_field('start_date',$id);
     $endDate = get_field('end_date',$id);
-	
+
     $s_year = substr($startDate,0,4);
     $s_month = substr($startDate,4,2);
     $s_day = substr($startDate,6,2);
@@ -99,7 +99,7 @@ function psp_the_timebar($id) {
     $psp_tt_90 = $all_time[0] >= 90 ? 'active' : null;
 ?>
 	 	<div class="psp-timebar">
-			
+
 		 <?php
 		 if($all_time[2] > $all_time[1]) {
 		 	$days_left = '<span class="psp-time-details">'.$all_time[2].__('days past project end date.','psp_projects').'</span>';
@@ -130,8 +130,8 @@ function psp_the_timebar($id) {
    	 	  </div> <!--/.psp-time-progress-->
 
 	</div> <!--/.psp-timebar-->
-	
-	<?php 
+
+	<?php
 
 }
 
@@ -139,7 +139,7 @@ function psp_the_timing($id) {
 
     $startDate = get_field('start_date',$id);
     $endDate = get_field('end_date',$id);
-	
+
     $s_year = substr($startDate,0,4);
     $s_month = substr($startDate,4,2);
     $s_day = substr($startDate,6,2);
@@ -200,7 +200,7 @@ function psp_the_timing($id) {
 				<?php if(($startDate) && ($endDate)): ?>
 
        		 	<div class="psp-timebar">
-					
+
    				 <?php
     			 if($all_time[2] > $all_time[1]) {
       			 	$days_left = '<span class="psp-time-details">'.$all_time[2].__('days past project end date.','psp_projects').'</span>';
@@ -232,7 +232,7 @@ function psp_the_timing($id) {
 
     		</div> <!--/.psp-timebar-->
 			<?php endif; // if start and end date ?>
-			
+
 	  <?php endif; // if start or end date ?>
 	  </div> <!--/.project-timing-->
     <?php
@@ -313,5 +313,139 @@ function psp_the_timing_bar($post_id) {
     }
 
     echo '<p class="psp-timing-progress psp-progress '.$progress_class.'"><span class="psp-'.$time_elapsed[0].'"><strong>%'.$time_elapsed[0].'</strong></span></p>';
+
+}
+
+/*
+ * Calendar
+ */
+
+ add_action( 'admin_menu', 'psp_lite_add_calendar_page' );
+ function psp_lite_add_calendar_page() {
+
+ 	global $psp_lite_add_calendar_page;
+
+ 	$psp_lite_add_calendar_page = add_submenu_page( 'edit.php?post_type=psp_projects','Project Calendar', 'Calendar', 'manage_options', 'panorama-calendar', 'psp_lite_project_calendar_page' );
+
+ }
+
+ function psp_lite_project_calendar_page() { ?>
+
+     <div class="wrap">
+
+        <h1><?php _e('Project Calendar','psp_projects'); ?></h1>
+
+        <br>
+
+        <?php echo psp_lite_output_project_calendar(); ?>
+
+    </div>
+
+<?php }
+
+add_action( 'init', 'psp_lite_get_dates_json_feed' );
+function psp_lite_get_dates_json_feed() {
+
+    add_rewrite_tag( '%psp_dates%', '([^&]+)' );
+    add_rewrite_rule( 'psp-dates/([^&]+)/?', 'index.php?psp_dates=$matches[1]', 'top' );
+
+}
+
+function psp_lite_output_project_calendar() {
+
+    $cuser = wp_get_current_user();
+
+    $date_url = ( get_option( 'permalink_structure' ) ? site_url() . '/psp-dates/' . $cuser->ID . '/' : site_url() . '/index.php?psp_dates=' . $cuser->ID );
+
+    	ob_start(); ?>
+
+    		<div id="psp-project-calendar"></div>
+
+    		<script>
+    			jQuery(document).ready(function($) {
+    				$('#psp-project-calendar').fullCalendar({
+    			        events: '<?php echo $date_url; ?>',
+    					<?php if( psp_get_option( 'psp_calendar_language' ) ) { ?>
+    						lang: '<?php echo psp_get_option( 'psp_calendar_language' ); ?>',
+    					<?php } ?>
+    				    eventRender: function(event, element) {
+    				        element.qtip({
+    				            content: {
+    								title: event.title,
+    								text: event.description
+    							},
+    							style: 'qtip-light',
+    							position: {
+    								my: 'bottom center',
+    								at: 'top center',
+    				        	}
+    						});
+    				    }
+    			    });
+    			});
+    		</script>
+
+    	<?php
+    	return ob_get_clean();
+
+}
+
+function psp_lite_dates_endpoint_data() {
+
+    global $wp_query;
+
+    $date_tag = $wp_query->get( 'psp_dates' );
+
+    if ( ( ! $date_tag ) || ( !current_user_can( 'manage_options' ) ) ) return;
+
+    $date_data  = array();
+
+    $args       = array(
+        'post_type'      => 'psp_projects',
+        'posts_per_page' => -1,
+    );
+
+    $projects   = new WP_Query( $args );
+
+    if ( $projects->have_posts() ) : while ( $projects->have_posts() ) : $projects->the_post();
+
+		global $post;
+
+		/* Start and end dates */
+		if( get_field( 'start_date' ) ) {
+
+			$start_date 	= get_field( 'start_date' );
+			$end_date 		= get_field( 'end_date' );
+			$title 			= get_the_title();
+
+		    $s_year 	= substr( $start_date, 0, 4 );
+		    $s_month 	= substr( $start_date, 4, 2 );
+		    $s_day 		= substr( $start_date, 6, 2 );
+
+		    $e_year 	= substr( $end_date, 0, 4 );
+		    $e_month 	= substr( $end_date, 4, 2 );
+		    $e_day 		= substr( $end_date, 6, 2 );
+
+			$date_data[] = array(
+        		'title'  		=>  __( 'Start: ', 'psp_projects' ) . get_the_title(),
+				'start'			=>	$s_year . '-' . $s_month . '-' . $s_day,
+            	'url' 			=> 	get_permalink(),
+				'description' 	=>  get_field( 'client' ),
+				'color'			=>	'#3299BB'
+        	);
+
+			$date_data[] = array(
+        		'title'  		=> 	__( 'End: ', 'psp_projects' ) . get_the_title(),
+				'start'			=>	$e_year . '-' . $e_month . '-' . $e_day,
+            	'url' 			=> 	get_permalink(),
+				'description' 	=> get_field('client'),
+				'color'			=>	'#C44D58'
+			);
+
+		}
+
+        endwhile; wp_reset_postdata(); endif;
+
+        wp_send_json( apply_filters( 'psp_date_data_json', $date_data, $post ) );
 
 }

@@ -19,7 +19,7 @@
 
 /* PSP Reset */
 
-body.psp-standalone-page { 
+body.psp-standalone-page {
 	margin: 0;
 	padding: 0;
 }
@@ -31,128 +31,128 @@ body.psp-standalone-page {
     line-height: 1.65em;
 	margin: 0;
 	padding: 0;
-	
+
 	/* GLOBAL STYLING */
-	
+
 	.psp-grid-container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}@media (min-width:768px){.psp-grid-container{width:750px}}@media (min-width:992px){.psp-grid-container{width:970px}}@media (min-width:1200px){.psp-grid-container{width:1170px}}.psp-grid-container-fluid{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}.psp-grid-row{margin-left:-15px;margin-right:-15px}.psp-col-xs-1, .psp-col-sm-1, .psp-col-md-1, .psp-col-lg-1, .psp-col-xs-2, .psp-col-sm-2, .psp-col-md-2, .psp-col-lg-2, .psp-col-xs-3, .psp-col-sm-3, .psp-col-md-3, .psp-col-lg-3, .psp-col-xs-4, .psp-col-sm-4, .psp-col-md-4, .psp-col-lg-4, .psp-col-xs-5, .psp-col-sm-5, .psp-col-md-5, .psp-col-lg-5, .psp-col-xs-6, .psp-col-sm-6, .psp-col-md-6, .psp-col-lg-6, .psp-col-xs-7, .psp-col-sm-7, .psp-col-md-7, .psp-col-lg-7, .psp-col-xs-8, .psp-col-sm-8, .psp-col-md-8, .psp-col-lg-8, .psp-col-xs-9, .psp-col-sm-9, .psp-col-md-9, .psp-col-lg-9, .psp-col-xs-10, .psp-col-sm-10, .psp-col-md-10, .psp-col-lg-10, .psp-col-xs-11, .psp-col-sm-11, .psp-col-md-11, .psp-col-lg-11, .psp-col-xs-12, .psp-col-sm-12, .psp-col-md-12, .psp-col-lg-12{position:relative;min-height:1px;padding-left:15px;padding-right:15px}.psp-col-xs-1, .psp-col-xs-2, .psp-col-xs-3, .psp-col-xs-4, .psp-col-xs-5, .psp-col-xs-6, .psp-col-xs-7, .psp-col-xs-8, .psp-col-xs-9, .psp-col-xs-10, .psp-col-xs-11, .psp-col-xs-12{float:left}.psp-col-xs-12{width:100%}.psp-col-xs-11{width:91.66666667%}.psp-col-xs-10{width:83.33333333%}.psp-col-xs-9{width:75%}.psp-col-xs-8{width:66.66666667%}.psp-col-xs-7{width:58.33333333%}.psp-col-xs-6{width:50%}.psp-col-xs-5{width:41.66666667%}.psp-col-xs-4{width:33.33333333%}.psp-col-xs-3{width:25%}.psp-col-xs-2{width:16.66666667%}.psp-col-xs-1{width:8.33333333%}.psp-col-xs-pull-12{right:100%}.psp-col-xs-pull-11{right:91.66666667%}.psp-col-xs-pull-10{right:83.33333333%}.psp-col-xs-pull-9{right:75%}.psp-col-xs-pull-8{right:66.66666667%}.psp-col-xs-pull-7{right:58.33333333%}.psp-col-xs-pull-6{right:50%}.psp-col-xs-pull-5{right:41.66666667%}.psp-col-xs-pull-4{right:33.33333333%}.psp-col-xs-pull-3{right:25%}.psp-col-xs-pull-2{right:16.66666667%}.psp-col-xs-pull-1{right:8.33333333%}.psp-col-xs-pull-0{right:0}.psp-col-xs-push-12{left:100%}.psp-col-xs-push-11{left:91.66666667%}.psp-col-xs-push-10{left:83.33333333%}.psp-col-xs-push-9{left:75%}.psp-col-xs-push-8{left:66.66666667%}.psp-col-xs-push-7{left:58.33333333%}.psp-col-xs-push-6{left:50%}.psp-col-xs-push-5{left:41.66666667%}.psp-col-xs-push-4{left:33.33333333%}.psp-col-xs-push-3{left:25%}.psp-col-xs-push-2{left:16.66666667%}.psp-col-xs-push-1{left:8.33333333%}.psp-col-xs-push-0{left:0}.psp-col-xs-offset-12{margin-left:100%}.psp-col-xs-offset-11{margin-left:91.66666667%}.psp-col-xs-offset-10{margin-left:83.33333333%}.psp-col-xs-offset-9{margin-left:75%}.psp-col-xs-offset-8{margin-left:66.66666667%}.psp-col-xs-offset-7{margin-left:58.33333333%}.psp-col-xs-offset-6{margin-left:50%}.psp-col-xs-offset-5{margin-left:41.66666667%}.psp-col-xs-offset-4{margin-left:33.33333333%}.psp-col-xs-offset-3{margin-left:25%}.psp-col-xs-offset-2{margin-left:16.66666667%}.psp-col-xs-offset-1{margin-left:8.33333333%}.psp-col-xs-offset-0{margin-left:0}@media (min-width:768px){.psp-col-sm-1, .psp-col-sm-2, .psp-col-sm-3, .psp-col-sm-4, .psp-col-sm-5, .psp-col-sm-6, .psp-col-sm-7, .psp-col-sm-8, .psp-col-sm-9, .psp-col-sm-10, .psp-col-sm-11, .psp-col-sm-12{float:left}.psp-col-sm-12{width:100%}.psp-col-sm-11{width:91.66666667%}.psp-col-sm-10{width:83.33333333%}.psp-col-sm-9{width:75%}.psp-col-sm-8{width:66.66666667%}.psp-col-sm-7{width:58.33333333%}.psp-col-sm-6{width:50%}.psp-col-sm-5{width:41.66666667%}.psp-col-sm-4{width:33.33333333%}.psp-col-sm-3{width:25%}.psp-col-sm-2{width:16.66666667%}.psp-col-sm-1{width:8.33333333%}.psp-col-sm-pull-12{right:100%}.psp-col-sm-pull-11{right:91.66666667%}.psp-col-sm-pull-10{right:83.33333333%}.psp-col-sm-pull-9{right:75%}.psp-col-sm-pull-8{right:66.66666667%}.psp-col-sm-pull-7{right:58.33333333%}.psp-col-sm-pull-6{right:50%}.psp-col-sm-pull-5{right:41.66666667%}.psp-col-sm-pull-4{right:33.33333333%}.psp-col-sm-pull-3{right:25%}.psp-col-sm-pull-2{right:16.66666667%}.psp-col-sm-pull-1{right:8.33333333%}.psp-col-sm-pull-0{right:0}.psp-col-sm-push-12{left:100%}.psp-col-sm-push-11{left:91.66666667%}.psp-col-sm-push-10{left:83.33333333%}.psp-col-sm-push-9{left:75%}.psp-col-sm-push-8{left:66.66666667%}.psp-col-sm-push-7{left:58.33333333%}.psp-col-sm-push-6{left:50%}.psp-col-sm-push-5{left:41.66666667%}.psp-col-sm-push-4{left:33.33333333%}.psp-col-sm-push-3{left:25%}.psp-col-sm-push-2{left:16.66666667%}.psp-col-sm-push-1{left:8.33333333%}.psp-col-sm-push-0{left:0}.psp-col-sm-offset-12{margin-left:100%}.psp-col-sm-offset-11{margin-left:91.66666667%}.psp-col-sm-offset-10{margin-left:83.33333333%}.psp-col-sm-offset-9{margin-left:75%}.psp-col-sm-offset-8{margin-left:66.66666667%}.psp-col-sm-offset-7{margin-left:58.33333333%}.psp-col-sm-offset-6{margin-left:50%}.psp-col-sm-offset-5{margin-left:41.66666667%}.psp-col-sm-offset-4{margin-left:33.33333333%}.psp-col-sm-offset-3{margin-left:25%}.psp-col-sm-offset-2{margin-left:16.66666667%}.psp-col-sm-offset-1{margin-left:8.33333333%}.psp-col-sm-offset-0{margin-left:0}}@media (min-width:992px){.psp-col-md-1, .psp-col-md-2, .psp-col-md-3, .psp-col-md-4, .psp-col-md-5, .psp-col-md-6, .psp-col-md-7, .psp-col-md-8, .psp-col-md-9, .psp-col-md-10, .psp-col-md-11, .psp-col-md-12{float:left}.psp-col-md-12{width:100%}.psp-col-md-11{width:91.66666667%}.psp-col-md-10{width:83.33333333%}.psp-col-md-9{width:75%}.psp-col-md-8{width:66.66666667%}.psp-col-md-7{width:58.33333333%}.psp-col-md-6{width:50%}.psp-col-md-5{width:41.66666667%}.psp-col-md-4{width:33.33333333%}.psp-col-md-3{width:25%}.psp-col-md-2{width:16.66666667%}.psp-col-md-1{width:8.33333333%}.psp-col-md-pull-12{right:100%}.psp-col-md-pull-11{right:91.66666667%}.psp-col-md-pull-10{right:83.33333333%}.psp-col-md-pull-9{right:75%}.psp-col-md-pull-8{right:66.66666667%}.psp-col-md-pull-7{right:58.33333333%}.psp-col-md-pull-6{right:50%}.psp-col-md-pull-5{right:41.66666667%}.psp-col-md-pull-4{right:33.33333333%}.psp-col-md-pull-3{right:25%}.psp-col-md-pull-2{right:16.66666667%}.psp-col-md-pull-1{right:8.33333333%}.psp-col-md-pull-0{right:0}.psp-col-md-push-12{left:100%}.psp-col-md-push-11{left:91.66666667%}.psp-col-md-push-10{left:83.33333333%}.psp-col-md-push-9{left:75%}.psp-col-md-push-8{left:66.66666667%}.psp-col-md-push-7{left:58.33333333%}.psp-col-md-push-6{left:50%}.psp-col-md-push-5{left:41.66666667%}.psp-col-md-push-4{left:33.33333333%}.psp-col-md-push-3{left:25%}.psp-col-md-push-2{left:16.66666667%}.psp-col-md-push-1{left:8.33333333%}.psp-col-md-push-0{left:0}.psp-col-md-offset-12{margin-left:100%}.psp-col-md-offset-11{margin-left:91.66666667%}.psp-col-md-offset-10{margin-left:83.33333333%}.psp-col-md-offset-9{margin-left:75%}.psp-col-md-offset-8{margin-left:66.66666667%}.psp-col-md-offset-7{margin-left:58.33333333%}.psp-col-md-offset-6{margin-left:50%}.psp-col-md-offset-5{margin-left:41.66666667%}.psp-col-md-offset-4{margin-left:33.33333333%}.psp-col-md-offset-3{margin-left:25%}.psp-col-md-offset-2{margin-left:16.66666667%}.psp-col-md-offset-1{margin-left:8.33333333%}.psp-col-md-offset-0{margin-left:0}}@media (min-width:1200px){.psp-col-lg-1, .psp-col-lg-2, .psp-col-lg-3, .psp-col-lg-4, .psp-col-lg-5, .psp-col-lg-6, .psp-col-lg-7, .psp-col-lg-8, .psp-col-lg-9, .psp-col-lg-10, .psp-col-lg-11, .psp-col-lg-12{float:left}.psp-col-lg-12{width:100%}.psp-col-lg-11{width:91.66666667%}.psp-col-lg-10{width:83.33333333%}.psp-col-lg-9{width:75%}.psp-col-lg-8{width:66.66666667%}.psp-col-lg-7{width:58.33333333%}.psp-col-lg-6{width:50%}.psp-col-lg-5{width:41.66666667%}.psp-col-lg-4{width:33.33333333%}.psp-col-lg-3{width:25%}.psp-col-lg-2{width:16.66666667%}.psp-col-lg-1{width:8.33333333%}.psp-col-lg-pull-12{right:100%}.psp-col-lg-pull-11{right:91.66666667%}.psp-col-lg-pull-10{right:83.33333333%}.psp-col-lg-pull-9{right:75%}.psp-col-lg-pull-8{right:66.66666667%}.psp-col-lg-pull-7{right:58.33333333%}.psp-col-lg-pull-6{right:50%}.psp-col-lg-pull-5{right:41.66666667%}.psp-col-lg-pull-4{right:33.33333333%}.psp-col-lg-pull-3{right:25%}.psp-col-lg-pull-2{right:16.66666667%}.psp-col-lg-pull-1{right:8.33333333%}.psp-col-lg-pull-0{right:0}.psp-col-lg-push-12{left:100%}.psp-col-lg-push-11{left:91.66666667%}.psp-col-lg-push-10{left:83.33333333%}.psp-col-lg-push-9{left:75%}.psp-col-lg-push-8{left:66.66666667%}.psp-col-lg-push-7{left:58.33333333%}.psp-col-lg-push-6{left:50%}.psp-col-lg-push-5{left:41.66666667%}.psp-col-lg-push-4{left:33.33333333%}.psp-col-lg-push-3{left:25%}.psp-col-lg-push-2{left:16.66666667%}.psp-col-lg-push-1{left:8.33333333%}.psp-col-lg-push-0{left:0}.psp-col-lg-offset-12{margin-left:100%}.psp-col-lg-offset-11{margin-left:91.66666667%}.psp-col-lg-offset-10{margin-left:83.33333333%}.psp-col-lg-offset-9{margin-left:75%}.psp-col-lg-offset-8{margin-left:66.66666667%}.psp-col-lg-offset-7{margin-left:58.33333333%}.psp-col-lg-offset-6{margin-left:50%}.psp-col-lg-offset-5{margin-left:41.66666667%}.psp-col-lg-offset-4{margin-left:33.33333333%}.psp-col-lg-offset-3{margin-left:25%}.psp-col-lg-offset-2{margin-left:16.66666667%}.psp-col-lg-offset-1{margin-left:8.33333333%}.psp-col-lg-offset-0{margin-left:0}}
 	.psp-grid-container *,
-	.psp-grid-container-fluid * { 
+	.psp-grid-container-fluid * {
 		box-sizing: border-box;
 	}
-	
-	&.psp-grid-container-fluid { 
+
+	&.psp-grid-container-fluid {
 		padding-left: 15px;
 		padding-right: 15px;
 		position: relative;
 	}
-	
+
 	/* Specific styling for the supplied template */
-	&.psp-standard-template { 
+	&.psp-standard-template {
 		background: #f1f2f7;
 		padding-top: 100px;
 	}
-	
+
 	/* Styling improvements for the custom template */
-	&.psp-custom-template { 
-		
-		#psp-login { 
+	&.psp-custom-template {
+
+		#psp-login {
 			background: #fafafa;
 			border: 1px solid #f1f1f1;
 		}
-		
-		.psp-overview-box { 
+
+		.psp-overview-box {
 			background: #fcfcfc;
 			border: 1px solid #f1f1f1;
 		}
-		
-		.psp-task-list li span { 
-			background: #f3f3f3 
+
+		.psp-task-list li span {
+			background: #f3f3f3
 		}
-		
+
 	}
 
-	h1,h2,h3,h4,h5,li,p,ul,ol { 
+	h1,h2,h3,h4,h5,li,p,ul,ol {
 		margin: 0;
 		padding: 0;
 	}
-	
-	h2 { 
+
+	h2 {
 	    font-weight: normal;
 	    margin-bottom: 18px;
 	    font-size: 24px;
 	    line-height: 1.5em;
 	}
-	
-	ul,ol,li { 
+
+	ul,ol,li {
 		list-style: none;
 	}
-	
+
 	&,
-	* { 
+	* {
 		box-sizing: border-box;
 	}
-	
-	.wrapper { 
+
+	.wrapper {
 		width: 100%;
 		max-width: 1680px;
 		margin: 0 auto;
 	}
-	
-	a { 
+
+	a {
 		color: #2a3542;
-		
-		&:hover { 
+
+		&:hover {
 			text-decoration: none;
 			color: #333;
 		}
-		
+
 	}
-	
+
 	#psp-description,
-	.psp-phase-info { 
-	
-		h1,h2,h3,h4,h5,p { 
+	.psp-phase-info {
+
+		h1,h2,h3,h4,h5,p {
 			margin: 0 0 10px 0;
 		}
-		
-		ul,ol { 
+
+		ul,ol {
 			margin: 0 0 10px 0;
 		}
-		
-		ul, ul li { 
+
+		ul, ul li {
 			list-style: disc !important;
 			padding-left: 5px;
 			margin-left: 5px;
 		}
-		
-		ol, ol li { 
+
+		ol, ol li {
 			list-style: decimal;
 			padding-left: 5px;
 			margin-left: 5px;
 		}
-			
+
 	}
-	
+
 	.fa-icon {
 	    font-family:'FontAwesome';
 	}
-	
-	.pano-modal-actions { 
+
+	.pano-modal-actions {
 		background: #ccc;
 		padding: 5px 0;
 		text-align: center;
 		margin: 0 -20px -20px;
-		
-		a { 
+
+		a {
 			font-size: 14px;
 		}
-		
+
 	}
-	
-	
+
+
 	/* HEADER BAR */
-	
-	#psp-title { 
+
+	#psp-title {
 	    background: #2A3542;
 	    color: #aaa;
 	    padding: 5px 15px;
@@ -162,62 +162,62 @@ body.psp-standalone-page {
 	    top: 0;
 	    width: 100%;
 	    z-index: 99;
-		
-		.wrapper { 
+
+		.wrapper {
 			position: relative;
 		}
-		
-		h1 { 
+
+		h1 {
 		    font-size: 24px !important;
 		    line-height: 54px !important;
 		    color: #fff;
 		    font-weight: normal;
 		    float: left;
 		    margin: 0 !important;
-			
-			span { 
+
+			span {
 				color: rgba(255,255,255,.75);
 			    font-size: 18px;
 			    font-weight: normal;
 			}
-			
+
 		}
-		
+
 		#psp-main-nav {
 		    float: right;
 		    margin: 0;
 		    padding: 0;
-		
+
 			ul {
 		    	list-style: none;
 		    	background: #2a3542;
 		    	margin: 0;
 		    	padding: 0;
-		
+
 				li {
 		    		margin: 0;
 		    		padding: 0;
-					
-					a { 
+
+					a {
 					    color: #fff;
 					    display: block;
 					    text-decoration: none;
 					}
-					
-					li a { 
+
+					li a {
 					    padding: 0 50px;
 					    line-height: 55px;
 					    height: 55px;
 					}
 				}
-			
+
 			}
-					
-			#nav-menu { 
-						
+
+			#nav-menu {
+
 				position: relative;
 
-				> a { 
+				> a {
 				    background: url('../images/menu.png') center center no-repeat;
 				    width: 75px;
 				    height: 55px;
@@ -226,143 +226,143 @@ body.psp-standalone-page {
 				    overflow: hidden;
 				    white-space: nowrap;
 				}
-						
+
 				&:hover,
-				&.active { 
+				&.active {
 					background-color: rgba(0,0,0,.15);
 				}
-						
-				&:hover ul { 
+
+				&:hover ul {
 				    right: 0px;
 				    left: auto;
 				}
-						
+
 				#nav-over a {
 					background: url('../images/overview.png') 8px center no-repeat
 				}
-					
-				#nav-complete a { 
+
+				#nav-complete a {
 					background: url('../images/progress.png') 8px center no-repeat
 				}
-					
-				#nav-milestones a { 
+
+				#nav-milestones a {
 					background: url('../images/milestones.png') 8px center no-repeat
 				}
-					
-				#nav-talk a { 
+
+				#nav-talk a {
 					background: url('../images/discussion.png') 8px center no-repeat
 				}
-					
-				#nav-back { 
+
+				#nav-back {
 					display: none;
-					
-					a { 
+
+					a {
 						background: url('../images/back.png') 8px center no-repeat;
 					}
-						
+
 				}
-					
-				#nav-logout a { 
+
+				#nav-logout a {
 					background: url('../images/logout.png') 8px center no-repeat
 				}
-					
+
 				ul {
-						
+
 					width: 300px;
 					position: absolute;
 					left: -99999px;
 					background: #334050;
-						
-					li { 
+
+					li {
 					    border-bottom: 1px solid rgba(255,255,255,.15);
 					    width: auto !important;
-							
-						a { 
+
+						a {
 							background-color: rgba(0,0,0,.15);
-								
-							&:hover { 
+
+							&:hover {
 								background-color: rgba(0,0,0,.2);
 							}
-								
+
 						}
-							
+
 					}
-						
-				} 
-					
+
+				}
+
 			}
-			
+
 		}
-	
+
 	}
-	
+
 	/* HEADER BRANDING AREA */
-	
-	#psp-branding { 
+
+	#psp-branding {
 		padding: 30px 0;
 		text-align: center;
 		border-bottom: 1px solid #dfdfdf;
-		margin-top: 105px 
+		margin-top: 105px
 	}
-	
-	.psp-branding-wrapper { 
-		
-		margin: 0 auto; 
-		max-width: 350px; 
-		
-		img { 
+
+	.psp-branding-wrapper {
+
+		margin: 0 auto;
+		max-width: 350px;
+
+		img {
 			display: inline-block;
 			max-width: 100%;
 			height: auto;
 			margin: 0 auto;
 			border: 0px;
 		}
-		
-		a { 
+
+		a {
 			border: 0px;
 		}
-		
+
 	}
 
-	&.psp-dashboard-page { 
-		
+	&.psp-dashboard-page {
+
 		position: relative;
-		
-		#psp-branding { 
-			
+
+		#psp-branding {
+
 			margin-top: 0px;
-			text-align: left; 
-			
-			img { 
+			text-align: left;
+
+			img {
 				margin: 0;
 			}
 		}
-		
-		.psp-branding-wrapper { 
+
+		.psp-branding-wrapper {
 			margin: 0;
 		}
-	
+
 	}
 
 	/* STRUCTURE */
-	
-	.psp-overview-box { 
+
+	.psp-overview-box {
 	    background: #fff;
 	    padding: 10px 20px 20px;
 	    border-radius: 3px;
 	    margin-bottom: 30px;
 	    box-shadow: 0 1px 5px rgba(0,0,0,.05);
-		
-		h4 { 
+
+		h4 {
 			position: relative;
 	    	margin: -20px -20px 20px -20px;
 	    	border-bottom: 1px solid #efefef;
 	    	padding: 0 20px 10px 20px;
 			font-weight: bold;
 		}
-		
+
 	}
-	
+
 	.psp-project-list-wrapper,
 	.psp-box {
 		background: #fff;
@@ -371,13 +371,13 @@ body.psp-standalone-page {
 		border-radius: 8px;
 		box-shadow: 0 0 25px rgba(0,0,0,.05);
 	}
-	
+
 	#psp-essentials {
 	    display: table;
 	    width: 100%;
 	    padding: 0;
 	    margin: 60px 0;
-		
+
 		div h4 {
 		    margin-top: 0px;
 		    text-transform: uppercase;
@@ -385,10 +385,10 @@ body.psp-standalone-page {
 		    font-size: 12px;
 		    color: #999;
 		}
-		
+
 	}
-	
-	#psp-description { 
+
+	#psp-description {
 		width: 65%;
 		float: left;
 	}
@@ -399,7 +399,7 @@ body.psp-standalone-page {
 	    letter-spacing: 2px;
 	    font-size: 12px;
 	    color: #999;
-		font-weight: bold;		
+		font-weight: bold;
 	}
 
 	#psp-quick-overview {
@@ -411,62 +411,62 @@ body.psp-standalone-page {
 	}
 
 	/* DOCUMENTS */
-	
-	#psp-description-documents { 
+
+	#psp-description-documents {
 		width: 70%;
 		float: left;
 	}
-	
+
 	#psp-documents {
 	    width: 33%;
 	    float: right;
-		
-		.psp-pager { 
+
+		.psp-pager {
 			text-align: right;
 			text-transform: uppercase;
 			font-size: 12px;
 			color: #888;
 			font-weight: bold;
-	
-			span { 
+
+			span {
 				padding: 3px 5px;
 				font-size: 11px;
 			}
-				
-			span:first-child { 
+
+			span:first-child {
 				margin-left: 5px;
 			}
-		
-			
+
+
 		}
-		
-		#psp-document-nav { 
+
+		#psp-document-nav {
 			padding-bottom: 10px;
 			border-bottom: 1px solid #f1f1f1;
 			margin-bottom: 10px;
 			min-height: 35px;
 		}
-		
-		ul.psp-documents-row { 
+
+		ul.psp-documents-row {
 			clear: both;
 			margin-bottom: 10px;
-			
+
 			li {
 				margin: 0;
 		    	padding: 0 0 10px 0;
 		    	min-height: 50px;
 		    	position: relative;
-				
+
 				p.psp-doc-title {
 		    		margin: 0 !important;
 					padding: 4px 0 0 35px;
 				}
-				
-				a { 
-					
+
+				a {
+
 					color: #000;
-					
-					&.doc-status { 
+
+					&.doc-status {
 					    background: #fff;
 					    padding: 3px 5px;
 						line-height: 1em;
@@ -476,54 +476,54 @@ body.psp-standalone-page {
 						white-space: nowrap;
 						display: inline-block;
 						margin-left: 5px;
-						
+
 						&:hover {
 						    opacity: 0.8;
 						}
-						
-						&.status-Approved { 
+
+						&.status-Approved {
 						    background: #99C262 !important;
 						    color: #fff !important;
 						}
-						
-						&.status-In { 
-							background: #F8D347 !important; 
+
+						&.status-In {
+							background: #F8D347 !important;
 						}
-						
-						&.status-Rejected { 
-							background: #FF6C60 !important; 
+
+						&.status-Rejected {
+							background: #FF6C60 !important;
 						}
-						
-						&.status-Revisions { 
+
+						&.status-Revisions {
 							background: #ffe377 !important;
 						}
 
-						span.fa { 
+						span.fa {
 						    display: none;
 						}
-						
+
 						&:hover span.fa {
 							display: inline;
 						}
-						
+
 					}
-					
+
 				}
-				
-				span.description { 
-					display: block; 
+
+				span.description {
+					display: block;
 					color: #555;
 					font-size: 12px;
 				}
-				
-				&:hover a.document-update { 
+
+				&:hover a.document-update {
 					visibility: visible;
 				}
 
 			}
 
 		}
-		
+
 	}
 
 	.document-update-dialog {
@@ -535,15 +535,15 @@ body.psp-standalone-page {
 	    font-size: 12px;
 	    border: 10px solid #ccc;
 	    box-shadow: 0 0 30px rgba(0,0,0,.1);
-		
+
 		h4 {
 	    	color: #fafafa !important;
 	    	background: #3299bb;
 	    	text-align: center;
 	    	margin: -20px -20px 20px -20px !important;
 	    	padding: 10px 15px 15px;
-	
-			strong { 
+
+			strong {
 				display: block;
 	    		text-transform: none;
 	    		letter-spacing: 0px;
@@ -553,19 +553,19 @@ body.psp-standalone-page {
 	    		margin-top: 5px;
 			}
 		}
-		
+
 		label {
 		    font-weight: bold;
 		    font-size: 14px;
 		}
-		
+
 	}
-	
+
 	ul.psp-notify-list {
-		
+
 	    list-style: none;
 	    margin: 0 0 10px 0;
-		
+
 		li {
 	    	display: inline;
 	    	padding: 0 15px 15px 0;
@@ -576,9 +576,9 @@ body.psp-standalone-page {
 			height: 50px;
 			padding: 15px;
 		}
-	
+
 	}
-	
+
 	.psp-icon {
 	    width: 25px;
 	    height: 25px;
@@ -594,9 +594,9 @@ body.psp-standalone-page {
 	    font-size: 12px;
 		text-decoration: none;
 	}
-	
+
 	/* QUICK OVERVIEW PROGRESS & TIME */
-	
+
 	#psp-short-progress {
 		margin-bottom: 30px;
 	}
@@ -608,18 +608,18 @@ body.psp-standalone-page {
 		border-bottom: 1px solid #ddd;
 		font-weight: bold;
 	}
-	
+
 	.time-elappsed {
 	    padding-bottom: 65px;
 	}
-	
+
 	.psp-timing {
 	    list-style: none;
 	    margin: 0 0 15px 0;
 	    padding: 0 0 20px 0;
 	    float: left;
 	    width: 30%;
-		
+
 		li {
 	    	float: left;
 	    	margin: 0 15px 0 0;
@@ -627,36 +627,36 @@ body.psp-standalone-page {
 	    	text-align: center;
 	    	color: #666;
 	    	list-style: none;
-			
-			&:last-child { 
+
+			&:last-child {
 				margin-right: 0px;
 			}
-			
+
 		}
-	
+
 		b {
 			font-size: 11px;
 	    	font-weight: normal;
 		}
-		
+
 	}
-	
-	.psp-date { 
+
+	.psp-date {
 		.cal {
     		width: 40px;
     		display: block;
     		background: #fafafa;
     		margin: 5px 0 0 0;
-			
-			.year { 
+
+			.year {
 			    background: #f3f3f3;
 			    font-size: 10px;
 			    text-align: center;
 			    padding: 0;
 			    display: block;
 			}
-			
-			.month { 
+
+			.month {
 			    text-transform: uppercase;
 			    background: #99C262;
 			    color: #fff;
@@ -666,24 +666,24 @@ body.psp-standalone-page {
 			    font-size: 14px;
 			    font-weight: bold;
 			}
-		
-			.day { 
+
+			.day {
 			    font-size: 16px;
 			    text-align: center;
 			    padding: 5px 0;
 			    color: #333;
 			    display: block;
 			}
-		
+
 		}
 	}
-	
+
 	.psp-timebar {
 		padding-top: 27px;
     	float: right;
     	width: 69%;
 	}
-	
+
 	.psp-time-progress {
 		position: relative;
 	}
@@ -694,21 +694,21 @@ body.psp-standalone-page {
 		margin: 0 !important;
 		background: #c9d6d9;
 		border-radius: 4px;
-		
-		span { 
+
+		span {
 			background: #99c262;
 			display: block;
 			height: 6px;
-			border-radius: 4px 0 0 4px;	
+			border-radius: 4px 0 0 4px;
 		}
-		
+
 	}
 
 	ol.psp-time-ticks {
 	    position: relative;
 	    width: 100%;
-		
-		li { 
+
+		li {
 			width: 10px;
 			height: 10px;
 			background: #c9d6d9;
@@ -716,13 +716,13 @@ body.psp-standalone-page {
 			margin-left: -5px;
 			position: absolute;
 			top: -8px;
-			
-			&.active { 
-				background: #99c262; 
+
+			&.active {
+				background: #99c262;
 			}
-			
+
 		}
-		
+
 	}
 
 	li.psp-tt-10 { left: 10%; }
@@ -742,8 +742,8 @@ body.psp-standalone-page {
 		text-align: center;
 		font-size: 12px;
 		margin-left: -20px;
-		
-		span { 
+
+		span {
 			width: 0px;
 			border-bottom: 10px solid #99c262;
 			border-left: 10px solid transparent;
@@ -752,8 +752,8 @@ body.psp-standalone-page {
 			display: block;
 			margin: 0 auto 4px auto;
 		}
-		
-	
+
+
 	}
 
 	.psp-time-details {
@@ -768,43 +768,43 @@ body.psp-standalone-page {
 	    font-size: 12px;
 	    color: #444;
 	    margin: 0 !important;
-		
+
 		span {
 	    	float: right;
 		}
-	
+
 	}
-	
+
 
 	.psp_project_list {
-		
+
 		.psp-date {
 			display: inline-block;
 	    	padding: 0 20px 0 0;
 	    	text-align: center;
-			
-			&:last-child { 
+
+			&:last-child {
 			    padding-right: 0px;
 			}
 		}
-		
+
 	}
-	
+
 	/* PROGRESS & MILESTONES */
-	
+
 	/* Progress */
 	#psp-progress {
 	    background: #fff;
 	    padding: 75px 100px;
 	    text-align: center;
-		
+
 		h2 {
 	    	text-align: center;
 	    	font-size: 36px;
 		}
-	
+
 	}
-	
+
 	p.psp-progress,
 	.psp-progress {
     	border-radius: 2px 2px 0 2px;
@@ -815,7 +815,7 @@ body.psp-standalone-page {
     	text-align: left;
     	padding: 0 !important;
     	border: 0 !important;
-		
+
 		span {
     		display: inline-block;
     		height: 35px;
@@ -829,11 +829,11 @@ body.psp-standalone-page {
 
 			&:first-child {
     			border-radius: 2px 0 0 2px;
-				&:hover { 
+				&:hover {
 					opacity: 0.8;
 				}
 			}
-			
+
 			b {
 			    line-height: 35px;
 			    padding: 0 8px 0 0;
@@ -843,9 +843,16 @@ body.psp-standalone-page {
 			}
 		}
 	}
-	
+
 	/* MILESTONES */
-				
+
+	.psp-before-milestone {
+		display: block;
+	}
+
+	.psp-after-milestone {
+		display: none;
+	}
 
 	ul.psp-milestones {
 	    position: relative;
@@ -854,7 +861,7 @@ body.psp-standalone-page {
 	    padding: 0;
 	    display: table;
 	    width: 100%;
-	
+
 		 li {
 	    	 display: table-cell;
 	    	 text-align: center;
@@ -862,15 +869,27 @@ body.psp-standalone-page {
 	    	 width: 50%;
 	    	 padding: 0px 5% 60px 5%;
 	    	 background: url('../images/position_indicator.gif') top center repeat-y;
-		 
-			 div { 
+
+			 &.completed {
 				 
+				.psp-before-milestone {
+					display: none;
+				}
+
+				.psp-after-milestone {
+					display: block;
+				}
+
+			 }
+
+			 div {
+
 		 	    background: #fff;
 		 	    padding: 40px 0 0 0px;
-				 
+
 			 }
-		 
-			 span { 
+
+			 span {
 				margin: 8px auto;
 		 	    font-size: 14px;
 		 	    display: block;
@@ -883,83 +902,83 @@ body.psp-standalone-page {
 		 	    color: #fff;
 		 	    font-weight: bold;
 			 }
-			 
-			 &.completed span { 
+
+			 &.completed span {
 				 background: #3299bb;
 			 }
-			 
-			 p { 
+
+			 p {
 				 padding: 0 50px;
 		 	     font-size: 14px;
 		 	     line-height: 1.65em;
 		 	     margin: 0;
-		 	     color: #666; 
+		 	     color: #666;
 			 }
-			 
-			 h4 { 
+
+			 h4 {
 		 	    color: #333;
 		 	    margin: 15px 0 4px 0 !important;
 			 }
-			 
-			 &.psp-50-milestone { 
-				 margin-left: 25% 
+
+			 &.psp-50-milestone {
+				 margin-left: 25%
 			 }
-			 
-			 &.psp-40-milestone { 
-				 margin-left: 20% 
+
+			 &.psp-40-milestone {
+				 margin-left: 20%
 			 }
-		 
+
 		 }
-		 
+
 		 &.top-milestones {
-			 
-			li {  
+
+			li {
 	 	    	background-position: bottom center;
 	 	   	 	padding: 0px 5% 110px 5%;
 	 	    	vertical-align: top;
 			}
-			
-			&.frequency-fifths { 
-				width: 80% 
+
+			&.frequency-fifths {
+				width: 80%
 			}
-		 
+
 		 }
-		 
+
 		 &.bottom-milestones {
-		 
+
 		 	li {
 
 		    	padding: 110px 5% 0 5%;
 		    	vertical-align: bottom;
-			
+
 			}
-			
-			div { 
+
+			div {
 				padding: 0 0 100px 0;
 			}
-			
+
 			&.frequency-fifths {
 				width: 80%;
 	    		margin-left: 20%;
 			}
-			
+
 		 }
-	 
+
 	 }
-	 
+
 	.progress-table {
-		
+
 	    display: none;
 	    border: 0px !important;
-		
+
 		p {
 			font-size: 14px;
 			line-height: 1.65em;
 			margin: 0;
 			color: #666;
 		}
-			
-		span { 
+
+		span {
 	    	font-size: 14px;
 	    	display: block;
 	    	width: 50px;
@@ -971,30 +990,30 @@ body.psp-standalone-page {
 	    	color: #fff;
 	    	font-weight: bold;
 		}
-		
-		th { 
-			&.completed span { 
+
+		th {
+			&.completed span {
 				background: #3299bb
 			}
 		}
-		
-		h4 { 
+
+		h4 {
 		    color: #333;
 		    margin: 15px 0 4px 0 !important;
 		}
-		
-		td,th { 
+
+		td,th {
 		    padding: 15px 5px;
 		    vertical-align: top;
 		    border: 0px;
 		}
-		
+
 	}
-	
+
 	.milestone-options-full { display: none !important; }
-	
+
 	/* LOGIN */
-	
+
 	.post-password-form p { margin: 0 0 20px 0 }
 
 	/* Login */
@@ -1010,21 +1029,21 @@ body.psp-standalone-page {
 	    -ms-animation: fadein 3s; /* Internet Explorer */
 	    -o-animation: fadein 3s; /* Opera */
 	    animation: fadein 3s;
-		
-		&.shortcode-login { 
+
+		&.shortcode-login {
 			background: #f6f6f6;
 			border: 1px solid #f1f1f1;
 		}
-		
+
 		input[type=text],
-		input[type=password] { 
-			border: 1px solid #ddd; 
-			border-radius: 3px; 
-			padding: 10px 5px; 
+		input[type=password] {
+			border: 1px solid #ddd;
+			border-radius: 3px;
+			padding: 10px 5px;
 			width: 96%;
 		}
-		
-		#wp-submit { 
+
+		#wp-submit {
 			background: #99C262;
 			padding: 10px 15px;
 			border-radius: 4px;
@@ -1033,7 +1052,7 @@ body.psp-standalone-page {
 			font-size: 14px;
 			border: 0px;
 		}
-		
+
 		h2 {
 			margin: -15px -15px 15px -15px;
 			text-align: center;
@@ -1043,17 +1062,17 @@ body.psp-standalone-page {
 			border-radius: 6px 6px 0 0;
 			box-shadow: 0 5px 0px rgba(0,0,0,.025);
 		}
-		
+
 		input[type=submit] {
 			text-align: right;
 			display: inline-block;
 			margin: 5px 0;
 		}
-			
-		#loginform p { 
+
+		#loginform p {
 			margin: 0 0 10px 0;
 		}
-		
+
 		label {
 			font-weight: bold;
 			text-transform: uppercase;
@@ -1064,25 +1083,25 @@ body.psp-standalone-page {
 			font-weight: normal;
 			text-transform: none;
 		}
-		
-		p.forgetmenot { 
+
+		p.forgetmenot {
 			float: left
 		}
-		
-		p.submit { 
-			float: right 
+
+		p.submit {
+			float: right
 		}
-		
+
 		#nav {
 			clear: both;
 			text-align: center;
 			padding: 20px 0 0 0;
 			font-size: 12px;
 		}
-		
+
 	}
 
-	.psp-login-logo { 
+	.psp-login-logo {
 	    -webkit-animation: fadein 3s; /* Safari and Chrome */
 	    -moz-animation: fadein 3s; /* Firefox */
 	    -ms-animation: fadein 3s; /* Internet Explorer */
@@ -1090,8 +1109,8 @@ body.psp-standalone-page {
 	    animation: fadein 3s;
 		max-width: 350px;
 		margin: 60px auto 0 auto;
-		
-		img { 
+
+		img {
 			max-width: 100%;
 			height: auto;
 			display: inline-block;
@@ -1124,9 +1143,9 @@ body.psp-standalone-page {
 	    from { opacity: 0 }
 	    to { opacity: 1 }
 	}
-	
+
 	/* PHASES */
-	
+
 	#psp-phases {
 		padding-top: 5px;
 		padding-bottom: 5px;
@@ -1149,8 +1168,8 @@ body.psp-standalone-page {
 	    text-align: left;
 		box-sizing: Border-box;
 	    transition: all 0.5s ease;
-		
-		h3 { 
+
+		h3 {
 		    font-size: 28px;
 		    font-weight: normal;
 		    line-height: 1.5em;
@@ -1160,72 +1179,72 @@ body.psp-standalone-page {
 		    padding: 15px 20px 15px 20px;
 		    box-shadow: 0 5px 0px rgba(0,0,0,.03);
 		    position: relative;
-			
+
 			span.psp-top-complete {
 	   			font-size: 12px;
 	    		border-top: 1px solid rgba(255,255,255,.25);
 	    		padding: 5px 0 5px;
 	    		display: block;
-				
-				b { 
+
+				b {
 					font-size: 12px;
 					text-transform: uppercase;
-					opacity: .7;	
+					opacity: .7;
 				}
-				
+
 			}
-			
+
 		    &> i {
 		   	    font-style: normal;
 		   	    font-size: 16px;
 		   	}
-			
+
 		}
-		
-		h4 { 
-			font-size: 18px;	
+
+		h4 {
+			font-size: 18px;
 			font-weight: bold;
-			span { 
-				font-weight: normal 	
-			}	
+			span {
+				font-weight: normal
+			}
 		}
-		
+
 	}
 
 	.psp-before-phase,
-	.psp-after-phase { 
+	.psp-after-phase {
 		display: none;
 	    transition: all 0.5s ease;
 	}
-	
-	.psp-during-phase { 
+
+	.psp-during-phase {
 	    transition: all 0.5s ease;
 	}
-	
-	.psp-phase-progress-0 { 
-		
-		.psp-before-phase { 
+
+	.psp-phase-progress-0 {
+
+		.psp-before-phase {
 			display: block;
 		}
-		
-		.psp-during-phase { 
+
+		.psp-during-phase {
 			display: none;
 		}
-		
+
 	}
-	
-	.psp-phase-progress-100 { 
-		
-		.psp-after-phase { 
+
+	.psp-phase-progress-100 {
+
+		.psp-after-phase {
 			display: block;
 		}
-		
-		.psp-during-phase { 
+
+		.psp-during-phase {
 			display: none;
 		}
-		
+
 	}
-	
+
 	.psp-total-phases-4 .psp-phase {
 		width: 49%;
 	}
@@ -1235,7 +1254,7 @@ body.psp-standalone-page {
 	    color: #999;
 	    font-size: 14px;
 	    text-transform: uppercase;
-		
+
 		span {
 	    	display: block;
 	    	color: #333;
@@ -1243,7 +1262,7 @@ body.psp-standalone-page {
 	    	padding: 0 0 4px 0;
 		}
 	}
-	
+
 	.psp-phase-overview {
 	    margin-bottom: 5px;
 	    padding-bottom: 20px;
@@ -1251,23 +1270,23 @@ body.psp-standalone-page {
 
 
 	.psp-chart {
-		
+
 	    position: relative;
 	    max-width: 300px;
 	    margin: -50px auto;
 	    display: table;
 	    width: 100%;
-		
-		canvas { 
+
+		canvas {
 		    width: 100%;
 		    position: relative;
 		}
-		
-		div { 
+
+		div {
 			width: 100%;
 	    	padding-bottom: 100%;
 	    	position: relative;
-			
+
 			svg {
 	    		width: 100%;
 	    		height: 100%;
@@ -1277,18 +1296,18 @@ body.psp-standalone-page {
 	    		left: 0;
 			}
 		}
-		
+
 		.tooltip {
 		    margin-left: -5px;
 		    border-radius: 3px;
 		    padding: 5px;
 		}
-		
-		
+
+
 	}
 
-	.psp-chart-complete { 
-		
+	.psp-chart-complete {
+
 			font-size: 30px;
 	    	height: 30px;
 	    	width: 100px;
@@ -1304,91 +1323,91 @@ body.psp-standalone-page {
 	    	font-weight: normal;
 	    	display: block;
 	    	line-height: 1em;
-		
+
 	}
-	
+
 	/* TASKS */
-	
-	.psp-task-list-wrapper { 
-	
+
+	.psp-task-list-wrapper {
+
 		margin: 10px 0 0 0;
 		padding: 15px 0 0 0;
 		border-top: 1px solid #f3f3f3;
-		
-		h4 { 
+
+		h4 {
 			margin: 0;
 			line-height: 30px;
-			
-			a { 
+
+			a {
 				color: #333;
 				text-decoration: none;
 				display: block;
 				height: 35px;
 				line-height: 35px;
 				padding: 0 0 0 38px;
-				background: url('../images/down-arrow.png') left center no-repeat;	
-			
-				&.notoggle { 
+				background: url('../images/down-arrow.png') left center no-repeat;
+
+				&.notoggle {
 					background: none;
-					padding-left: 0px; 
+					padding-left: 0px;
 				}
-				
-				&.active { 
+
+				&.active {
 					background: url('../images/up-arrow.png') left center no-repeat;
 				}
-				
-				&:hover { 
+
+				&:hover {
 					opacity: 0.8;
 				}
-				
+
 			}
-			
-			span { 
+
+			span {
 				text-transform: uppercase;
 				font-size: 12px;
 				letter-spacing: 1px;
 				font-weight: bold;
 				float: right;
 				margin-top: -2px;
-				color: #555; 			
+				color: #555;
 			}
-			
+
 		}
-	
+
 	}
 
 	.psp-task-list {
-	    
+
 		margin: 0 0 10px 0 !important;
 	    padding: 20px 0 0 0 !important;
-		
-		li { 
-			
+
+		li {
+
 		    margin: 0 0 1px 0 !important;
 		    padding: 3px !important;
 		    position: relative;
 		    clear: both;
 		    list-style: none !important;
-			
-			&.progress { 
+
+			&.progress {
 			    background: #a5b62c;
 			    color: #fff;
 			}
-			
+
 			span {
 			    display: block;
 			    height: 20px;
-			    background: #f3f3f3;	
+			    background: #f3f3f3;
 			}
-			
+
 			strong {
 	    		display: block;
 	    		clear: both;
 				padding: 5px 0 3px 0;
 				font-weight: normal;
 			}
-			
-			em.status { 
+
+			em.status {
 			    background: #3299BB;
 			    color: #fff;
 			    display: block;
@@ -1396,16 +1415,16 @@ body.psp-standalone-page {
 			    float: left;
 			    transition: all 0.5s ease;
 			}
-			
+
 		}
-		
+
 	}
-	
+
 	span.psp-task-bar {
 	    display: block;
 	    height: 20px;
 	    background: #f3f3f3;
-		
+
 		em.status {
 		    background: #3299BB;
 		    color: #fff;
@@ -1414,10 +1433,10 @@ body.psp-standalone-page {
 		    float: left;
 		    transition: all 0.5s ease;
 		}
-		
+
 	}
 
-	.psp-assigned-to { 
+	.psp-assigned-to {
 		font-size: 11px;
 		color: #666;
 		font-weight: normal;
@@ -1426,13 +1445,13 @@ body.psp-standalone-page {
 	/* Front end updating */
 
 	.task-select {
-	    
+
 		display: none;
-		
+
 		a {
 	    	display: none;
 		}
-		
+
 	}
 
 	.task-update-form {
@@ -1440,33 +1459,33 @@ body.psp-standalone-page {
 	}
 
 	.task-item {
-		
+
 		a {
 			display: none;
 		}
-		
+
 		&:hover a {
 	    	display: inline;
 	    	font-size: 12px;
 	    	padding: 0 5px;
 	    	white-space: nowrap;
-			
+
 			&:hover {
 			    text-decoration: underline;
 			    color: #555;
 			}
 		}
-		
-		&.complete { 
-		
-			a.complete-task-link { 
+
+		&.complete {
+
+			a.complete-task-link {
 				display: none;
 			}
-			
+
 		}
 	}
 
-	.task-save-button { 
+	.task-save-button {
 		background: #2a3542;
 		color: #fff;
 		border-radius: 2px;
@@ -1481,35 +1500,35 @@ body.psp-standalone-page {
 		em.status { background: #4ECDC4 }
 		h3 { background: #4ecdc4 !important }
 	}
-	
-	.color-green { 
+
+	.color-green {
 		em.status { background: #CBE86B }
 		h3 { background: #CBE86B !important }
 	}
-	
+
 	.color-pink {
 		em.status { background: #FF6B6B }
 		h3 { background: #ff6b6b !important }
 	}
-	
+
 	.color-maroon {
 		em.status { background: #C44D58 }
 		h3 { background: #c44d58 !important }
 	}
-	
+
 	/* Task Table */
-	
+
 	th.psp-tt-tasks,
 	th.pp-tt-phase {
 		width: 25%;
 	}
-	
+
 	th.pp-tt-complete {
 		width: 50%;
 	}
-	
+
 	/* COMMENTS */
-	
+
 	.form-allowed-tags {
 	    display: none;
 	}
@@ -1521,95 +1540,95 @@ body.psp-standalone-page {
 	    text-transform: uppercase;
 	    font-weight: bold;
 	}
-	
+
 	#psp-discussion {
-		
+
 	    background: #2A3542;
 	    padding: 30px 0;
-		
-		.discussion-content { 
+
+		.discussion-content {
 			padding: 15px;
 		}
-		
-		a { 
+
+		a {
 			color: #3299BB;
 		}
-		
+
 		ol.commentlist {
 		    margin: 0 0 60px 0;
 			width: 50%;
 			float: left;
 			margin-right: 2%;
-			
+
 			li.comment {
 			    margin: 0 0 15px 0;
 			    padding: 0 0 15px 0;
 			    list-style: none;
 			    position: relative;
 			    clear: both;
-				
+
 				&.odd,
 				&.odd.bypostauthor {
-					
-					.comment-text { 
+
+					.comment-text {
 						background: #f6f6f6;
 				    	padding: 15px;
 						color: #333;
-						
-						.reply a { 
+
+						.reply a {
 							color: #000;
 						}
-						
-						.comment-date { 
+
+						.comment-date {
 							color: #777;
 						}
-							
+
 					}
-					
+
 					.psp-bubble {
 					    border-top: 20px solid #F1F2F7;
 					    float: right;
 					    margin: 0 35px 10px 0;
 					}
-					
+
 					.comment-author {
 					    float: right;
 					    padding: 0 20px 0 0;
 					    clear: right;
 					    line-height: 1.5em;
 					}
-					
+
 				}
 			}
-			
+
 			ul.children {
 			    padding: 30px 0 30px 50px;
 			    margin: 0;
 			}
-						
+
 		}
-		
-		p.logged-in-as { 
+
+		p.logged-in-as {
 			font-size: 12px;
 			color: #666;
 			margin-top: 0px;
 		}
-		
-		h2 { 
+
+		h2 {
 			color: #fff;
 			padding-bottom: 10px;
 			margin-bottom: 30px;
 			border-bottom: 1px solid #425368;
-		
-			span { 
+
+			span {
 				font-weight: normal;
 				font-size: 16px;
 				color: rgba(255,255,255,0.75);
 			}
-			
+
 		}
-		
-		#respond { 
+
+		#respond {
 			width: 48%;
 			float: left;
 			background: #fff;
@@ -1617,7 +1636,7 @@ body.psp-standalone-page {
 			border-radius: 6px;
 			box-sizing: border-box;
 		}
-		
+
 		.psp-bubble {
 		    width: 0;
 		    height: 0;
@@ -1627,17 +1646,17 @@ body.psp-standalone-page {
 		    display: block;
 		    margin: 0 0 10px 50px;
 		}
-		
+
 		div.comment-author {
 		    padding-left: 20px;
 		    text-align: center;
 		    width: 94px;
 		    padding: 15px;
-			
-			img { 
-				border-radius: 100% 
+
+			img {
+				border-radius: 100%
 			}
-			
+
 			cite {
 			    font-weight: bold;
 			    font-style: normal;
@@ -1647,50 +1666,50 @@ body.psp-standalone-page {
 				text-align: center;
 			}
 		}
-		
-		.comment-text { 
+
+		.comment-text {
 		    background: #f6f6f6;
 		    padding: 15px;
-			
-			p { 
+
+			p {
 				margin: 0 0 8px 0;
 			}
-			
+
 		}
-		
-		.comment-date { 
+
+		.comment-date {
 		    font-size: 11px;
 		    color: #666;
 		    padding: 15px 0 0 0;
 		}
-		
-		li.bypostauthor { 
-		
-			.comment-text { 
+
+		li.bypostauthor {
+
+			.comment-text {
 			    background: #A5B62C;
 			    color: #fff;
 			}
-			
-			.psp-bubble { 
+
+			.psp-bubble {
 				border-top: 20px solid #a5b62c
 			}
-			
-			a { 
+
+			a {
 				color: #fff !important;
 			}
-			
-			.comment-date { 
+
+			.comment-date {
 				color: #eee
 			}
-		
+
 		}
-		
+
 		.comment-awaiting-moderation {
 		    color: #666;
 		    padding: 0 0 12px 0;
 		}
-		
-		#commentform { 
+
+		#commentform {
 			input,
 			textarea {
 			    font-weight: bold;
@@ -1698,24 +1717,24 @@ body.psp-standalone-page {
 			    margin: 8px 0 0 0;
 			}
 		}
-	
+
 		p.form-allowed-tags {
 		    background: #f3f3f3;
 		    padding: 15px;
 		    color: #444;
 		    font-size: 12px;
 		}
-			
+
 	}
-	
-	
+
+
 	/* SHORTCODE SPECIFIC STYLING */
-	
+
 	&.psp-shortcode,
-	.psp-shortcode { 
-		
+	.psp-shortcode {
+
 		margin: 30px 0;
-		
+
 		#psp-quick-overview,
 		#psp-documents,
 		#psp-description,
@@ -1725,39 +1744,39 @@ body.psp-standalone-page {
 		    margin: 20px 0;
 			min-height: auto;
 		}
-		
+
 		.psp-overview-box {
-		    
+
 		    box-shadow: none;
-			
+
 			h4 {
 			    margin: 0 0 20px 0;
 			    border: 0px;
 			    padding: 0px;
 			}
-			
+
 		}
-		
+
 		.psp-icon {
 		    background: #f9f9f9;
 		}
-		
+
 		p.psp-progress,
-		.psp-progress { 
+		.psp-progress {
 			background: #f3f3f3;
 		}
-		
+
 		table.progress-table,
 		.progress-table.psp-shortcode {
 			display: block;
 			margin-top: 30px;
 		}
-		
-		.psp-overview-box { 
+
+		.psp-overview-box {
 			background: #fafafa;
 			border: 1px solid #f1f1f1;
 		}
-		
+
 		.psp-phase {
 		    display: block;
 		    clear: both;
@@ -1765,56 +1784,56 @@ body.psp-standalone-page {
 		    padding: 20px;
 		    margin: 20px 0 0 0;
 		}
-		
-		.psp-task-list li span { 
-			background: #f3f3f3 
+
+		.psp-task-list li span {
+			background: #f3f3f3
 		}
-		
-		#psp-login { 
+
+		#psp-login {
 			background: #fafafa;
 			border: 1px solid #f1f1f1;
 		}
-			
+
 	}
-	
+
 	/* ============= */
 	/* = Dashboard = */
 	/* ============= */
 
-	.psp-equal-column-container { 
+	.psp-equal-column-container {
 		overflow: hidden;
 	}
 
-	.psp-archive-section { 
+	.psp-archive-section {
 		padding: 20px 0;
 	}
 
 	&.psp-dashboard-page {
-		
+
 		#psp-archive-menu,
 		#psp-archive-content {
 	  	  	margin-bottom: -99999px;
 	   	 	padding-bottom: 99999px;
 		}
-		
+
 	}
 
-	.psp-full-height { 
+	.psp-full-height {
 		height: 100%;
 	}
 
-	#psp-archive-content { 
+	#psp-archive-content {
 		padding-left: 30px;
 		padding-right: 30px;
 		padding-bottom: 60px;
 	}
 
-	.psp-task-project-wrapper { 
+	.psp-task-project-wrapper {
 		background: #fff;
 		padding: 20px;
 	}
-	
-	.psp-task-project { 
+
+	.psp-task-project {
 		margin-bottom: 30px;
 	}
 
@@ -1824,10 +1843,10 @@ body.psp-standalone-page {
 		list-style: none;
 		margin: 30px 0;
 		padding: 0;
-		
-		li { 
-			
-			div { 
+
+		li {
+
+			div {
 				background: #3299cb;
 				color: #fff;
 				position: relative;
@@ -1835,8 +1854,8 @@ body.psp-standalone-page {
 				height: 80px;
 				font-size: 18px;
 				line-height: 1.5em;
-				
-				span { 
+
+				span {
 					display: block;
 					background: rgba(0,0,0,.1);
 					width: 95px;
@@ -1848,22 +1867,22 @@ body.psp-standalone-page {
 					font-size: 24px;
 					line-height: 80px;
 				}
-				
+
 			}
-			
-			&:nth-child(2) div { 
+
+			&:nth-child(2) div {
 				background: #4ecdc4;
 			}
-			
-			&:nth-child(3) div { 
+
+			&:nth-child(3) div {
 				background: #cbe86b;
 			}
-			
-			&:nth-child(4) div { 
+
+			&:nth-child(4) div {
 				background: #c44d58;
 			}
-			
-			strong { 
+
+			strong {
 				display: block;
 				font-size: 12px;
 				text-transform: uppercase;
@@ -1871,37 +1890,37 @@ body.psp-standalone-page {
 				color: rgba(255,255,255,.8);
 				border-top: 1px solid rgba(255,255,255,.25);
 			}
-		
+
 		}
 	}
 
 	/* Archive project listing */
 
-	.psp-archive-list { 
+	.psp-archive-list {
 		width: 100%;
 		border-collapse: collapse;
-		
-		th { 
+
+		th {
 			background: #2a3542;
 			color: #fff;
 			padding: 20px;
 			font-size: 18px;
 			font-weight: normal;
 			text-align: left;
-			border-right: 1px solid rgba(255,255,255,.15);	
-		}		
+			border-right: 1px solid rgba(255,255,255,.15);
+		}
 	}
 
-	.psp-archive-list-item { 
+	.psp-archive-list-item {
 		background: #fff;
 		margin-bottom: 1px;
 	}
 
-	.psp-ali-progress { 
+	.psp-ali-progress {
 		padding: 20px;
 	}
 
-	.psp-ali-header { 
+	.psp-ali-header {
 		width: 20%;
 		background: #4ecdc4;
 		border-bottom: 1px solid rgba(255,255,255,.25);
@@ -1910,23 +1929,23 @@ body.psp-standalone-page {
 	.psp-ali-progress {
 		border-bottom: 1px solid #efefef;
 		width: 40%;
-		border-right: 1px solid #f9f9f9;	
+		border-right: 1px solid #f9f9f9;
 		background: #fff;
 	}
 
-	.psp-archive-list tr:nth-child(even) .psp-ali-progress { 
+	.psp-archive-list tr:nth-child(even) .psp-ali-progress {
 		background: #f9f9f9;
 	}
 
-	.psp-archive-list tr:nth-child(even) .psp-ali-header { 
+	.psp-archive-list tr:nth-child(even) .psp-ali-header {
 		background: #49c8bf;
 	}
 
-	.psp-archive-list tr:nth-child(even) .psp-ali-header:hover { 
+	.psp-archive-list tr:nth-child(even) .psp-ali-header:hover {
 		background: #5fded5;
 	}
 
-	.psp-ali-header a { 
+	.psp-ali-header a {
 		color: #fff;
 		text-decoration: none;
 		font-weight: normal;
@@ -1934,33 +1953,33 @@ body.psp-standalone-page {
 		padding: 20px;
 	}
 
-	.psp-ali-header a:hover { 
+	.psp-ali-header a:hover {
 		color: #fff;
 	}
 
-	.psp-ali-header:hover { 
+	.psp-ali-header:hover {
 		background: #5fded5;
 	}
 
-	span.psp-ali-client { 
+	span.psp-ali-client {
 		display: block;
 		opacity: 0.8;
 		font-size: 12px;
 		font-weight: bold;
 	}
 
-	span.psp-ali-title { 
+	span.psp-ali-title {
 		display: block;
 		font-size: 16px;
 		margin-bottom: 8px;
 	}
 
-	span.psp-ali-dates { 
+	span.psp-ali-dates {
 		font-size: 12px;
 		opacity: 0.8;
 	}
 
-	span.psp-ali-dates b { 
+	span.psp-ali-dates b {
 		padding: 0 5px;
 		opacity: 0.5;
 	}
@@ -1972,11 +1991,11 @@ body.psp-standalone-page {
 		padding-bottom: 24px;
 	}
 
-	.psp-pager { 
+	.psp-pager {
 		margin-top: 10px;
 	}
 
-	.psp-page-number { 
+	.psp-page-number {
 		display: inline-block;
 		padding: 5px 8px;
 		margin-right: 5px;
@@ -1988,18 +2007,18 @@ body.psp-standalone-page {
 		line-height: 1em;
 	}
 
-	.psp-page-number.active { 
+	.psp-page-number.active {
 		background: #3299bb;
 		color: #fff;
 	}
 
 	/* Task Tiles */
 
-	.psp-task-project h2.psp-project-title { 
+	.psp-task-project h2.psp-project-title {
 		margin: -20px -20px 0px -20px;
 	}
 
-	.psp-task-project h2.psp-project-title a { 
+	.psp-task-project h2.psp-project-title a {
 		padding: 15px 20px 15px 20px;
 		color: #f1f1f1;
 		font-size: 18px;
@@ -2009,46 +2028,46 @@ body.psp-standalone-page {
 		line-height: 1.25em;
 	}
 
-	.psp-task-project h2.psp-project-title strong { 
+	.psp-task-project h2.psp-project-title strong {
 		font-size: 12px;
 		font-weight: bold;
 		color: #ddd;
 		display: block;
 	}
 
-	.psp-task-project h2 a:hover { 
+	.psp-task-project h2 a:hover {
 		color: #fff;
 		background: #3b4553;
 	}
 
 
 	.psp-task-project ul,
-	.psp-task-project li { 
+	.psp-task-project li {
 		list-style: none;
 		padding-left: 0;
 		margin-left: 0;
 	}
 
-	.psp-task-project li { 
+	.psp-task-project li {
 		padding-top: 8px;
 		padding-left: 0;
 		margin-left: 0;
 	}
 
-	.psp-task-project h3 { 
+	.psp-task-project h3 {
 		margin: 30px 0 0;
 	}
 
-	.psp-task-content { 
+	.psp-task-content {
 		display: none;
 	}
 
 	.psp-tpt-content,
-	.psp-tpt-content ul.psp-task-list { 
+	.psp-tpt-content ul.psp-task-list {
 		display: block;
 	}
 
-	.psp-tpd-content { 
+	.psp-tpd-content {
 		padding: 20px;
 		border-bottom: 1px solid #efefef;
 		margin-left: -20px;
@@ -2061,13 +2080,13 @@ body.psp-standalone-page {
 		padding-bottom: 50px;
 	}
 
-	.psp-task-project h4 { 
+	.psp-task-project h4 {
 		margin: 0 -20px;
 		padding: 0 20px;
 		border-bottom: 1px solid #efefef;
 	}
 
-	.psp-task-project h4.psp-open { 
+	.psp-task-project h4.psp-open {
 		border-bottom: 0px;
 	}
 
@@ -2082,11 +2101,11 @@ body.psp-standalone-page {
 		font-size: 16px;
 	}
 
-	.psp-task-toggle-closed { 
+	.psp-task-toggle-closed {
 		background: url('../images/up-arrow.png') no-repeat right center;
 	}
 
-	.psp-element-tally { 
+	.psp-element-tally {
 		text-align: center;
 		padding-top: 20px !important;
 		border-right: 1px solid #f1f1f1;
@@ -2094,15 +2113,15 @@ body.psp-standalone-page {
 		padding-right: 0 !important;
 	}
 
-	.psp-element-tally:last-child { 
+	.psp-element-tally:last-child {
 		border-right: 0px;
 	}
 
-	.psp-element-tally strong { 
+	.psp-element-tally strong {
 		font-size: 24px;
 	}
 
-	.psp-element-tally span { 
+	.psp-element-tally span {
 		display: block;
 		text-align: center;
 		font-size: 11px;
@@ -2110,7 +2129,7 @@ body.psp-standalone-page {
 		text-transform: uppercase;
 	}
 
-	.psp-btn-bar { 
+	.psp-btn-bar {
 		display: block;
 		background: #2a3542;
 		color: #eee !important;
@@ -2122,14 +2141,14 @@ body.psp-standalone-page {
 		font-weight: bold;
 	}
 
-	.psp-btn-bar:hover { 
+	.psp-btn-bar:hover {
 		color: #fff;
 		background: #3b4653;
 	}
 
 	/* Archive Task Sidebar */
 
-	#psp-archive-menu { 
+	#psp-archive-menu {
 		position: relative;
 		background: #2a3542;
 		top: 0;
@@ -2137,7 +2156,7 @@ body.psp-standalone-page {
 		color: #fff;
 	}
 
-	.psp-archive-user { 
+	.psp-archive-user {
 		padding: 20px;
 		text-align: center;
 		color: #fff;
@@ -2145,34 +2164,34 @@ body.psp-standalone-page {
 		margin-bottom: 40px;
 	}
 
-	.psp-archive-user img { 
+	.psp-archive-user img {
 		border-radius: 100%;
 		border: 10px solid rgba(255,255,255,.15);
 	}
 
-	.psp-archive-user p { 
+	.psp-archive-user p {
 		font-size: 18px;
 		margin-top: 5px;
 	}
 
-	.psp-project-list { 
+	.psp-project-list {
 		list-style: none;
 		margin: 0 0 30px 0;
 		padding: 0;
 	}
 
-	.psp-project-list li a { 
+	.psp-project-list li a {
 		color: #fff;
 		display: block;
 		padding: 5px 0;
 	}
 
-	.psp-project-list li a:hover { 
+	.psp-project-list li a:hover {
 		color: #f9f9f9;
 	}
-	
+
 	/* FORM STYLING */
-	
+
 	.form-submit input[type=submit],
 	.document-update-dialog input[type=submit],
 	.pano-btn {
@@ -2188,8 +2207,8 @@ body.psp-standalone-page {
 		background: #2a3542;
 		color: #fff !important;
 	}
-	
-	.psp-logout-btn { 
+
+	.psp-logout-btn {
 		color: #2a3542 !important;
 		background: #fff;
 	}
@@ -2200,25 +2219,25 @@ body.psp-standalone-page {
 	    border-radius: 2px;
 		width: 100%;
 	}
-	
+
 	/* UTILITY CLASSES */
-	
-	.psp-pull-right { 
+
+	.psp-pull-right {
 		float: right;
 	}
 
-	.psp-pull-left { 
+	.psp-pull-left {
 		float: left;
 	}
 
 	.psp-hide {
 	    display: none;
 	}
-	
-	.psp-pl-10 { 
+
+	.psp-pl-10 {
 		padding-left: 10px;
 	}
-	
+
 	#lean_overlay {
 	    position: fixed;
 	    z-index:100;
@@ -2229,26 +2248,26 @@ body.psp-standalone-page {
 	    background: #000;
 	    display: none;
 	}
-	
+
 	/* SHORTCODE SPECIFIC STYLES */
-	
+
 	.psp-part-project,
-	.psp-single-project, 
+	.psp-single-project,
 	.single-project-phases {
 		margin: 15px 0;
 		padding: 15px 0;
 		clear: both;
 	}
-	
-	.psp_project_list { 
-	    
+
+	.psp_project_list {
+
 		width: 100%;
 	    background: #fdfdfd;
 	    border: 1px solid #efefef;
 	    padding: 5px;
 	    border-collapse: collapse;
 	    margin: 30px 0;
-		
+
 		th {
 		    background: #2a3542;
 		    color: #ddd !important;
@@ -2257,69 +2276,69 @@ body.psp-standalone-page {
 		    font-size: 115%;
 		    font-weight: normal;
 		}
-		
-		td { 
+
+		td {
 		    padding: 10px !important;
 		    vertical-align: middle;
 		    border: 0px !important;
-			
-			a { 
+
+			a {
 			    font-weight: bold;
 			    color: #2a3542;
 			    font-size: 125%;
 			}
-			
+
 		}
-		
-		tr { 
-		
-			&:nth-child(odd) td { 
+
+		tr {
+
+			&:nth-child(odd) td {
 				background: #f9f9f9;
-				
-				p.psp-progress { 
+
+				p.psp-progress {
 					background: #fff !important;
 				}
-				
+
 			}
-			
-			p.psp-progress { 
-				margin: 0 !important; 
-				background: #f6f6f6 !important; 
+
+			p.psp-progress {
+				margin: 0 !important;
+				background: #f6f6f6 !important;
 			}
-		
+
 		}
-		
+
 	}
-	
+
 	.psp_pl_col1 {
 		width: 30%
 	}
-	
+
 	.psp_pl_col2 {
 		width: 50%;
 	}
-	
+
 	/* DASHBOARD WIDGET */
-	
-	.psp-dashboard-widget { 
+
+	.psp-dashboard-widget {
 		padding: 20px;
-		background: #f3f3f3; 
-	
-		hr { 
+		background: #f3f3f3;
+
+		hr {
 			clear: both;
 			border-bottom: 1px solid #ddd;
 			display: block;
 			padding: 20px 0;
 			background: transparent;
 		}
-		
-		.psp-dashboard-widget-table { 
+
+		.psp-dashboard-widget-table {
 			width: 100%;
 			border: 0px;
 			margin: 10px 0 30px 0;
 			border-collapse: collapse;
-			
-			th { 
+
+			th {
 				background: #2A3542;
 				color: #ddd;
 				text-transform: uppercase;
@@ -2327,39 +2346,39 @@ body.psp-standalone-page {
 				border: 0px;
 				padding: 5px;
 			}
-			
-			tr { 
+
+			tr {
 				background: #f9f9f9;
 			}
-			
-			tr:nth-child(odd) { 
+
+			tr:nth-child(odd) {
 				background: #fcfcfc !important;
 			}
-			
-			td { 
+
+			td {
 				padding: 5px;
 			}
-			
-			p.psp-progress { 
-				
+
+			p.psp-progress {
+
 				margin: 0 !important;
 				padding: 0 !important;
-				
-				strong { 
+
+				strong {
 					color: #fff;
 					padding: 0 5px 0 0;
 				}
-				
+
 			}
-			
+
 		}
-		
-		.psp-projects-overview { 
+
+		.psp-projects-overview {
 			list-style: none;
 			margin: 0;
 			padding: 0;
-			
-			li { 
+
+			li {
 				width: 25%;
 				padding: 5px 1.5%;
 				float: left;
@@ -2367,8 +2386,8 @@ body.psp-standalone-page {
 				-webkit-box-sizing: border-box;
 				box-sizing: border-box;
 			}
-			
-			span { 
+
+			span {
 				display: block;
 				font-size: 64px;
 				line-height: 1em;
@@ -2376,8 +2395,8 @@ body.psp-standalone-page {
 				font-weight: bold;
 				color: #333;
 			}
-			
-			strong { 
+
+			strong {
 				padding: 4px 0;
 				font-size: 12px;
 				text-transform: uppercase;
@@ -2385,35 +2404,35 @@ body.psp-standalone-page {
 				display: block;
 				color: #777;
 			}
-			
+
 			.psp-dw-active {
 				color: #FF6B6B !important;
 			}
-			
+
 		}
-		
-		#psp_dashboard_overview { 
-			
+
+		#psp_dashboard_overview {
+
 			h4 {
 				text-align: center;
 				margin: 30px 0;
 				text-transform: uppercase;
 				color: #999;
 			}
-			
-			hr { 
+
+			hr {
 				border: 1px solid #efefef;
 				height: 1px;
 				display: block;
 				clear: both;
 			}
-			
+
 		}
-		
-	
+
+
 	}
-	
-	
+
+
 }
 
 /* =============== */
@@ -2571,8 +2590,8 @@ li.comment { *zoom: 1 }
 */
 
 @media only screen and (max-width: 1685px) {
-	
-	#psp-projects { 
+
+	#psp-projects {
 
 		#psp-essentials,
 		#psp-discussion,
@@ -2582,10 +2601,10 @@ li.comment { *zoom: 1 }
 			width: 100%;
 			box-sizing: border-box;
 		}
-	
+
 		#psp-essentials.psp-shortcode ,
 		#psp-discussion.psp-shortcode ,
-		#psp-phases.psp-shortcode { 
+		#psp-phases.psp-shortcode {
 			padding-left: 0;
 			padding-right: 0;
 		}
@@ -2595,8 +2614,8 @@ li.comment { *zoom: 1 }
 }
 
 @media only screen and (max-width: 1240px) {
-	
-	#psp-projects { 
+
+	#psp-projects {
 
 		#psp-essentials .psp-timing li {
     		font-size: 12px;
@@ -2625,15 +2644,15 @@ li.comment { *zoom: 1 }
 }
 
 @media only screen and (max-width: 1050px) {
-	
-	#psp-projects { 
+
+	#psp-projects {
 
 		#psp-essentials {
 			padding: 0;
 			width: 100%;
 		}
 
-    	.wrapper { 
+    	.wrapper {
 			width: 940px !important;
 			margin-left: auto;
 			margin-right: auto;
@@ -2676,27 +2695,27 @@ li.comment { *zoom: 1 }
 
 }
 
-@media only screen and (max-width: 990px) { 
-	
-	#psp-projects { 
-		.psp-project-tiles li { 
+@media only screen and (max-width: 990px) {
+
+	#psp-projects {
+		.psp-project-tiles li {
 			margin-bottom: 30px;
 		}
-	
+
 		#psp-archive-content,
-		#psp-archive-menu { 
+		#psp-archive-menu {
 			float: none;
 		}
 	}
-	
+
 }
 
 @media only screen and (max-width: 960px) {
-	
-	#psp-projects { 
-		
+
+	#psp-projects {
+
 		.wrapper { width: 768px !important }
-		
+
     	ul.psp-milestones li p,
     	ul.psp-milestones li h4 {
     		padding: 0;
@@ -2712,14 +2731,14 @@ li.comment { *zoom: 1 }
 	}
 }
 @media only screen and (max-width: 780px) {
-	
-	#psp-projects { 
-	
+
+	#psp-projects {
+
 		.wrapper,
     	.wrapper { width: 600px !important }
-		
+
  		ul.psp-milestones { display: none }
-    
+
 		.psp-single-project .psp-phase {
     		display: block;
        		width: 100%;
@@ -2727,76 +2746,76 @@ li.comment { *zoom: 1 }
        		-webkit-box-sizing: border-box;
        		box-sizing: border-box;
     	}
-    
+
 		.psp-row { display: block }
-    
+
 		#psp-essentials #psp-description {
         	width: 96%;
         	float: none;
         	margin-left: auto;
         	margin-right: auto;
     	}
-    
+
 		#psp-essentials #project-documents {
         	width: 96%;
         	padding: 3%;
         	float: none;
     	}
-    
+
 		#psp-title {
         	position: relative;
         	height: auto;
         	padding: 20px 0;
     	}
-    
+
 		.psp-standalone-page #overview { padding-top: 0px }
-	
-		.psp-archive-list th { 
+
+		.psp-archive-list th {
 			display: none;
 		}
-	
+
 		.psp-archive-list td,
-		.psp-archive-list tr { 
+		.psp-archive-list tr {
 			display: block;
 			width: 100%;
 		}
-	
+
 		.psp-archive-list tr,
-		.psp-task-project { 
+		.psp-task-project {
 			margin-bottom: 30px;
-		}		
-	
+		}
+
 	}
-	
+
 }
 @media only screen and (max-width: 800px) {
-	
-	#psp-projects { 
-	
+
+	#psp-projects {
+
 		#psp-discussion ol.commentlist,
-		#psp-discussion #respond { 
+		#psp-discussion #respond {
 			float: none;
 			width: 100%;
 		}
-	
-		.progress-table td { 
+
+		.progress-table td {
 			text-align: left;
 		}
 
  	   .psp-standalone-page #psp-project {
        		padding-top: 0px;
     	}
-	
-		#psp-description-documents { 
+
+		#psp-description-documents {
 			margin: 120px 3% 60px 3%;
 			width: auto;
 		}
 
     	.wrapper {
-			width: 100% !important; 
+			width: 100% !important;
 			padding: 3%;
 		 }
-    	
+
 		#psp-essentials { margin-top: 0px }
 
     	#psp-quick-overview,
@@ -2805,20 +2824,20 @@ li.comment { *zoom: 1 }
 			float: none;
 			width: auto;
     	}
-	
-		#psp-quick-overview h4 { 
+
+		#psp-quick-overview h4 {
 			text-align: left !important;
 		}
-	
+
  	   #psp-documents {
        		padding: 20px 6% !important;
         	width: 100% !important;
         	text-align: center;
-			
-			.psp-pager { 
+
+			.psp-pager {
 				text-align: center;
 			}
-			
+
     	}
 
     	.psp-icon {
@@ -2831,9 +2850,9 @@ li.comment { *zoom: 1 }
         	margin: 0 0 20px 0;
         	padding: 0 0 20px 0;
     	}
-    
+
 		#psp-main-nav { display: none }
-    
+
     	#psp-essentials div:first-child { float: none }
     	#psp-essentials .summary { padding-right: 0px }
 
@@ -2841,56 +2860,56 @@ li.comment { *zoom: 1 }
     		display: block;
         	width: auto !important;
     	}
-    
+
 		#psp-progress { padding: 75px 20px }
-    
+
 		#psp-essentials div h4 {
     		text-align: center;
         	margin: 20px 0 10px 0;
     	}
-    
+
 		ul.psp-timing {
     		width: 165px;
         	margin: 5px auto !important;
     	}
-    
+
 		#psp-discussion .wrapper,
     	#overview .wrapper { padding: 0 !important }
-    	
+
 		#psp-discussion .discussion-content { padding: 15px }
-    	
+
 		#psp-progress h2 { font-size: 20px }
-    
+
 		.psp-phase-info {
         	float: none;
         	width: auto !important;
     	}
-    
+
 		.psp-chart {
         	float: none;
         	max-width: 420px;
         	margin: 20px auto;
     	}
-    
+
 		#psp-essentials.psp-shortcode .summary { padding-right: 0px }
-    
+
 		#psp-title h1 {
         	line-height: 1.1em !important;
         	text-align: center;
         	float: none;
     	}
-    
+
 		#psp-title h1 span { display: block }
-    
+
 		.psp_project_list th { display: none }
-    	
+
 		.psp_project_list tr { display: block }
-    	
+
 		.psp_project_list td {
         	display: block;
         	text-align: center;
     	}
-    
+
 		.psp-standalone-page code {
         	overflow: hidden;
         	white-space: normal;
@@ -2899,7 +2918,7 @@ li.comment { *zoom: 1 }
     	.psp-branding-wrapper { margin: 0 15px;}
 
 	}
-	
+
 }
 
 /* ============================== */
@@ -2908,29 +2927,29 @@ li.comment { *zoom: 1 }
 
 /* 960 PX */
 
-#psp-projects { 
-	.psp-width-960 { 
-	
-		.wrapper { 
+#psp-projects {
+	.psp-width-960 {
+
+		.wrapper {
 			max-width: 96%;
 			margin: 0 auto;
 		}
-	
+
 		#psp-quick-overview {
-		
-			.psp-timing { 
+
+			.psp-timing {
 				width: 100%;
 				float: none;
 			}
 
-			.psp-timebar { 
+			.psp-timebar {
 				width: auto;
 				float: none;
 			}
-		
+
 		}
-	
-		.psp-phase { 
+
+		.psp-phase {
 			width: 44%;
 		}
 
@@ -2938,13 +2957,13 @@ li.comment { *zoom: 1 }
 }
 
 
-#psp-projects.psp-width-single { 
-		
-		.wrapper { 
+#psp-projects.psp-width-single {
+
+		.wrapper {
 			width: 100%;
 			float: none;
 		}
-	
+
 		#psp-quick-overview,
 		#psp-essentials #psp-description,
 		#psp-description-documents,
@@ -2954,8 +2973,8 @@ li.comment { *zoom: 1 }
 			padding: 3% !important;
 			float: none !important;
 		}
-	
-		.psp-phase { 
+
+		.psp-phase {
 			margin-bottom: 20px;
 		}
 
@@ -2964,26 +2983,26 @@ li.comment { *zoom: 1 }
 			padding: 0;
 	    	display: none;
 		}
-		
+
 		.progress-table,
 		.milestone-options-full {
 			display: block !important;
 		}
-		
+
 		#psp-progress {
 			padding: 50px 0;
 		}
-		
-		#psp-documents { 
-		
+
+		#psp-documents {
+
 			width: 100%;
-			
-			.psp-pager { 
+
+			.psp-pager {
 				text-align: center;
 			}
-		
+
 		}
-		
+
 }
 
 

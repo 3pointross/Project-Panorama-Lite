@@ -2,7 +2,7 @@
 Contributors: 3pointross
 Tags: project, management, project management, basecamp, status, client, admin, intranet
 Requires at least: 3.5.0
-Tested up to: 4.5.2
+Tested up to: 4.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -10,18 +10,24 @@ WordPress project management / communication plugin designed to communicate proj
 
 == Description ==
 
-WordPress project management and communication plugin designed to keep your clients and team in the loop. Display overall project status, timing, milestones and documents.
+WordPress project management and communication plugin designed to keep your clients and team in the loop.
 
-Not intended as a full functioning project management system like basecamp, rather an enhancement to existing project management solutions. Instead of sending clients to a list of tasks that have been completed or not, give them a progress bar with key milestones that indicate how the project is progressing.
+Project Panorama is designed to communicate project progress to your clients and team members. By giving parties a visual indication of project progress, you reduce the number of "where are things at?" calls and e-mails.
+
+Panorama allows you to detail important project details including overall project status, project phases, documents and document status, key milestones and timing.
+
+Panorama automatically calculates the time elapsed against the total project progress allowing you to see if you're behind or on schedule.
+
+Instead of sending clients to a list of tasks that have been completed or not, give them a progress bar with key milestones that indicate how the project is progressing.
 
 = Website =
-http://www.projectpanorama.com
+https://www.projectpanorama.com
 
 = Documentation =
-http://www.projectpanorama.com/docs
+https://www.projectpanorama.com/docs
 
 = Bug Submission and Support =
-http://www.projectpanorama.com/support
+https://www.projectpanorama.com/support
 
 
 == Installation ==
@@ -52,9 +58,12 @@ sort - 'start','end','title'. Sort by start date, end date or alphabetically by 
 
 [project_status_part] - embed a portion of a project into a page or post
 
-[before_phase] [/before_phase] - Show content wrapped in shortcode in a phase description before the phase has started.
-[during_phase] [/during_phase] - Show content wrapped in shortcode in a phase description after it has started before it has been completed.
-[after_phase] [/after_phase] - Show content wrapped in shortcode in a phase description after the phase has ended.
+[before-phase] [/before-phase] - Show content wrapped in shortcode in a phase description before the phase has started.
+[during-phase] [/during-phase] - Show content wrapped in shortcode in a phase description after it has started before it has been completed.
+[after-phase] [/after-phase] - Show content wrapped in shortcode in a phase description after the phase has ended.
+
+[before-milestone] [/before-milestone] - Show content wrapped in shortcode before milestone is reached
+[after-milestone] [/after-milestone] - Show content wrapped in a shortcode after milestone is reached
 
 == Screenshots ==
 
@@ -67,6 +76,11 @@ sort - 'start','end','title'. Sort by start date, end date or alphabetically by 
 7. Embed projects into your site, mobile friendly
 
 == Changelog ==
+
+= 1.2.7 =
+* Fixes issues with documents not outputting in a embed
+* Added shortcodes for before / after milestones
+* Added a project calendar
 
 = 1.2.6.5 =
 * Checks to see if CMB2 is already loaded

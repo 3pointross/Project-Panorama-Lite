@@ -3,8 +3,8 @@
 /**
  * Plugin Name: Project Panorama Lite
  * Plugin URI: http://www.projectpanorama.com
- * Description: A project management and project visualization plugin designed to impress your clients, save time and allow you to bill more. 
- * Version: 1.2.6.6
+ * Description: A project management and project visualization plugin designed to impress your clients, save time and allow you to bill more.
+ * Version: 1.2.7
  * Author: 37 MEDIA
  * Author URI: http://www.projectpanorama.com
  * License: GPL2
@@ -26,7 +26,7 @@ if (! defined('PROJECT_PANARAMA_DIR')) {
 }
 
 if(! defined('PSP_VER')) {
-	define('PSP_VER','1.2.6.6');
+	define('PSP_VER','1.2.7');
 }
 
 // ================

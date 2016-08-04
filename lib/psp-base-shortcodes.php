@@ -21,33 +21,33 @@ function psp_current_projects($atts) {
 
 	unset($meta_args);
 	unset($status_args);
-	
+
 	// Determine the sorting
-	
-	if($sort == 'start') { 
-	
+
+	if($sort == 'start') {
+
 		$meta_sort = 'start_date';
 		$order_by = 'meta_value';
-	
-	} elseif ($sort == 'end') { 
-		
+
+	} elseif ($sort == 'end') {
+
 		$meta_sort = 'end_date';
 		$order_by = 'meta_value';
-		
-	} elseif ($sort == 'title') { 
-		
+
+	} elseif ($sort == 'title') {
+
 		$meta_sort = NULL;
 		$order_by = 'title';
-		
-	} else { 
-		
+
+	} else {
+
 		$meta_sort = 'start_date';
 		$order_by = 'menu_order';
-		
+
 	}
 
 	// Set the initial arguments
-	
+
     $args = array(
         'post_type' 		=> 'psp_projects',
         'paged'				=> $paged,
@@ -65,7 +65,7 @@ function psp_current_projects($atts) {
 
     }
 
-	if($status == 'active') { 
+	if($status == 'active') {
 		$status_args = array('tax_query' => array(
 			array(
 				'taxonomy'	=>	'psp_status',
@@ -75,11 +75,11 @@ function psp_current_projects($atts) {
 				)
 			)
 		);
-		
+
 		$args = array_merge($args,$status_args);
-		
+
 	}
-	
+
 	if($status == 'completed') {
 		$status_args = array('tax_query' => array(
 			array(
@@ -89,21 +89,21 @@ function psp_current_projects($atts) {
 				)
 			)
 		);
-		
+
 		$args = array_merge($args,$status_args);
-		
+
 	}
-	
+
 
     if($access == 'user') {
-				
+
 		// Just restricting access, not worried about active or complete
-				
+
         if(!current_user_can('manage_options')) {
 
             $cuser = wp_get_current_user();
             $cid = $cuser->ID;
-			
+
             $meta_args = array(
                 'meta_query' => array(
                     'relation' => 'OR',
@@ -118,41 +118,41 @@ function psp_current_projects($atts) {
                 ),
 				'has_password' => false
             );
-						
-			$args = array_merge($args,$meta_args);
-					
-		} 
 
-    } 
-			
+			$args = array_merge($args,$meta_args);
+
+		}
+
+    }
+
     $projects = new WP_Query($args);
-	
+
 	if(($access == 'user') && (!is_user_logged_in())) { ?>
 	<div id="psp-projects">
 		<div id="psp-overview">
-		
+
         	<div id="psp-login" class="shortcode-login">
-        	
+
 				<h2><?php _e('Please Login to View Projects','psp_projects'); ?></h2>
-            
+
 				<?php echo panorama_login_form(); ?>
-			
+
 			</div> <!--/#psp-login-->
-		
+
 		</div>
 	</div>
-	<?php 
-	
+	<?php
+
 		 psp_front_assets(1);
-	
+
 		return;
-		
+
 	}
-	
+
 
     if($projects->have_posts()):
-        ob_start(); 
-		
+        ob_start();
+
 		?>
 		<div id="psp-projects">
 			<table class="psp_project_list">
@@ -195,11 +195,11 @@ function psp_current_projects($atts) {
 
         	<p><?php echo get_next_posts_link('&laquo; More Projects',$projects->max_num_pages).' '.get_previous_posts_link('Previous Projects &raquo;'); ?></p>
 		</div>
-	
+
         <?php psp_front_assets(1);
-		
+
 		// Clear out this query
-		wp_reset_query(); 
+		wp_reset_query();
 
         return ob_get_clean();
 
@@ -212,12 +212,12 @@ function psp_current_projects($atts) {
 }
 add_shortcode('project_list','psp_current_projects');
 
-function psp_archive_project_listing($projects,$page = 1) { 
+function psp_archive_project_listing($projects,$page = 1) {
 
-	
+
     if($projects->have_posts()):
         ob_start(); ?>
-		
+
 		<table class="psp-archive-list psp-table-pagination">
 			<thead>
 				<tr>
@@ -227,58 +227,58 @@ function psp_archive_project_listing($projects,$page = 1) {
 				</tr>
 			</thead>
 			<tbody>
-		<?php 
+		<?php
 		while($projects->have_posts()): $projects->the_post(); ?>
 
         	<tr class="psp-archive-list-item">
-			
+
 				<?php global $post; ?>
-				
-			    <?php 
-				
+
+			    <?php
+
 				$startDate = psp_text_date(get_field('start_date',$post->ID));
 			    $endDate = psp_text_date(get_field('end_date',$post->ID));
-				
+
 				?>
-				
+
 				<td class="psp-ali-header">
 					<a href="<?php the_permalink(); ?>">
-						
+
 						<span class="psp-ali-client"><?php the_field('client'); ?></span>
-						
+
 						<span class="psp-ali-title"><?php the_title(); ?></span>
-						
+
 						<span class="psp-ali-dates"><?php echo $startDate; ?> <b>&#8594;</b> <?php echo $endDate; ?></span>
-						
+
 					</a>
 				</td>
-				
+
 				<td class="psp-ali-progress">
-										
+
 					<?php $completed = psp_compute_progress($post->ID); ?>
 					<p class="psp-progress"><span class="psp-<?php echo $completed; ?>"><b><?php echo $completed; ?>%</b></span></p>
-		
+
 				</td>
 				<td class="psp-ali-progress">
 					<?php psp_the_timebar($post->ID); ?>
 				</td>
-			
+
 			</tr> <!--/psp-archive-list-item-->
-			
+
 		<?php endwhile; ?>
-		
+
 			</tbody>
 		</table>
-		
-		
+
+
 		<?php if(!is_archive()): ?>
-		
+
 			<p><?php echo get_next_posts_link('<span class="psp-ajax-more-projects">&laquo; More Projects</span>',$projects->max_num_pages).' '.get_previous_posts_link('<span class="psp-ajax-prev-projects">Previous Projects &raquo;</span>'); ?></p>
 
 		<?php endif; ?>
 
         <?php psp_front_assets(1);
-	
+
         return ob_get_clean();
 
     else:
@@ -357,15 +357,15 @@ function psp_project_listing_dialog() {
 }
 
 function psp_buttons() {
-	
-	// Make sure the buttons are enabled 
-		
-	if((get_option('psp_disable_js') === '0') || (get_option('psp_disable_js') == NULL)) { 
-				
+
+	// Make sure the buttons are enabled
+
+	if((get_option('psp_disable_js') === '0') || (get_option('psp_disable_js') == NULL)) {
+
 		add_filter('mce_external_plugins','psp_add_buttons');
     	add_filter('mce_buttons','psp_register_buttons');
-	} 
-	
+	}
+
 }
 
 function psp_add_buttons($plugin_array) {
@@ -409,4 +409,36 @@ function psp_dashboard_shortcode($atts) {
 
 add_shortcode('panorama_dashboard','psp_dashboard_shortcode');
 
-?>
+add_shortcode( 'before-milestone', 'psp_before_milestone_shortcode' );
+function psp_before_milestone_shortcode( $atts, $content = NULL ) {
+
+    return '<div class="psp-before-milestone">' . wpautop( $content ) . '</div>';
+
+}
+
+add_shortcode( 'after-milestone', 'psp_after_milestone_shortcode' );
+function psp_after_milestone_shortcode( $atts, $content = NULL ) {
+
+    return '<div class="psp-after-milestone">' . wpautop( $content ) . '</div>';
+}
+
+add_shortcode( 'before-phase', 'psp_before_phase' );
+function psp_before_phase( $atts, $content = NULL ) {
+
+	return '<div class="psp-before-phase">' . $content . '</div>';
+
+}
+
+add_shortcode( 'during-phase', 'psp_during_phase' );
+function psp_during_phase( $atts, $content = NULL ) {
+
+	return '<div class="psp-during-phase">' . $content . '</div>';
+
+}
+
+add_shortcode( 'after-phase', 'psp_after_phase' );
+function psp_after_phase( $atts, $content = NULL ) {
+
+	return '<div class="psp-after-phase">' . $content . '</div>';
+
+}
