@@ -343,19 +343,11 @@ function psp_the_timing_bar($post_id) {
 
 <?php }
 
-add_action( 'init', 'psp_lite_get_dates_json_feed' );
-function psp_lite_get_dates_json_feed() {
-
-    add_rewrite_tag( '%psp_dates%', '([^&]+)' );
-    add_rewrite_rule( 'psp-dates/([^&]+)/?', 'index.php?psp_dates=$matches[1]', 'top' );
-
-}
-
 function psp_lite_output_project_calendar() {
 
     $cuser = wp_get_current_user();
 
-    $date_url = ( get_option( 'permalink_structure' ) ? site_url() . '/psp-dates/' . $cuser->ID . '/' : site_url() . '/index.php?psp_dates=' . $cuser->ID );
+    $date_url = site_url() . '/index.php?psp_dates=' . $cuser->ID;
 
     	ob_start(); ?>
 
@@ -365,8 +357,8 @@ function psp_lite_output_project_calendar() {
     			jQuery(document).ready(function($) {
     				$('#psp-project-calendar').fullCalendar({
     			        events: '<?php echo $date_url; ?>',
-    					<?php if( psp_get_option( 'psp_calendar_language' ) ) { ?>
-    						lang: '<?php echo psp_get_option( 'psp_calendar_language' ); ?>',
+    					<?php if( get_option( 'psp_calendar_language' ) ) { ?>
+    						lang: '<?php echo get_option( 'psp_calendar_language' ); ?>',
     					<?php } ?>
     				    eventRender: function(event, element) {
     				        element.qtip({
@@ -390,11 +382,12 @@ function psp_lite_output_project_calendar() {
 
 }
 
+add_action( 'template_redirect', 'psp_lite_dates_endpoint_data' );
 function psp_lite_dates_endpoint_data() {
 
     global $wp_query;
 
-    $date_tag = $wp_query->get( 'psp_dates' );
+    $date_tag = $_GET[ 'psp_dates' ];
 
     if ( ( ! $date_tag ) || ( !current_user_can( 'manage_options' ) ) ) return;
 

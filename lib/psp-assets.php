@@ -37,8 +37,8 @@ function psp_front_assets($add_psp_scripts = null) {
 
 // Admin Style and Behavior
 
-function psp_admin_assets($hook) {
-	
+function psp_admin_assets( $hook ) {
+
 	global $post_type;
     $screen = get_current_screen();
 
@@ -56,13 +56,13 @@ function psp_admin_assets($hook) {
     wp_enqueue_media();
 
 	// Determine if we need wp-color-picker or not
-	
-	if($hook == 'psp_projects_page_panorama-license') { 	
-		wp_register_script( 'pspadmin' , plugins_url() . '/' . PSP_PLUGIN_DIR . '/assets/js/psp-admin-behavior.js' , array( 'jquery' , 'wp-color-picker' ) , '1.1' , true );	
-	} else { 	
+
+	if($hook == 'psp_projects_page_panorama-license') {
+		wp_register_script( 'pspadmin' , plugins_url() . '/' . PSP_PLUGIN_DIR . '/assets/js/psp-admin-behavior.js' , array( 'jquery' , 'wp-color-picker' ) , '1.1' , true );
+	} else {
 		wp_register_script( 'pspadmin' , plugins_url() . '/' . PSP_PLUGIN_DIR . '/assets/js/psp-admin-behavior.js' , array( 'jquery' ) , '1.2.5' , true );
-	} 
-			
+	}
+
 	wp_register_script( 'psp-wysiwyg', plugins_url(). '/'.PSP_PLUGIN_DIR.'/assets/js/psp-wysiwyg.js',array('jquery'), '1.2.5', false);
 	wp_register_script( 'psp-chart', plugins_url(). '/'.PSP_PLUGIN_DIR.'/assets/js/psp-chart.js',null,'1.2.5',false);
 
@@ -70,29 +70,25 @@ function psp_admin_assets($hook) {
     if($screen->id == 'dashboard') {
         wp_enqueue_script( 'psp-chart' );
     }
-	 
+
  	// If this is a Panorama project load dependencies
 	if($post_type == 'psp_projects') {
 	    wp_enqueue_script( 'jquery-ui-datepicker' );
 	    wp_enqueue_script( 'jquery-ui-slider' );
 	}
- 
+
 	// If this is a project page or settings page load the admin scripts
  	if(($post_type == 'psp_projects') || ($hook == 'psp_projects_page_panorama-license')) {
 	    wp_enqueue_script( 'pspadmin' );
 	}
-	
+
 	// If the shortcode helpers are not disabled load the WYSIWYG buttons
 	if((get_option('psp_disable_js') === '0') || (get_option('psp_disable_js') == NULL)) {
 		wp_enqueue_script('psp-wysiwyg');
 	}
-    
+
 }
 
 // Enqeue All
 add_action( 'admin_enqueue_scripts', 'psp_admin_assets' );
 add_action( 'wp_enqueue_scripts', 'psp_front_assets');
-
-
-
-?>
