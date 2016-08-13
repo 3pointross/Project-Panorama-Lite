@@ -785,7 +785,7 @@ function edd_panorama_deactivate_license() {
 
 	}
 }
-add_action('admin_init', 'edd_panorama_deactivate_license');
+add_action( 'admin_init', 'edd_panorama_deactivate_license' );
 
 
 /************************************
@@ -823,4 +823,13 @@ function edd_panorama_check_license() {
 		echo 'invalid'; exit;
 		// this license is no longer valid
 	}
+}
+
+add_action( 'admin_menu', 'psp_lite_support_link' );
+function psp_lite_support_link() {
+
+    global $submenu;
+
+    $submenu[ 'edit.php?post_type=psp_projects' ][] = array( __( 'Support', 'psp_projects' ), 'read', 'https://www.projectpanorama.com/support/' );
+
 }

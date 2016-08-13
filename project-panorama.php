@@ -28,7 +28,7 @@ $constants = array(
     'PSP_VER'               => '1.2.8'
 );
 
-foreach( $contants as $constant => $val ) {
+foreach( $constants as $constant => $val ) {
 
     if( !defined( $constant ) ) {
         define( $constant, $val );
