@@ -4,7 +4,7 @@
  * Plugin Name: Project Panorama Lite
  * Plugin URI: http://www.projectpanorama.com
  * Description: A project management and project visualization plugin designed to impress your clients, save time and allow you to bill more.
- * Version: 1.2.7
+ * Version: 1.2.8
  * Author: 37 MEDIA
  * Author URI: http://www.projectpanorama.com
  * License: GPL2
@@ -17,16 +17,16 @@ include_once('lib/psp-init.php');
 include_once('psp-license.php');
 
 // Important Definitions
-if (! defined('PROJECT_PANARAMA_URI')) {
-  define('PROJECT_PANARAMA_URI', plugins_url('', __FILE__));
+if (! defined( 'PROJECT_PANARAMA_URI' ) ) {
+  define( 'PROJECT_PANARAMA_URI', plugins_url( '', __FILE__ ) );
 }
 
-if (! defined('PROJECT_PANARAMA_DIR')) {
-  define('PROJECT_PANARAMA_DIR', __DIR__);
+if (! defined( 'PROJECT_PANARAMA_DIR' ) ) {
+  define( 'PROJECT_PANARAMA_DIR', __DIR__ );
 }
 
-if(! defined('PSP_VER')) {
-	define('PSP_VER','1.2.7');
+if(! defined( 'PSP_VER' ) ) {
+	define( 'PSP_VER','1.2.8' );
 }
 
 // ================

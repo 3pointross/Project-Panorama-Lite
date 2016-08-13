@@ -38,21 +38,16 @@ function panorama_install_acf() {
     global $acf, $current_user;
     $user_id = $current_user->ID;
 
-    if((!get_user_meta($user_id,'panorama_acf_ignore')) && (ACF_LITE == 'true')):
-        ?>
+    if( ( !get_user_meta( $user_id, 'panorama_acf_ignore' ) ) && ( defined( ACF_LITE ) ) ): ?>
 
         <div class="updated">
             <p>Project Panorama Lite uses <a href="<?php echo admin_url(); ?>plugin-install.php?tab=search&s=advanced+custom+fields&plugin-search-input=Search+Plugins">Advanced Custom Fields plugin</a>. While Panorama functions without ACF, we recommend you <a href="<?php echo admin_url(); ?>plugin-install.php?tab=plugin-information&plugin=advanced-custom-fields&TB_iframe=true&width=600&height=550" class="thickbox">install your own version</a> to ensure you can easily upgrade. | <a href="?panorama_acf_ignore=0">Hide This Notice</a></p>
-
         </div>
-    <?php
-    endif;
 
+    <?php endif;
 
 }
-
-
-add_action('admin_notices','panorama_install_acf');
+add_action( 'admin_notices', 'panorama_install_acf' );
 
 add_action('admin_init','panorama_acf_ignore');
 function panorama_acf_ignore() {
