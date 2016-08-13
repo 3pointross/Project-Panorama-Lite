@@ -11,22 +11,29 @@
  * Text Domain: psp_projects
  */
 
-// Initiallize the plugin
+/**
+ * If Panorama Pro isn't enabled...
+ */
 
-include_once('lib/psp-init.php');
-include_once('psp-license.php');
+if( !function_exists( 'psp_initalize_application' ) ) {
 
-// Important Definitions
-if (! defined( 'PROJECT_PANARAMA_URI' ) ) {
-  define( 'PROJECT_PANARAMA_URI', plugins_url( '', __FILE__ ) );
+    include_once( 'lib/psp-init.php' );
+    include_once( 'psp-license.php' );
+
 }
 
-if (! defined( 'PROJECT_PANARAMA_DIR' ) ) {
-  define( 'PROJECT_PANARAMA_DIR', __DIR__ );
-}
+$constants = array(
+    'PROJECT_PANARAMA_URI'  => plugins_url( '', __FILE__ ),
+    'PROJECT_PANARAM_DIR'   => __DIR__,
+    'PSP_VER'               => '1.2.8'
+);
 
-if(! defined( 'PSP_VER' ) ) {
-	define( 'PSP_VER','1.2.8' );
+foreach( $contants as $constant => $val ) {
+
+    if( !defined( $constant ) ) {
+        define( $constant, $val );
+    }
+
 }
 
 // ================
