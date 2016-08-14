@@ -1,5 +1,4 @@
-<?php 
-
+<?php
 add_action( 'cmb2_admin_init', 'psp_projects_register_phases_metabox' );
 /**
  * Hook in and add a metabox to demonstrate repeatable grouped fields
@@ -12,7 +11,30 @@ function psp_projects_register_phases_metabox() {
 	/**
 	 * Repeatable Phase Group
 	 */
-	
+
+	$psp_cmb2_users = new_cmb2_box( array(
+		'id'			=>	$prefix . '_users_metabox',
+		'title'			=>	__( 'Access', 'psp_projects' ),
+		'object_types'	=>	array( 'psp_projects' ),
+	) );
+
+	$allusers 	= get_users();
+	$users 		= array();
+	foreach( $allusers as $user ) {
+
+		$users = array_merge( $users, array( $user->ID => $user->display_name ) );
+
+	}
+
+	$psp_users_id	= $psp_cmb2_users->add_field( array(
+		'id'				=>	$prefix . '_users',
+		'type'				=>	'select',
+		'description'		=>	__( 'Assign users to this project', 'psp_projects' ),
+		'show_option_none'	=>	false,
+		'options'			=> $users,
+		'repeatable'		=>	true,
+	) );
+
 	$psp_cmb2_docs = new_cmb2_box( array(
 		'id'           => $prefix . '_doc_metabox',
 		'title'        => __( 'Documents', 'psp_projects' ),
@@ -45,26 +67,26 @@ function psp_projects_register_phases_metabox() {
 		'type'       => 'text',
 		// 'repeatable' => true, // Repeatable fields are supported w/in repeatable groups (for most types)
 	) );
-	
+
 	$psp_cmb2_docs->add_group_field( $group_field_id, array(
 		'name'        => __( 'Description', 'psp_projects' ),
 		'id'          => 'description',
 		'type'        => 'textarea',
 	) );
-	
+
 	$psp_cmb2_docs->add_group_field( $group_field_id, array(
 		'name'        => __( 'File', 'psp_projects' ),
 		'id'          => 'file',
 		'type'        => 'file',
 	) );
-	
+
 	$psp_cmb2_docs->add_group_field( $group_field_id, array(
 		'name'        => __( 'Link', 'psp_projects' ),
 		'description'	=> __('If a link is provided it will take priority over any file attached','psp_projects'),
 		'id'          => 'link',
 		'type'        => 'text',
 	) );
-	
+
 	$psp_cmb2_docs->add_group_field( $group_field_id, array(
 		'name'        => __( 'Status', 'psp_projects' ),
 		'id'          => 'status',
@@ -78,8 +100,8 @@ function psp_projects_register_phases_metabox() {
 	        'Rejected'     => __( 'Rejected', 'psp_projects' ),
 	    ),
 	) );
-	
-	
+
+
 	$cmb_group = new_cmb2_box( array(
 		'id'           => $prefix . 'metabox',
 		'title'        => __( 'Phases', 'psp_projects' ),
@@ -113,7 +135,7 @@ function psp_projects_register_phases_metabox() {
 		'type'       => 'text',
 		// 'repeatable' => true, // Repeatable fields are supported w/in repeatable groups (for most types)
 	) );
-	
+
 	$cmb_group->add_group_field( $group_field_id, array(
 	    'name'             => __('Percentage Complete','psp_projects'),
 	    'id'               => __('percentage_complete','psp_projects'),
@@ -152,7 +174,7 @@ function psp_projects_register_phases_metabox() {
 		'id'          => 'description',
 		'type'        => 'wysiwyg',
 	) );
-	
+
 }
 
 
@@ -698,5 +720,3 @@ if(function_exists("register_field_group"))
 }
 
 // CMB2 phases
-
-
