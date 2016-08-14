@@ -26,7 +26,6 @@ function panorama_admin_notice() {
     }
 }
 
-
 function panorama_nag_ignore() {
 
     global $current_user;
@@ -41,27 +40,16 @@ function panorama_nag_ignore() {
 
 }
 
-function panorama_install_acf() {
+add_action( 'add_meta_boxes', 'psp_add_promotional_metabox' );
+function psp_add_promotional_metabox() {
 
-    global $acf, $current_user;
-    $user_id = $current_user->ID;
-
-    if( ( !get_user_meta( $user_id, 'panorama_acf_ignore' ) ) && ( defined( ACF_LITE ) ) ): ?>
-
-        <div class="updated">
-            <p>Project Panorama Lite uses <a href="<?php echo admin_url(); ?>plugin-install.php?tab=search&s=advanced+custom+fields&plugin-search-input=Search+Plugins">Advanced Custom Fields plugin</a>. While Panorama functions without ACF, we recommend you <a href="<?php echo admin_url(); ?>plugin-install.php?tab=plugin-information&plugin=advanced-custom-fields&TB_iframe=true&width=600&height=550" class="thickbox">install your own version</a> to ensure you can easily upgrade. | <a href="?panorama_acf_ignore=0">Hide This Notice</a></p>
-        </div>
-
-    <?php endif;
+    add_meta_box( 'psp_lite_promotional_sidebar', __( 'Project Panorama', 'psp_projects' ), 'psp_promotional_metabox', 'psp_projects', 'side' );
 
 }
-add_action( 'admin_notices', 'panorama_install_acf' );
 
-add_action('admin_init','panorama_acf_ignore');
-function panorama_acf_ignore() {
-    global $current_user;
-    $user_id = $current_user->ID;
-    if(isset($_GET['panorama_acf_ignore']) && '0' == $_GET['panorama_acf_ignore']) {
-        add_user_meta($user_id, 'panorama_acf_ignore','true',true);
-    }
-}
+function psp_promotional_metabox() { ?>
+
+    <p><img src="<?php echo PROJECT_PANARAMA_URI; ?>/assets/images/panorama-logo.png" alt="Project Panorama" height="50"></p>
+    <p>Like Project Panorama? <a href="http://www.projectpanorama.com" target="_new">Did you know we have a full featured premium version?</a>. <strong>Use coupon code <code>litemeup</code> to save 10%.</strong></p>
+
+<?php }
