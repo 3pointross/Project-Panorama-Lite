@@ -1,0 +1,6808 @@
+/**
+ * Project Panorama Front End Styling
+ *
+ * All the styling for front end facing markup
+ *
+ * This style has been designed by Mina Margin. It reflects
+ * the composition of colors through the years of the
+ * customers project as well as the boldness it implies.
+ *
+ * @project   Project Panorama
+ * @version   1.2.6
+ * @package   sass
+ * @author    High Orbit
+ * @copyright 2015 by the author
+ * @cssdoc    1.0
+ * @license   GPL v3
+ *
+*/
+/* PSP Reset */
+/* line 22, sass/psp-frontend.scss */
+body.psp-standalone-page {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 27, sass/psp-frontend.scss */
+#psp-projects {
+  font-family: 'Helvetica Neue','Arial','Helvetica',san-serif;
+  font-size: 14px;
+  line-height: 1.65em;
+  margin: 0;
+  padding: 0;
+  /* GLOBAL STYLING */
+  /* Specific styling for the supplied template */
+  /* Styling improvements for the custom template */
+  /* HEADER BAR */
+  /* HEADER BRANDING AREA */
+  /* STRUCTURE */
+  /* DOCUMENTS */
+  /* QUICK OVERVIEW PROGRESS & TIME */
+  /* PROGRESS & MILESTONES */
+  /* Progress */
+  /* MILESTONES */
+  /* LOGIN */
+  /* Login */
+  /* Firefox */
+  /* Safari and Chrome */
+  /* Internet Explorer */
+  /* Opera */
+  /* PHASES */
+  /* TASKS */
+  /* Front end updating */
+  /* Task Table */
+  /* COMMENTS */
+  /* SHORTCODE SPECIFIC STYLING */
+  /* ============= */
+  /* = Dashboard = */
+  /* ============= */
+  /* Tiles at the top of the project */
+  /* Archive project listing */
+  /* Task Tiles */
+  /* Archive Task Sidebar */
+  /* FORM STYLING */
+  /* UTILITY CLASSES */
+  /* SHORTCODE SPECIFIC STYLES */
+  /* DASHBOARD WIDGET */
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-grid-container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-grid-container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-grid-container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-grid-container {
+    width: 1170px;
+  }
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-grid-container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-grid-row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-1, #psp-projects .psp-col-sm-1, #psp-projects .psp-col-md-1, #psp-projects .psp-col-lg-1, #psp-projects .psp-col-xs-2, #psp-projects .psp-col-sm-2, #psp-projects .psp-col-md-2, #psp-projects .psp-col-lg-2, #psp-projects .psp-col-xs-3, #psp-projects .psp-col-sm-3, #psp-projects .psp-col-md-3, #psp-projects .psp-col-lg-3, #psp-projects .psp-col-xs-4, #psp-projects .psp-col-sm-4, #psp-projects .psp-col-md-4, #psp-projects .psp-col-lg-4, #psp-projects .psp-col-xs-5, #psp-projects .psp-col-sm-5, #psp-projects .psp-col-md-5, #psp-projects .psp-col-lg-5, #psp-projects .psp-col-xs-6, #psp-projects .psp-col-sm-6, #psp-projects .psp-col-md-6, #psp-projects .psp-col-lg-6, #psp-projects .psp-col-xs-7, #psp-projects .psp-col-sm-7, #psp-projects .psp-col-md-7, #psp-projects .psp-col-lg-7, #psp-projects .psp-col-xs-8, #psp-projects .psp-col-sm-8, #psp-projects .psp-col-md-8, #psp-projects .psp-col-lg-8, #psp-projects .psp-col-xs-9, #psp-projects .psp-col-sm-9, #psp-projects .psp-col-md-9, #psp-projects .psp-col-lg-9, #psp-projects .psp-col-xs-10, #psp-projects .psp-col-sm-10, #psp-projects .psp-col-md-10, #psp-projects .psp-col-lg-10, #psp-projects .psp-col-xs-11, #psp-projects .psp-col-sm-11, #psp-projects .psp-col-md-11, #psp-projects .psp-col-lg-11, #psp-projects .psp-col-xs-12, #psp-projects .psp-col-sm-12, #psp-projects .psp-col-md-12, #psp-projects .psp-col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-1, #psp-projects .psp-col-xs-2, #psp-projects .psp-col-xs-3, #psp-projects .psp-col-xs-4, #psp-projects .psp-col-xs-5, #psp-projects .psp-col-xs-6, #psp-projects .psp-col-xs-7, #psp-projects .psp-col-xs-8, #psp-projects .psp-col-xs-9, #psp-projects .psp-col-xs-10, #psp-projects .psp-col-xs-11, #psp-projects .psp-col-xs-12 {
+  float: left;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-12 {
+  width: 100%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-11 {
+  width: 91.66666667%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-10 {
+  width: 83.33333333%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-9 {
+  width: 75%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-8 {
+  width: 66.66666667%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-7 {
+  width: 58.33333333%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-6 {
+  width: 50%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-5 {
+  width: 41.66666667%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-4 {
+  width: 33.33333333%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-3 {
+  width: 25%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-2 {
+  width: 16.66666667%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-1 {
+  width: 8.33333333%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-pull-12 {
+  right: 100%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-pull-11 {
+  right: 91.66666667%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-pull-10 {
+  right: 83.33333333%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-pull-9 {
+  right: 75%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-pull-8 {
+  right: 66.66666667%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-pull-7 {
+  right: 58.33333333%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-pull-6 {
+  right: 50%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-pull-5 {
+  right: 41.66666667%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-pull-4 {
+  right: 33.33333333%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-pull-3 {
+  right: 25%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-pull-2 {
+  right: 16.66666667%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-pull-1 {
+  right: 8.33333333%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-pull-0 {
+  right: 0;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-push-12 {
+  left: 100%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-push-11 {
+  left: 91.66666667%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-push-10 {
+  left: 83.33333333%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-push-9 {
+  left: 75%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-push-8 {
+  left: 66.66666667%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-push-7 {
+  left: 58.33333333%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-push-6 {
+  left: 50%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-push-5 {
+  left: 41.66666667%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-push-4 {
+  left: 33.33333333%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-push-3 {
+  left: 25%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-push-2 {
+  left: 16.66666667%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-push-1 {
+  left: 8.33333333%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-push-0 {
+  left: 0;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-offset-12 {
+  margin-left: 100%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-offset-11 {
+  margin-left: 91.66666667%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-offset-10 {
+  margin-left: 83.33333333%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-offset-9 {
+  margin-left: 75%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-offset-8 {
+  margin-left: 66.66666667%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-offset-7 {
+  margin-left: 58.33333333%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-offset-6 {
+  margin-left: 50%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-offset-5 {
+  margin-left: 41.66666667%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-offset-4 {
+  margin-left: 33.33333333%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-offset-3 {
+  margin-left: 25%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-offset-2 {
+  margin-left: 16.66666667%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-offset-1 {
+  margin-left: 8.33333333%;
+}
+/* line 37, sass/psp-frontend.scss */
+#psp-projects .psp-col-xs-offset-0 {
+  margin-left: 0;
+}
+@media (min-width: 768px) {
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-1, #psp-projects .psp-col-sm-2, #psp-projects .psp-col-sm-3, #psp-projects .psp-col-sm-4, #psp-projects .psp-col-sm-5, #psp-projects .psp-col-sm-6, #psp-projects .psp-col-sm-7, #psp-projects .psp-col-sm-8, #psp-projects .psp-col-sm-9, #psp-projects .psp-col-sm-10, #psp-projects .psp-col-sm-11, #psp-projects .psp-col-sm-12 {
+    float: left;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-12 {
+    width: 100%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-11 {
+    width: 91.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-10 {
+    width: 83.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-9 {
+    width: 75%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-8 {
+    width: 66.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-7 {
+    width: 58.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-6 {
+    width: 50%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-5 {
+    width: 41.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-4 {
+    width: 33.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-3 {
+    width: 25%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-2 {
+    width: 16.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-1 {
+    width: 8.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-pull-12 {
+    right: 100%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-pull-11 {
+    right: 91.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-pull-10 {
+    right: 83.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-pull-9 {
+    right: 75%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-pull-8 {
+    right: 66.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-pull-7 {
+    right: 58.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-pull-6 {
+    right: 50%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-pull-5 {
+    right: 41.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-pull-4 {
+    right: 33.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-pull-3 {
+    right: 25%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-pull-2 {
+    right: 16.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-pull-1 {
+    right: 8.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-pull-0 {
+    right: 0;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-push-12 {
+    left: 100%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-push-11 {
+    left: 91.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-push-10 {
+    left: 83.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-push-9 {
+    left: 75%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-push-8 {
+    left: 66.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-push-7 {
+    left: 58.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-push-6 {
+    left: 50%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-push-5 {
+    left: 41.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-push-4 {
+    left: 33.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-push-3 {
+    left: 25%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-push-2 {
+    left: 16.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-push-1 {
+    left: 8.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-push-0 {
+    left: 0;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-offset-12 {
+    margin-left: 100%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-offset-9 {
+    margin-left: 75%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-offset-6 {
+    margin-left: 50%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-offset-3 {
+    margin-left: 25%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-sm-offset-0 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 992px) {
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-1, #psp-projects .psp-col-md-2, #psp-projects .psp-col-md-3, #psp-projects .psp-col-md-4, #psp-projects .psp-col-md-5, #psp-projects .psp-col-md-6, #psp-projects .psp-col-md-7, #psp-projects .psp-col-md-8, #psp-projects .psp-col-md-9, #psp-projects .psp-col-md-10, #psp-projects .psp-col-md-11, #psp-projects .psp-col-md-12 {
+    float: left;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-12 {
+    width: 100%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-11 {
+    width: 91.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-10 {
+    width: 83.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-9 {
+    width: 75%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-8 {
+    width: 66.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-7 {
+    width: 58.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-6 {
+    width: 50%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-5 {
+    width: 41.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-4 {
+    width: 33.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-3 {
+    width: 25%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-2 {
+    width: 16.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-1 {
+    width: 8.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-pull-12 {
+    right: 100%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-pull-11 {
+    right: 91.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-pull-10 {
+    right: 83.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-pull-9 {
+    right: 75%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-pull-8 {
+    right: 66.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-pull-7 {
+    right: 58.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-pull-6 {
+    right: 50%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-pull-5 {
+    right: 41.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-pull-4 {
+    right: 33.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-pull-3 {
+    right: 25%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-pull-2 {
+    right: 16.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-pull-1 {
+    right: 8.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-pull-0 {
+    right: 0;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-push-12 {
+    left: 100%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-push-11 {
+    left: 91.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-push-10 {
+    left: 83.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-push-9 {
+    left: 75%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-push-8 {
+    left: 66.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-push-7 {
+    left: 58.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-push-6 {
+    left: 50%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-push-5 {
+    left: 41.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-push-4 {
+    left: 33.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-push-3 {
+    left: 25%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-push-2 {
+    left: 16.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-push-1 {
+    left: 8.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-push-0 {
+    left: 0;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-offset-12 {
+    margin-left: 100%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-offset-9 {
+    margin-left: 75%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-offset-6 {
+    margin-left: 50%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-offset-3 {
+    margin-left: 25%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-md-offset-0 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-1, #psp-projects .psp-col-lg-2, #psp-projects .psp-col-lg-3, #psp-projects .psp-col-lg-4, #psp-projects .psp-col-lg-5, #psp-projects .psp-col-lg-6, #psp-projects .psp-col-lg-7, #psp-projects .psp-col-lg-8, #psp-projects .psp-col-lg-9, #psp-projects .psp-col-lg-10, #psp-projects .psp-col-lg-11, #psp-projects .psp-col-lg-12 {
+    float: left;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-12 {
+    width: 100%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-11 {
+    width: 91.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-10 {
+    width: 83.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-9 {
+    width: 75%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-8 {
+    width: 66.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-7 {
+    width: 58.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-6 {
+    width: 50%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-5 {
+    width: 41.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-4 {
+    width: 33.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-3 {
+    width: 25%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-2 {
+    width: 16.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-1 {
+    width: 8.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-pull-12 {
+    right: 100%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-pull-11 {
+    right: 91.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-pull-10 {
+    right: 83.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-pull-9 {
+    right: 75%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-pull-8 {
+    right: 66.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-pull-7 {
+    right: 58.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-pull-6 {
+    right: 50%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-pull-5 {
+    right: 41.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-pull-4 {
+    right: 33.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-pull-3 {
+    right: 25%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-pull-2 {
+    right: 16.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-pull-1 {
+    right: 8.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-pull-0 {
+    right: 0;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-push-12 {
+    left: 100%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-push-11 {
+    left: 91.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-push-10 {
+    left: 83.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-push-9 {
+    left: 75%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-push-8 {
+    left: 66.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-push-7 {
+    left: 58.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-push-6 {
+    left: 50%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-push-5 {
+    left: 41.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-push-4 {
+    left: 33.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-push-3 {
+    left: 25%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-push-2 {
+    left: 16.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-push-1 {
+    left: 8.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-push-0 {
+    left: 0;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-offset-12 {
+    margin-left: 100%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-offset-9 {
+    margin-left: 75%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-offset-6 {
+    margin-left: 50%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-offset-3 {
+    margin-left: 25%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  /* line 37, sass/psp-frontend.scss */
+  #psp-projects .psp-col-lg-offset-0 {
+    margin-left: 0;
+  }
+}
+/* line 38, sass/psp-frontend.scss */
+#psp-projects .psp-grid-container *,
+#psp-projects .psp-grid-container-fluid * {
+  box-sizing: border-box;
+}
+/* line 43, sass/psp-frontend.scss */
+#psp-projects.psp-grid-container-fluid {
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+/* line 50, sass/psp-frontend.scss */
+#psp-projects.psp-standard-template {
+  background: #f1f2f7;
+  padding-top: 100px;
+}
+/* line 58, sass/psp-frontend.scss */
+#psp-projects.psp-custom-template #psp-login {
+  background: #fafafa;
+  border: 1px solid #f1f1f1;
+}
+/* line 63, sass/psp-frontend.scss */
+#psp-projects.psp-custom-template .psp-overview-box {
+  background: #fcfcfc;
+  border: 1px solid #f1f1f1;
+}
+/* line 68, sass/psp-frontend.scss */
+#psp-projects.psp-custom-template .psp-task-list li span {
+  background: #f3f3f3;
+}
+/* line 74, sass/psp-frontend.scss */
+#psp-projects h1, #psp-projects h2, #psp-projects h3, #psp-projects h4, #psp-projects h5, #psp-projects li, #psp-projects p, #psp-projects ul, #psp-projects ol {
+  margin: 0;
+  padding: 0;
+}
+/* line 79, sass/psp-frontend.scss */
+#psp-projects h2 {
+  font-weight: normal;
+  margin-bottom: 18px;
+  font-size: 24px;
+  line-height: 1.5em;
+}
+/* line 86, sass/psp-frontend.scss */
+#psp-projects ul, #psp-projects ol, #psp-projects li {
+  list-style: none;
+}
+/* line 90, sass/psp-frontend.scss */
+#psp-projects,
+#psp-projects * {
+  box-sizing: border-box;
+}
+/* line 95, sass/psp-frontend.scss */
+#psp-projects .wrapper {
+  width: 100%;
+  max-width: 1680px;
+  margin: 0 auto;
+}
+/* line 101, sass/psp-frontend.scss */
+#psp-projects a {
+  color: #2a3542;
+}
+/* line 104, sass/psp-frontend.scss */
+#psp-projects a:hover {
+  text-decoration: none;
+  color: #333;
+}
+/* line 114, sass/psp-frontend.scss */
+#psp-projects #psp-description h1, #psp-projects #psp-description h2, #psp-projects #psp-description h3, #psp-projects #psp-description h4, #psp-projects #psp-description h5, #psp-projects #psp-description p,
+#psp-projects .psp-phase-info h1,
+#psp-projects .psp-phase-info h2,
+#psp-projects .psp-phase-info h3,
+#psp-projects .psp-phase-info h4,
+#psp-projects .psp-phase-info h5,
+#psp-projects .psp-phase-info p {
+  margin: 0 0 10px 0;
+}
+/* line 118, sass/psp-frontend.scss */
+#psp-projects #psp-description ul, #psp-projects #psp-description ol,
+#psp-projects .psp-phase-info ul,
+#psp-projects .psp-phase-info ol {
+  margin: 0 0 10px 0;
+}
+/* line 122, sass/psp-frontend.scss */
+#psp-projects #psp-description ul, #psp-projects #psp-description ul li,
+#psp-projects .psp-phase-info ul,
+#psp-projects .psp-phase-info ul li {
+  list-style: disc !important;
+  padding-left: 5px;
+  margin-left: 5px;
+}
+/* line 128, sass/psp-frontend.scss */
+#psp-projects #psp-description ol, #psp-projects #psp-description ol li,
+#psp-projects .psp-phase-info ol,
+#psp-projects .psp-phase-info ol li {
+  list-style: decimal;
+  padding-left: 5px;
+  margin-left: 5px;
+}
+/* line 136, sass/psp-frontend.scss */
+#psp-projects .fa-icon {
+  font-family: 'FontAwesome';
+}
+/* line 140, sass/psp-frontend.scss */
+#psp-projects .pano-modal-actions {
+  background: #ccc;
+  padding: 5px 0;
+  text-align: center;
+  margin: 0 -20px -20px;
+}
+/* line 146, sass/psp-frontend.scss */
+#psp-projects .pano-modal-actions a {
+  font-size: 14px;
+}
+/* line 155, sass/psp-frontend.scss */
+#psp-projects #psp-title {
+  background: #fff;
+  color: #333;
+  padding: 5px 30px;
+  height: 65px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+/* line 166, sass/psp-frontend.scss */
+#psp-projects #psp-title .wrapper {
+  position: relative;
+}
+/* line 169, sass/psp-frontend.scss */
+#psp-projects #psp-title h1 {
+  font-size: 18px !important;
+  line-height: 54px !important;
+  font-weight: bold;
+  float: left;
+  margin: 0 !important;
+}
+/* line 175, sass/psp-frontend.scss */
+#psp-projects #psp-title h1 span {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+  font-weight: bold;
+}
+/* line 181, sass/psp-frontend.scss */
+#psp-projects #psp-title #psp-main-nav {
+  float: right;
+  margin: 0;
+  padding: 0;
+  color: #999;
+}
+/* line 186, sass/psp-frontend.scss */
+#psp-projects #psp-title #psp-main-nav ul {
+  list-style: none;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+/* line 191, sass/psp-frontend.scss */
+#psp-projects #psp-title #psp-main-nav ul li {
+  margin: 0;
+  padding: 0;
+}
+/* line 195, sass/psp-frontend.scss */
+#psp-projects #psp-title #psp-main-nav ul li a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+/* line 201, sass/psp-frontend.scss */
+#psp-projects #psp-title #psp-main-nav ul li li a {
+  padding: 0 50px;
+  line-height: 55px;
+  height: 55px;
+}
+/* line 210, sass/psp-frontend.scss */
+#psp-projects #psp-title #psp-main-nav #nav-menu {
+  position: relative;
+}
+/* line 214, sass/psp-frontend.scss */
+#psp-projects #psp-title #psp-main-nav #nav-menu > a {
+  background: url("../images/menu.png") center center no-repeat;
+  width: 75px;
+  height: 55px;
+  padding: 0 !important;
+  text-indent: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+/* line 224, sass/psp-frontend.scss */
+#psp-projects #psp-title #psp-main-nav #nav-menu:hover, #psp-projects #psp-title #psp-main-nav #nav-menu.active {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+/* line 229, sass/psp-frontend.scss */
+#psp-projects #psp-title #psp-main-nav #nav-menu:hover ul {
+  right: 0px;
+  left: auto;
+}
+/* line 234, sass/psp-frontend.scss */
+#psp-projects #psp-title #psp-main-nav #nav-menu #nav-over a {
+  background: url("../images/overview.png") 8px center no-repeat;
+}
+/* line 238, sass/psp-frontend.scss */
+#psp-projects #psp-title #psp-main-nav #nav-menu #nav-complete a {
+  background: url("../images/progress.png") 8px center no-repeat;
+}
+/* line 242, sass/psp-frontend.scss */
+#psp-projects #psp-title #psp-main-nav #nav-menu #nav-milestones a {
+  background: url("../images/milestones.png") 8px center no-repeat;
+}
+/* line 246, sass/psp-frontend.scss */
+#psp-projects #psp-title #psp-main-nav #nav-menu #nav-talk a {
+  background: url("../images/discussion.png") 8px center no-repeat;
+}
+/* line 250, sass/psp-frontend.scss */
+#psp-projects #psp-title #psp-main-nav #nav-menu #nav-back {
+  display: none;
+}
+/* line 253, sass/psp-frontend.scss */
+#psp-projects #psp-title #psp-main-nav #nav-menu #nav-back a {
+  background: url("../images/back.png") 8px center no-repeat;
+}
+/* line 259, sass/psp-frontend.scss */
+#psp-projects #psp-title #psp-main-nav #nav-menu #nav-logout a {
+  background: url("../images/logout.png") 8px center no-repeat;
+}
+/* line 263, sass/psp-frontend.scss */
+#psp-projects #psp-title #psp-main-nav #nav-menu ul {
+  width: 300px;
+  position: absolute;
+  left: -99999px;
+  background: #334050;
+}
+/* line 270, sass/psp-frontend.scss */
+#psp-projects #psp-title #psp-main-nav #nav-menu ul li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  width: auto !important;
+}
+/* line 274, sass/psp-frontend.scss */
+#psp-projects #psp-title #psp-main-nav #nav-menu ul li a {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+/* line 277, sass/psp-frontend.scss */
+#psp-projects #psp-title #psp-main-nav #nav-menu ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/* line 295, sass/psp-frontend.scss */
+#psp-projects #psp-branding {
+  padding: 30px 0;
+  text-align: center;
+  border-bottom: 1px solid #dfdfdf;
+  margin-top: 105px;
+}
+/* line 302, sass/psp-frontend.scss */
+#psp-projects .psp-branding-wrapper {
+  margin: 0 auto;
+  max-width: 350px;
+}
+/* line 307, sass/psp-frontend.scss */
+#psp-projects .psp-branding-wrapper img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border: 0px;
+}
+/* line 315, sass/psp-frontend.scss */
+#psp-projects .psp-branding-wrapper a {
+  border: 0px;
+}
+/* line 321, sass/psp-frontend.scss */
+#psp-projects.psp-dashboard-page {
+  position: relative;
+}
+/* line 325, sass/psp-frontend.scss */
+#psp-projects.psp-dashboard-page #psp-branding {
+  margin-top: 0px;
+  text-align: left;
+}
+/* line 330, sass/psp-frontend.scss */
+#psp-projects.psp-dashboard-page #psp-branding img {
+  margin: 0;
+}
+/* line 335, sass/psp-frontend.scss */
+#psp-projects.psp-dashboard-page .psp-branding-wrapper {
+  margin: 0;
+}
+/* line 343, sass/psp-frontend.scss */
+#psp-projects .psp-overview-box {
+  background: #fff;
+  padding: 10px 20px 20px;
+  border-radius: 3px;
+  margin-bottom: 30px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+/* line 350, sass/psp-frontend.scss */
+#psp-projects .psp-overview-box h4 {
+  position: relative;
+  margin: -20px -20px 20px -20px;
+  border-bottom: 1px solid #efefef;
+  padding: 0 20px 10px 20px;
+  font-weight: bold;
+}
+/* line 360, sass/psp-frontend.scss */
+#psp-projects .psp-project-list-wrapper,
+#psp-projects .psp-box {
+  background: #fff;
+  margin: 30px;
+  padding: 15px 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
+}
+/* line 369, sass/psp-frontend.scss */
+#psp-projects #psp-essentials {
+  display: table;
+  width: 100%;
+  padding: 0;
+  margin: 60px 0;
+}
+/* line 375, sass/psp-frontend.scss */
+#psp-projects #psp-essentials div h4 {
+  margin-top: 0px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  color: #999;
+}
+/* line 385, sass/psp-frontend.scss */
+#psp-projects #psp-description {
+  width: 65%;
+  float: left;
+}
+/* line 390, sass/psp-frontend.scss */
+#psp-projects .psp-phase-info h5 {
+  margin-top: 0px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  color: #999;
+  font-weight: bold;
+}
+/* line 399, sass/psp-frontend.scss */
+#psp-projects #psp-quick-overview {
+  width: 27.5%;
+  float: right;
+}
+/* line 402, sass/psp-frontend.scss */
+#psp-projects #psp-quick-overview p.psp-progress {
+  background: #fafafa;
+}
+/* line 409, sass/psp-frontend.scss */
+#psp-projects #psp-description-documents {
+  width: 70%;
+  float: left;
+}
+/* line 414, sass/psp-frontend.scss */
+#psp-projects #psp-documents {
+  width: 33%;
+  float: right;
+}
+/* line 418, sass/psp-frontend.scss */
+#psp-projects #psp-documents .psp-pager {
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #888;
+  font-weight: bold;
+}
+/* line 425, sass/psp-frontend.scss */
+#psp-projects #psp-documents .psp-pager span {
+  padding: 3px 5px;
+  font-size: 11px;
+}
+/* line 430, sass/psp-frontend.scss */
+#psp-projects #psp-documents .psp-pager span:first-child {
+  margin-left: 5px;
+}
+/* line 437, sass/psp-frontend.scss */
+#psp-projects #psp-documents #psp-document-nav {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f1f1f1;
+  margin-bottom: 10px;
+  min-height: 35px;
+}
+/* line 444, sass/psp-frontend.scss */
+#psp-projects #psp-documents ul.psp-documents-row {
+  clear: both;
+  margin-bottom: 10px;
+}
+/* line 448, sass/psp-frontend.scss */
+#psp-projects #psp-documents ul.psp-documents-row li {
+  margin: 0;
+  padding: 0 0 10px 0;
+  min-height: 50px;
+  position: relative;
+}
+/* line 454, sass/psp-frontend.scss */
+#psp-projects #psp-documents ul.psp-documents-row li p.psp-doc-title {
+  margin: 0 !important;
+  padding: 4px 0 0 35px;
+}
+/* line 459, sass/psp-frontend.scss */
+#psp-projects #psp-documents ul.psp-documents-row li a {
+  color: #000;
+}
+/* line 463, sass/psp-frontend.scss */
+#psp-projects #psp-documents ul.psp-documents-row li a.doc-status {
+  background: #fff;
+  padding: 3px 5px;
+  line-height: 1em;
+  border-radius: 2px;
+  font-size: 11px;
+  text-decoration: none;
+  white-space: nowrap;
+  display: inline-block;
+  margin-left: 5px;
+}
+/* line 474, sass/psp-frontend.scss */
+#psp-projects #psp-documents ul.psp-documents-row li a.doc-status:hover {
+  opacity: 0.8;
+}
+/* line 478, sass/psp-frontend.scss */
+#psp-projects #psp-documents ul.psp-documents-row li a.doc-status.status-Approved {
+  background: #99C262 !important;
+  color: #fff !important;
+}
+/* line 483, sass/psp-frontend.scss */
+#psp-projects #psp-documents ul.psp-documents-row li a.doc-status.status-In {
+  background: #F8D347 !important;
+}
+/* line 487, sass/psp-frontend.scss */
+#psp-projects #psp-documents ul.psp-documents-row li a.doc-status.status-Rejected {
+  background: #FF6C60 !important;
+}
+/* line 491, sass/psp-frontend.scss */
+#psp-projects #psp-documents ul.psp-documents-row li a.doc-status.status-Revisions {
+  background: #ffe377 !important;
+}
+/* line 495, sass/psp-frontend.scss */
+#psp-projects #psp-documents ul.psp-documents-row li a.doc-status span.fa {
+  display: none;
+}
+/* line 499, sass/psp-frontend.scss */
+#psp-projects #psp-documents ul.psp-documents-row li a.doc-status:hover span.fa {
+  display: inline;
+}
+/* line 507, sass/psp-frontend.scss */
+#psp-projects #psp-documents ul.psp-documents-row li span.description {
+  display: block;
+  color: #555;
+  font-size: 12px;
+}
+/* line 513, sass/psp-frontend.scss */
+#psp-projects #psp-documents ul.psp-documents-row li:hover a.document-update {
+  visibility: visible;
+}
+/* line 523, sass/psp-frontend.scss */
+#psp-projects .document-update-dialog {
+  padding: 20px;
+  border-radius: 6px;
+  background: #fff;
+  width: 375px;
+  margin-top: 50px;
+  font-size: 12px;
+  border: 10px solid #ccc;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+/* line 533, sass/psp-frontend.scss */
+#psp-projects .document-update-dialog h4 {
+  color: #fafafa !important;
+  background: #3299bb;
+  text-align: center;
+  margin: -20px -20px 20px -20px !important;
+  padding: 10px 15px 15px;
+}
+/* line 540, sass/psp-frontend.scss */
+#psp-projects .document-update-dialog h4 strong {
+  display: block;
+  text-transform: none;
+  letter-spacing: 0px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 5px;
+}
+/* line 551, sass/psp-frontend.scss */
+#psp-projects .document-update-dialog label {
+  font-weight: bold;
+  font-size: 14px;
+}
+/* line 558, sass/psp-frontend.scss */
+#psp-projects ul.psp-notify-list {
+  list-style: none;
+  margin: 0 0 10px 0;
+}
+/* line 563, sass/psp-frontend.scss */
+#psp-projects ul.psp-notify-list li {
+  display: inline;
+  padding: 0 15px 15px 0;
+}
+/* line 568, sass/psp-frontend.scss */
+#psp-projects ul.psp-notify-list textarea {
+  width: 90%;
+  height: 50px;
+  padding: 15px;
+}
+/* line 576, sass/psp-frontend.scss */
+#psp-projects .psp-icon {
+  width: 25px;
+  height: 25px;
+  border: 2px solid #ddd;
+  border-radius: 100%;
+  background: #fff;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  font-family: 'FontAwesome';
+  text-align: center;
+  line-height: 25px;
+  font-size: 12px;
+  text-decoration: none;
+}
+/* line 594, sass/psp-frontend.scss */
+#psp-projects #psp-short-progress {
+  margin-bottom: 30px;
+}
+/* line 598, sass/psp-frontend.scss */
+#psp-projects #psp-short-progress h4,
+#psp-projects #psp-time-overview h4 {
+  padding: 10px 0;
+  margin: 0 0 20px 0;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+}
+/* line 606, sass/psp-frontend.scss */
+#psp-projects .time-elappsed {
+  padding-bottom: 65px;
+}
+/* line 610, sass/psp-frontend.scss */
+#psp-projects .psp-timing {
+  list-style: none;
+  margin: 0 0 15px 0;
+  padding: 0 0 20px 0;
+  float: left;
+  width: 30%;
+}
+/* line 617, sass/psp-frontend.scss */
+#psp-projects .psp-timing li {
+  float: left;
+  margin: 0 15px 0 0;
+  padding: 0;
+  text-align: center;
+  color: #666;
+  list-style: none;
+}
+/* line 625, sass/psp-frontend.scss */
+#psp-projects .psp-timing li:last-child {
+  margin-right: 0px;
+}
+/* line 631, sass/psp-frontend.scss */
+#psp-projects .psp-timing b {
+  font-size: 11px;
+  font-weight: normal;
+}
+/* line 639, sass/psp-frontend.scss */
+#psp-projects .psp-date .cal {
+  width: 40px;
+  display: block;
+  background: #fafafa;
+  margin: 5px 0 0 0;
+}
+/* line 645, sass/psp-frontend.scss */
+#psp-projects .psp-date .cal .year {
+  background: #f3f3f3;
+  font-size: 10px;
+  text-align: center;
+  padding: 0;
+  display: block;
+}
+/* line 653, sass/psp-frontend.scss */
+#psp-projects .psp-date .cal .month {
+  text-transform: uppercase;
+  background: #99C262;
+  color: #fff;
+  padding: 0px;
+  text-align: center;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+}
+/* line 664, sass/psp-frontend.scss */
+#psp-projects .psp-date .cal .day {
+  font-size: 16px;
+  text-align: center;
+  padding: 5px 0;
+  color: #333;
+  display: block;
+}
+/* line 675, sass/psp-frontend.scss */
+#psp-projects .psp-timebar {
+  padding-top: 27px;
+  float: right;
+  width: 69%;
+}
+/* line 681, sass/psp-frontend.scss */
+#psp-projects .psp-time-progress {
+  position: relative;
+}
+/* line 685, sass/psp-frontend.scss */
+#psp-projects .psp-time-bar {
+  height: 6px;
+  width: 100%;
+  margin: 0 !important;
+  background: #c9d6d9;
+  border-radius: 4px;
+}
+/* line 692, sass/psp-frontend.scss */
+#psp-projects .psp-time-bar span {
+  background: #99c262;
+  display: block;
+  height: 6px;
+  border-radius: 4px 0 0 4px;
+}
+/* line 701, sass/psp-frontend.scss */
+#psp-projects ol.psp-time-ticks {
+  position: relative;
+  width: 100%;
+}
+/* line 705, sass/psp-frontend.scss */
+#psp-projects ol.psp-time-ticks li {
+  width: 10px;
+  height: 10px;
+  background: #c9d6d9;
+  border-radius: 100%;
+  margin-left: -5px;
+  position: absolute;
+  top: -8px;
+}
+/* line 714, sass/psp-frontend.scss */
+#psp-projects ol.psp-time-ticks li.active {
+  background: #99c262;
+}
+/* line 722, sass/psp-frontend.scss */
+#psp-projects li.psp-tt-10 {
+  left: 10%;
+}
+/* line 723, sass/psp-frontend.scss */
+#psp-projects li.psp-tt-20 {
+  left: 20%;
+}
+/* line 724, sass/psp-frontend.scss */
+#psp-projects li.psp-tt-30 {
+  left: 30%;
+}
+/* line 725, sass/psp-frontend.scss */
+#psp-projects li.psp-tt-40 {
+  left: 40%;
+}
+/* line 726, sass/psp-frontend.scss */
+#psp-projects li.psp-tt-50 {
+  left: 50%;
+}
+/* line 727, sass/psp-frontend.scss */
+#psp-projects li.psp-tt-60 {
+  left: 60%;
+}
+/* line 728, sass/psp-frontend.scss */
+#psp-projects li.psp-tt-70 {
+  left: 70%;
+}
+/* line 729, sass/psp-frontend.scss */
+#psp-projects li.psp-tt-80 {
+  left: 80%;
+}
+/* line 730, sass/psp-frontend.scss */
+#psp-projects li.psp-tt-90 {
+  left: 90%;
+}
+/* line 732, sass/psp-frontend.scss */
+#psp-projects .psp-time-indicator {
+  position: absolute;
+  width: 40px;
+  margin: 5px 0 0 -17.5px;
+  text-align: center;
+  font-size: 12px;
+  margin-left: -20px;
+}
+/* line 740, sass/psp-frontend.scss */
+#psp-projects .psp-time-indicator span {
+  width: 0px;
+  border-bottom: 10px solid #99c262;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 0px solid transparent;
+  display: block;
+  margin: 0 auto 4px auto;
+}
+/* line 753, sass/psp-frontend.scss */
+#psp-projects .psp-time-details {
+  text-transform: none;
+  font-weight: normal;
+  letter-spacing: 0px;
+  font-size: 12px;
+  color: #555;
+}
+/* line 761, sass/psp-frontend.scss */
+#psp-projects .psp-time-start-end {
+  font-size: 12px;
+  color: #444;
+  margin: 0 !important;
+}
+/* line 766, sass/psp-frontend.scss */
+#psp-projects .psp-time-start-end span {
+  float: right;
+}
+/* line 775, sass/psp-frontend.scss */
+#psp-projects .psp_project_list .psp-date {
+  display: inline-block;
+  padding: 0 20px 0 0;
+  text-align: center;
+}
+/* line 780, sass/psp-frontend.scss */
+#psp-projects .psp_project_list .psp-date:last-child {
+  padding-right: 0px;
+}
+/* line 790, sass/psp-frontend.scss */
+#psp-projects #psp-progress {
+  background: #fff;
+  padding: 75px 100px;
+  text-align: center;
+}
+/* line 795, sass/psp-frontend.scss */
+#psp-projects #psp-progress h2 {
+  text-align: center;
+  font-size: 36px;
+}
+/* line 802, sass/psp-frontend.scss */
+#psp-projects p.psp-progress,
+#psp-projects .psp-progress {
+  border-radius: 2px 2px 0 2px;
+  background: #fff;
+  margin: 0 !important;
+  height: 35px;
+  background: #f3f3f3;
+  text-align: left;
+  padding: 0 !important;
+  border: 0 !important;
+}
+/* line 813, sass/psp-frontend.scss */
+#psp-projects p.psp-progress span,
+#psp-projects .psp-progress span {
+  display: inline-block;
+  height: 35px;
+  background: #3299BB;
+  text-align: right;
+  line-height: 35px;
+  padding: 0 8px 0 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+}
+/* line 824, sass/psp-frontend.scss */
+#psp-projects p.psp-progress span:first-child,
+#psp-projects .psp-progress span:first-child {
+  border-radius: 2px 0 0 2px;
+}
+/* line 826, sass/psp-frontend.scss */
+#psp-projects p.psp-progress span:first-child:hover,
+#psp-projects .psp-progress span:first-child:hover {
+  opacity: 0.8;
+}
+/* line 831, sass/psp-frontend.scss */
+#psp-projects p.psp-progress span b,
+#psp-projects .psp-progress span b {
+  line-height: 35px;
+  padding: 0 8px 0 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+}
+/* line 843, sass/psp-frontend.scss */
+#psp-projects .psp-before-milestone {
+  display: block;
+}
+/* line 847, sass/psp-frontend.scss */
+#psp-projects .psp-after-milestone {
+  display: none;
+}
+/* line 851, sass/psp-frontend.scss */
+#psp-projects ul.psp-milestones {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: table;
+  width: 100%;
+}
+/* line 859, sass/psp-frontend.scss */
+#psp-projects ul.psp-milestones li {
+  display: table-cell;
+  text-align: center;
+  position: relative;
+  width: 50%;
+  padding: 0px 5% 60px 5%;
+  background: url("../images/position_indicator.gif") top center repeat-y;
+}
+/* line 869, sass/psp-frontend.scss */
+#psp-projects ul.psp-milestones li.completed .psp-before-milestone {
+  display: none;
+}
+/* line 873, sass/psp-frontend.scss */
+#psp-projects ul.psp-milestones li.completed .psp-after-milestone {
+  display: block;
+}
+/* line 879, sass/psp-frontend.scss */
+#psp-projects ul.psp-milestones li div {
+  background: #fff;
+  padding: 40px 0 0 0px;
+}
+/* line 886, sass/psp-frontend.scss */
+#psp-projects ul.psp-milestones li span {
+  margin: 8px auto;
+  font-size: 14px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 100%;
+  background: #666;
+  color: #fff;
+  font-weight: bold;
+}
+/* line 900, sass/psp-frontend.scss */
+#psp-projects ul.psp-milestones li.completed span {
+  background: #3299bb;
+}
+/* line 904, sass/psp-frontend.scss */
+#psp-projects ul.psp-milestones li p {
+  padding: 0 50px;
+  font-size: 14px;
+  line-height: 1.65em;
+  margin: 0;
+  color: #666;
+}
+/* line 912, sass/psp-frontend.scss */
+#psp-projects ul.psp-milestones li h4 {
+  color: #333;
+  margin: 15px 0 4px 0 !important;
+}
+/* line 917, sass/psp-frontend.scss */
+#psp-projects ul.psp-milestones li.psp-50-milestone {
+  margin-left: 25%;
+}
+/* line 921, sass/psp-frontend.scss */
+#psp-projects ul.psp-milestones li.psp-40-milestone {
+  margin-left: 20%;
+}
+/* line 929, sass/psp-frontend.scss */
+#psp-projects ul.psp-milestones.top-milestones li {
+  background-position: bottom center;
+  padding: 0px 5% 110px 5%;
+  vertical-align: top;
+}
+/* line 935, sass/psp-frontend.scss */
+#psp-projects ul.psp-milestones.top-milestones.frequency-fifths {
+  width: 80%;
+}
+/* line 943, sass/psp-frontend.scss */
+#psp-projects ul.psp-milestones.bottom-milestones li {
+  padding: 110px 5% 0 5%;
+  vertical-align: bottom;
+}
+/* line 950, sass/psp-frontend.scss */
+#psp-projects ul.psp-milestones.bottom-milestones div {
+  padding: 0 0 100px 0;
+}
+/* line 954, sass/psp-frontend.scss */
+#psp-projects ul.psp-milestones.bottom-milestones.frequency-fifths {
+  width: 80%;
+  margin-left: 20%;
+}
+/* line 963, sass/psp-frontend.scss */
+#psp-projects .progress-table {
+  display: none;
+  border: 0px !important;
+}
+/* line 968, sass/psp-frontend.scss */
+#psp-projects .progress-table p {
+  font-size: 14px;
+  line-height: 1.65em;
+  margin: 0;
+  color: #666;
+}
+/* line 975, sass/psp-frontend.scss */
+#psp-projects .progress-table span {
+  font-size: 14px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 100%;
+  background: #666;
+  color: #fff;
+  font-weight: bold;
+}
+/* line 989, sass/psp-frontend.scss */
+#psp-projects .progress-table th.completed span {
+  background: #3299bb;
+}
+/* line 994, sass/psp-frontend.scss */
+#psp-projects .progress-table h4 {
+  color: #333;
+  margin: 15px 0 4px 0 !important;
+}
+/* line 999, sass/psp-frontend.scss */
+#psp-projects .progress-table td, #psp-projects .progress-table th {
+  padding: 15px 5px;
+  vertical-align: top;
+  border: 0px;
+}
+/* line 1007, sass/psp-frontend.scss */
+#psp-projects .milestone-options-full {
+  display: none !important;
+}
+/* line 1011, sass/psp-frontend.scss */
+#psp-projects .post-password-form p {
+  margin: 0 0 20px 0;
+}
+/* line 1014, sass/psp-frontend.scss */
+#psp-projects #psp-login {
+  background: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  margin: 30px auto;
+  max-width: 350px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.03);
+  -webkit-animation: fadein 3s;
+  /* Safari and Chrome */
+  -moz-animation: fadein 3s;
+  /* Firefox */
+  -ms-animation: fadein 3s;
+  /* Internet Explorer */
+  -o-animation: fadein 3s;
+  /* Opera */
+  animation: fadein 3s;
+}
+/* line 1027, sass/psp-frontend.scss */
+#psp-projects #psp-login.shortcode-login {
+  background: #f6f6f6;
+  border: 1px solid #f1f1f1;
+}
+/* line 1032, sass/psp-frontend.scss */
+#psp-projects #psp-login input[type=text],
+#psp-projects #psp-login input[type=password] {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 10px 5px;
+  width: 96%;
+}
+/* line 1040, sass/psp-frontend.scss */
+#psp-projects #psp-login #wp-submit {
+  background: #99C262;
+  padding: 10px 15px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  border: 0px;
+}
+/* line 1050, sass/psp-frontend.scss */
+#psp-projects #psp-login h2 {
+  margin: -15px -15px 15px -15px;
+  text-align: center;
+  padding: 10px;
+  background: #3299bb;
+  color: #fff;
+  border-radius: 6px 6px 0 0;
+  box-shadow: 0 5px 0px rgba(0, 0, 0, 0.025);
+}
+/* line 1060, sass/psp-frontend.scss */
+#psp-projects #psp-login input[type=submit] {
+  text-align: right;
+  display: inline-block;
+  margin: 5px 0;
+}
+/* line 1066, sass/psp-frontend.scss */
+#psp-projects #psp-login #loginform p {
+  margin: 0 0 10px 0;
+}
+/* line 1070, sass/psp-frontend.scss */
+#psp-projects #psp-login label {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #444;
+}
+/* line 1076, sass/psp-frontend.scss */
+#psp-projects #psp-login p.forgetmenot label {
+  font-weight: normal;
+  text-transform: none;
+}
+/* line 1081, sass/psp-frontend.scss */
+#psp-projects #psp-login p.forgetmenot {
+  float: left;
+}
+/* line 1085, sass/psp-frontend.scss */
+#psp-projects #psp-login p.submit {
+  float: right;
+}
+/* line 1089, sass/psp-frontend.scss */
+#psp-projects #psp-login #nav {
+  clear: both;
+  text-align: center;
+  padding: 20px 0 0 0;
+  font-size: 12px;
+}
+/* line 1098, sass/psp-frontend.scss */
+#psp-projects .psp-login-logo {
+  -webkit-animation: fadein 3s;
+  /* Safari and Chrome */
+  -moz-animation: fadein 3s;
+  /* Firefox */
+  -ms-animation: fadein 3s;
+  /* Internet Explorer */
+  -o-animation: fadein 3s;
+  /* Opera */
+  animation: fadein 3s;
+  max-width: 350px;
+  margin: 60px auto 0 auto;
+}
+/* line 1107, sass/psp-frontend.scss */
+#psp-projects .psp-login-logo img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  margin: 0;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* line 1143, sass/psp-frontend.scss */
+#psp-projects #psp-phases {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* line 1148, sass/psp-frontend.scss */
+#psp-projects .psp-row {
+  width: 100%;
+  text-align: center;
+}
+/* line 1153, sass/psp-frontend.scss */
+#psp-projects .psp-phase {
+  display: block;
+  width: 32%;
+  padding: 20px;
+  background: #fff;
+  border: 5px solid #F1F2F7;
+  display: inline-block;
+  margin-bottom: 40px;
+  vertical-align: top;
+  text-align: left;
+  box-sizing: Border-box;
+  transition: all 0.5s ease;
+}
+/* line 1166, sass/psp-frontend.scss */
+#psp-projects .psp-phase h3 {
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 1.5em;
+  margin: -20px -20px 20px -20px !important;
+  background: #3299BB;
+  color: #fff;
+  padding: 15px 20px 15px 20px;
+  box-shadow: 0 5px 0px rgba(0, 0, 0, 0.03);
+  position: relative;
+}
+/* line 1177, sass/psp-frontend.scss */
+#psp-projects .psp-phase h3 span.psp-top-complete {
+  font-size: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 5px 0 5px;
+  display: block;
+}
+/* line 1183, sass/psp-frontend.scss */
+#psp-projects .psp-phase h3 span.psp-top-complete b {
+  font-size: 12px;
+  text-transform: uppercase;
+  opacity: .7;
+}
+/* line 1191, sass/psp-frontend.scss */
+#psp-projects .psp-phase h3 > i {
+  font-style: normal;
+  font-size: 16px;
+}
+/* line 1198, sass/psp-frontend.scss */
+#psp-projects .psp-phase h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+/* line 1201, sass/psp-frontend.scss */
+#psp-projects .psp-phase h4 span {
+  font-weight: normal;
+}
+/* line 1208, sass/psp-frontend.scss */
+#psp-projects .psp-before-phase,
+#psp-projects .psp-after-phase {
+  display: none;
+  transition: all 0.5s ease;
+}
+/* line 1214, sass/psp-frontend.scss */
+#psp-projects .psp-during-phase {
+  transition: all 0.5s ease;
+}
+/* line 1220, sass/psp-frontend.scss */
+#psp-projects .psp-phase-progress-0 .psp-before-phase {
+  display: block;
+}
+/* line 1224, sass/psp-frontend.scss */
+#psp-projects .psp-phase-progress-0 .psp-during-phase {
+  display: none;
+}
+/* line 1232, sass/psp-frontend.scss */
+#psp-projects .psp-phase-progress-100 .psp-after-phase {
+  display: block;
+}
+/* line 1236, sass/psp-frontend.scss */
+#psp-projects .psp-phase-progress-100 .psp-during-phase {
+  display: none;
+}
+/* line 1242, sass/psp-frontend.scss */
+#psp-projects .psp-total-phases-4 .psp-phase {
+  width: 49%;
+}
+/* line 1246, sass/psp-frontend.scss */
+#psp-projects .graph-complete {
+  text-align: center;
+  color: #999;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+/* line 1252, sass/psp-frontend.scss */
+#psp-projects .graph-complete span {
+  display: block;
+  color: #333;
+  font-size: 36px;
+  padding: 0 0 4px 0;
+}
+/* line 1260, sass/psp-frontend.scss */
+#psp-projects .psp-phase-overview {
+  margin-bottom: 5px;
+  padding-bottom: 20px;
+}
+/* line 1266, sass/psp-frontend.scss */
+#psp-projects .psp-chart {
+  position: relative;
+  max-width: 300px;
+  margin: -50px auto;
+  display: table;
+  width: 100%;
+}
+/* line 1274, sass/psp-frontend.scss */
+#psp-projects .psp-chart canvas {
+  width: 100%;
+  position: relative;
+}
+/* line 1279, sass/psp-frontend.scss */
+#psp-projects .psp-chart div {
+  width: 100%;
+  padding-bottom: 100%;
+  position: relative;
+}
+/* line 1284, sass/psp-frontend.scss */
+#psp-projects .psp-chart div svg {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 1294, sass/psp-frontend.scss */
+#psp-projects .psp-chart .tooltip {
+  margin-left: -5px;
+  border-radius: 3px;
+  padding: 5px;
+}
+/* line 1303, sass/psp-frontend.scss */
+#psp-projects .psp-chart-complete {
+  font-size: 30px;
+  height: 30px;
+  width: 100px;
+  /* overflow: auto; */
+  margin: auto;
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  font-weight: normal;
+  display: block;
+  line-height: 1em;
+}
+/* line 1325, sass/psp-frontend.scss */
+#psp-projects .psp-task-list-wrapper {
+  margin: 10px 0 0 0;
+  padding: 15px 0 0 0;
+  border-top: 1px solid #f3f3f3;
+}
+/* line 1331, sass/psp-frontend.scss */
+#psp-projects .psp-task-list-wrapper h4 {
+  margin: 0;
+  line-height: 30px;
+}
+/* line 1335, sass/psp-frontend.scss */
+#psp-projects .psp-task-list-wrapper h4 a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  height: 35px;
+  line-height: 35px;
+  padding: 0 0 0 38px;
+  background: url("../images/down-arrow.png") left center no-repeat;
+}
+/* line 1344, sass/psp-frontend.scss */
+#psp-projects .psp-task-list-wrapper h4 a.notoggle {
+  background: none;
+  padding-left: 0px;
+}
+/* line 1349, sass/psp-frontend.scss */
+#psp-projects .psp-task-list-wrapper h4 a.active {
+  background: url("../images/up-arrow.png") left center no-repeat;
+}
+/* line 1353, sass/psp-frontend.scss */
+#psp-projects .psp-task-list-wrapper h4 a:hover {
+  opacity: 0.8;
+}
+/* line 1359, sass/psp-frontend.scss */
+#psp-projects .psp-task-list-wrapper h4 span {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  float: right;
+  margin-top: -2px;
+  color: #555;
+}
+/* line 1373, sass/psp-frontend.scss */
+#psp-projects .psp-task-list {
+  margin: 0 0 10px 0 !important;
+  padding: 20px 0 0 0 !important;
+}
+/* line 1378, sass/psp-frontend.scss */
+#psp-projects .psp-task-list li {
+  margin: 0 0 1px 0 !important;
+  padding: 3px !important;
+  position: relative;
+  clear: both;
+  list-style: none !important;
+}
+/* line 1386, sass/psp-frontend.scss */
+#psp-projects .psp-task-list li.progress {
+  background: #a5b62c;
+  color: #fff;
+}
+/* line 1391, sass/psp-frontend.scss */
+#psp-projects .psp-task-list li span {
+  display: block;
+  height: 20px;
+  background: #f3f3f3;
+}
+/* line 1397, sass/psp-frontend.scss */
+#psp-projects .psp-task-list li strong {
+  display: block;
+  clear: both;
+  padding: 5px 0 3px 0;
+  font-weight: normal;
+}
+/* line 1404, sass/psp-frontend.scss */
+#psp-projects .psp-task-list li em.status {
+  background: #3299BB;
+  color: #fff;
+  display: block;
+  height: 20px;
+  float: left;
+  transition: all 0.5s ease;
+}
+/* line 1417, sass/psp-frontend.scss */
+#psp-projects span.psp-task-bar {
+  display: block;
+  height: 20px;
+  background: #f3f3f3;
+}
+/* line 1422, sass/psp-frontend.scss */
+#psp-projects span.psp-task-bar em.status {
+  background: #3299BB;
+  color: #fff;
+  display: block;
+  height: 20px;
+  float: left;
+  transition: all 0.5s ease;
+}
+/* line 1433, sass/psp-frontend.scss */
+#psp-projects .psp-assigned-to {
+  font-size: 11px;
+  color: #666;
+  font-weight: normal;
+}
+/* line 1441, sass/psp-frontend.scss */
+#psp-projects .task-select {
+  display: none;
+}
+/* line 1445, sass/psp-frontend.scss */
+#psp-projects .task-select a {
+  display: none;
+}
+/* line 1451, sass/psp-frontend.scss */
+#psp-projects .task-update-form {
+  padding: 5px 0;
+}
+/* line 1457, sass/psp-frontend.scss */
+#psp-projects .task-item a {
+  display: none;
+}
+/* line 1461, sass/psp-frontend.scss */
+#psp-projects .task-item:hover a {
+  display: inline;
+  font-size: 12px;
+  padding: 0 5px;
+  white-space: nowrap;
+}
+/* line 1467, sass/psp-frontend.scss */
+#psp-projects .task-item:hover a:hover {
+  text-decoration: underline;
+  color: #555;
+}
+/* line 1475, sass/psp-frontend.scss */
+#psp-projects .task-item.complete a.complete-task-link {
+  display: none;
+}
+/* line 1482, sass/psp-frontend.scss */
+#psp-projects .task-save-button {
+  background: #2a3542;
+  color: #fff;
+  border-radius: 2px;
+  padding: 3px 10px;
+  font-weight: bold;
+  border: 0px;
+  line-height: 1em;
+  font-size: 12px;
+}
+/* line 1494, sass/psp-frontend.scss */
+#psp-projects .color-teal em.status {
+  background: #4ECDC4;
+}
+/* line 1495, sass/psp-frontend.scss */
+#psp-projects .color-teal h3 {
+  background: #4ecdc4 !important;
+}
+/* line 1499, sass/psp-frontend.scss */
+#psp-projects .color-green em.status {
+  background: #CBE86B;
+}
+/* line 1500, sass/psp-frontend.scss */
+#psp-projects .color-green h3 {
+  background: #CBE86B !important;
+}
+/* line 1504, sass/psp-frontend.scss */
+#psp-projects .color-pink em.status {
+  background: #FF6B6B;
+}
+/* line 1505, sass/psp-frontend.scss */
+#psp-projects .color-pink h3 {
+  background: #ff6b6b !important;
+}
+/* line 1509, sass/psp-frontend.scss */
+#psp-projects .color-maroon em.status {
+  background: #C44D58;
+}
+/* line 1510, sass/psp-frontend.scss */
+#psp-projects .color-maroon h3 {
+  background: #c44d58 !important;
+}
+/* line 1515, sass/psp-frontend.scss */
+#psp-projects th.psp-tt-tasks,
+#psp-projects th.pp-tt-phase {
+  width: 25%;
+}
+/* line 1520, sass/psp-frontend.scss */
+#psp-projects th.pp-tt-complete {
+  width: 50%;
+}
+/* line 1526, sass/psp-frontend.scss */
+#psp-projects .form-allowed-tags {
+  display: none;
+}
+/* line 1530, sass/psp-frontend.scss */
+#psp-projects p.comment-form-comment label {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #999;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* line 1538, sass/psp-frontend.scss */
+#psp-projects #psp-discussion {
+  background: #2A3542;
+  padding: 30px 0;
+}
+/* line 1543, sass/psp-frontend.scss */
+#psp-projects #psp-discussion .discussion-content {
+  padding: 15px;
+}
+/* line 1547, sass/psp-frontend.scss */
+#psp-projects #psp-discussion a {
+  color: #3299BB;
+}
+/* line 1551, sass/psp-frontend.scss */
+#psp-projects #psp-discussion ol.commentlist {
+  margin: 0 0 60px 0;
+  width: 50%;
+  float: left;
+  margin-right: 2%;
+}
+/* line 1557, sass/psp-frontend.scss */
+#psp-projects #psp-discussion ol.commentlist li.comment {
+  margin: 0 0 15px 0;
+  padding: 0 0 15px 0;
+  list-style: none;
+  position: relative;
+  clear: both;
+}
+/* line 1567, sass/psp-frontend.scss */
+#psp-projects #psp-discussion ol.commentlist li.comment.odd .comment-text, #psp-projects #psp-discussion ol.commentlist li.comment.odd.bypostauthor .comment-text {
+  background: #f6f6f6;
+  padding: 15px;
+  color: #333;
+}
+/* line 1572, sass/psp-frontend.scss */
+#psp-projects #psp-discussion ol.commentlist li.comment.odd .comment-text .reply a, #psp-projects #psp-discussion ol.commentlist li.comment.odd.bypostauthor .comment-text .reply a {
+  color: #000;
+}
+/* line 1576, sass/psp-frontend.scss */
+#psp-projects #psp-discussion ol.commentlist li.comment.odd .comment-text .comment-date, #psp-projects #psp-discussion ol.commentlist li.comment.odd.bypostauthor .comment-text .comment-date {
+  color: #777;
+}
+/* line 1582, sass/psp-frontend.scss */
+#psp-projects #psp-discussion ol.commentlist li.comment.odd .psp-bubble, #psp-projects #psp-discussion ol.commentlist li.comment.odd.bypostauthor .psp-bubble {
+  border-top: 20px solid #F1F2F7;
+  float: right;
+  margin: 0 35px 10px 0;
+}
+/* line 1588, sass/psp-frontend.scss */
+#psp-projects #psp-discussion ol.commentlist li.comment.odd .comment-author, #psp-projects #psp-discussion ol.commentlist li.comment.odd.bypostauthor .comment-author {
+  float: right;
+  padding: 0 20px 0 0;
+  clear: right;
+  line-height: 1.5em;
+}
+/* line 1598, sass/psp-frontend.scss */
+#psp-projects #psp-discussion ol.commentlist ul.children {
+  padding: 30px 0 30px 50px;
+  margin: 0;
+}
+/* line 1605, sass/psp-frontend.scss */
+#psp-projects #psp-discussion p.logged-in-as {
+  font-size: 12px;
+  color: #666;
+  margin-top: 0px;
+}
+/* line 1611, sass/psp-frontend.scss */
+#psp-projects #psp-discussion h2 {
+  color: #fff;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #425368;
+}
+/* line 1617, sass/psp-frontend.scss */
+#psp-projects #psp-discussion h2 span {
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.75);
+}
+/* line 1625, sass/psp-frontend.scss */
+#psp-projects #psp-discussion #respond {
+  width: 48%;
+  float: left;
+  background: #fff;
+  padding: 15px 2%;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+/* line 1634, sass/psp-frontend.scss */
+#psp-projects #psp-discussion .psp-bubble {
+  width: 0;
+  height: 0;
+  border-left: 0px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #f6f6f6;
+  display: block;
+  margin: 0 0 10px 50px;
+}
+/* line 1644, sass/psp-frontend.scss */
+#psp-projects #psp-discussion div.comment-author {
+  padding-left: 20px;
+  text-align: center;
+  width: 94px;
+  padding: 15px;
+}
+/* line 1650, sass/psp-frontend.scss */
+#psp-projects #psp-discussion div.comment-author img {
+  border-radius: 100%;
+}
+/* line 1654, sass/psp-frontend.scss */
+#psp-projects #psp-discussion div.comment-author cite {
+  font-weight: bold;
+  font-style: normal;
+  display: block;
+  clear: both;
+  color: #fff;
+  text-align: center;
+}
+/* line 1664, sass/psp-frontend.scss */
+#psp-projects #psp-discussion .comment-text {
+  background: #f6f6f6;
+  padding: 15px;
+}
+/* line 1668, sass/psp-frontend.scss */
+#psp-projects #psp-discussion .comment-text p {
+  margin: 0 0 8px 0;
+}
+/* line 1674, sass/psp-frontend.scss */
+#psp-projects #psp-discussion .comment-date {
+  font-size: 11px;
+  color: #666;
+  padding: 15px 0 0 0;
+}
+/* line 1682, sass/psp-frontend.scss */
+#psp-projects #psp-discussion li.bypostauthor .comment-text {
+  background: #A5B62C;
+  color: #fff;
+}
+/* line 1687, sass/psp-frontend.scss */
+#psp-projects #psp-discussion li.bypostauthor .psp-bubble {
+  border-top: 20px solid #a5b62c;
+}
+/* line 1691, sass/psp-frontend.scss */
+#psp-projects #psp-discussion li.bypostauthor a {
+  color: #fff !important;
+}
+/* line 1695, sass/psp-frontend.scss */
+#psp-projects #psp-discussion li.bypostauthor .comment-date {
+  color: #eee;
+}
+/* line 1701, sass/psp-frontend.scss */
+#psp-projects #psp-discussion .comment-awaiting-moderation {
+  color: #666;
+  padding: 0 0 12px 0;
+}
+/* line 1707, sass/psp-frontend.scss */
+#psp-projects #psp-discussion #commentform input,
+#psp-projects #psp-discussion #commentform textarea {
+  font-weight: bold;
+  display: block;
+  margin: 8px 0 0 0;
+}
+/* line 1715, sass/psp-frontend.scss */
+#psp-projects #psp-discussion p.form-allowed-tags {
+  background: #f3f3f3;
+  padding: 15px;
+  color: #444;
+  font-size: 12px;
+}
+/* line 1727, sass/psp-frontend.scss */
+#psp-projects.psp-shortcode,
+#psp-projects .psp-shortcode {
+  margin: 30px 0;
+}
+/* line 1732, sass/psp-frontend.scss */
+#psp-projects.psp-shortcode #psp-quick-overview,
+#psp-projects.psp-shortcode #psp-documents,
+#psp-projects.psp-shortcode #psp-description,
+#psp-projects.psp-shortcode #psp-description-documents,
+#psp-projects .psp-shortcode #psp-quick-overview,
+#psp-projects .psp-shortcode #psp-documents,
+#psp-projects .psp-shortcode #psp-description,
+#psp-projects .psp-shortcode #psp-description-documents {
+  width: 100%;
+  float: none;
+  margin: 20px 0;
+  min-height: auto;
+}
+/* line 1742, sass/psp-frontend.scss */
+#psp-projects.psp-shortcode .psp-overview-box,
+#psp-projects .psp-shortcode .psp-overview-box {
+  box-shadow: none;
+}
+/* line 1746, sass/psp-frontend.scss */
+#psp-projects.psp-shortcode .psp-overview-box h4,
+#psp-projects .psp-shortcode .psp-overview-box h4 {
+  margin: 0 0 20px 0;
+  border: 0px;
+  padding: 0px;
+}
+/* line 1754, sass/psp-frontend.scss */
+#psp-projects.psp-shortcode .psp-icon,
+#psp-projects .psp-shortcode .psp-icon {
+  background: #f9f9f9;
+}
+/* line 1758, sass/psp-frontend.scss */
+#psp-projects.psp-shortcode p.psp-progress,
+#psp-projects.psp-shortcode .psp-progress,
+#psp-projects .psp-shortcode p.psp-progress,
+#psp-projects .psp-shortcode .psp-progress {
+  background: #f3f3f3;
+}
+/* line 1763, sass/psp-frontend.scss */
+#psp-projects.psp-shortcode table.progress-table,
+#psp-projects.psp-shortcode .progress-table.psp-shortcode,
+#psp-projects .psp-shortcode table.progress-table,
+#psp-projects .psp-shortcode .progress-table.psp-shortcode {
+  display: block;
+  margin-top: 30px;
+}
+/* line 1769, sass/psp-frontend.scss */
+#psp-projects.psp-shortcode .psp-overview-box,
+#psp-projects .psp-shortcode .psp-overview-box {
+  background: #fafafa;
+  border: 1px solid #f1f1f1;
+}
+/* line 1774, sass/psp-frontend.scss */
+#psp-projects.psp-shortcode .psp-phase,
+#psp-projects .psp-shortcode .psp-phase {
+  display: block;
+  clear: both;
+  width: auto;
+  padding: 20px;
+  margin: 20px 0 0 0;
+}
+/* line 1782, sass/psp-frontend.scss */
+#psp-projects.psp-shortcode .psp-task-list li span,
+#psp-projects .psp-shortcode .psp-task-list li span {
+  background: #f3f3f3;
+}
+/* line 1786, sass/psp-frontend.scss */
+#psp-projects.psp-shortcode #psp-login,
+#psp-projects .psp-shortcode #psp-login {
+  background: #fafafa;
+  border: 1px solid #f1f1f1;
+}
+/* line 1797, sass/psp-frontend.scss */
+#psp-projects .psp-equal-column-container {
+  overflow: hidden;
+}
+/* line 1801, sass/psp-frontend.scss */
+#psp-projects .psp-archive-section {
+  padding: 20px 0;
+}
+/* line 1806, sass/psp-frontend.scss */
+#psp-projects.psp-dashboard-page #psp-archive-menu,
+#psp-projects.psp-dashboard-page #psp-archive-content {
+  margin-bottom: -999999px;
+  padding-bottom: 999999px;
+}
+/* line 1813, sass/psp-frontend.scss */
+#psp-projects .psp-full-height {
+  height: 100%;
+}
+/* line 1817, sass/psp-frontend.scss */
+#psp-projects #psp-archive-content {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 60px;
+}
+/* line 1823, sass/psp-frontend.scss */
+#psp-projects .psp-task-project-wrapper {
+  background: #fff;
+  padding: 20px;
+}
+/* line 1828, sass/psp-frontend.scss */
+#psp-projects .psp-task-project {
+  margin-bottom: 30px;
+}
+/* line 1834, sass/psp-frontend.scss */
+#psp-projects .psp-project-tiles {
+  list-style: none;
+  margin: 30px 0;
+  padding: 0;
+}
+/* line 1841, sass/psp-frontend.scss */
+#psp-projects .psp-project-tiles li div {
+  background: #3299cb;
+  color: #fff;
+  position: relative;
+  padding: 13px 115px 20px 20px;
+  height: 80px;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+/* line 1850, sass/psp-frontend.scss */
+#psp-projects .psp-project-tiles li div span {
+  display: block;
+  background: rgba(0, 0, 0, 0.1);
+  width: 95px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 80px;
+}
+/* line 1865, sass/psp-frontend.scss */
+#psp-projects .psp-project-tiles li:nth-child(2) div {
+  background: #4ecdc4;
+}
+/* line 1869, sass/psp-frontend.scss */
+#psp-projects .psp-project-tiles li:nth-child(3) div {
+  background: #cbe86b;
+}
+/* line 1873, sass/psp-frontend.scss */
+#psp-projects .psp-project-tiles li:nth-child(4) div {
+  background: #c44d58;
+}
+/* line 1877, sass/psp-frontend.scss */
+#psp-projects .psp-project-tiles li strong {
+  display: block;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.8);
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+/* line 1891, sass/psp-frontend.scss */
+#psp-projects .psp-archive-list {
+  width: 100%;
+  border-collapse: collapse;
+}
+/* line 1895, sass/psp-frontend.scss */
+#psp-projects .psp-archive-list th {
+  background: #2a3542;
+  color: #fff;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+/* line 1906, sass/psp-frontend.scss */
+#psp-projects .psp-archive-list-item {
+  background: #fff;
+  margin-bottom: 1px;
+}
+/* line 1911, sass/psp-frontend.scss */
+#psp-projects .psp-ali-progress {
+  padding: 20px;
+}
+/* line 1915, sass/psp-frontend.scss */
+#psp-projects .psp-ali-header {
+  width: 20%;
+  background: #4ecdc4;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+/* line 1921, sass/psp-frontend.scss */
+#psp-projects .psp-ali-progress {
+  border-bottom: 1px solid #efefef;
+  width: 40%;
+  border-right: 1px solid #f9f9f9;
+  background: #fff;
+}
+/* line 1928, sass/psp-frontend.scss */
+#psp-projects .psp-archive-list tr:nth-child(even) .psp-ali-progress {
+  background: #f9f9f9;
+}
+/* line 1932, sass/psp-frontend.scss */
+#psp-projects .psp-archive-list tr:nth-child(even) .psp-ali-header {
+  background: #49c8bf;
+}
+/* line 1936, sass/psp-frontend.scss */
+#psp-projects .psp-archive-list tr:nth-child(even) .psp-ali-header:hover {
+  background: #5fded5;
+}
+/* line 1940, sass/psp-frontend.scss */
+#psp-projects .psp-ali-header a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal;
+  display: block;
+  padding: 20px;
+}
+/* line 1948, sass/psp-frontend.scss */
+#psp-projects .psp-ali-header a:hover {
+  color: #fff;
+}
+/* line 1952, sass/psp-frontend.scss */
+#psp-projects .psp-ali-header:hover {
+  background: #5fded5;
+}
+/* line 1956, sass/psp-frontend.scss */
+#psp-projects span.psp-ali-client {
+  display: block;
+  opacity: 0.8;
+  font-size: 12px;
+  font-weight: bold;
+}
+/* line 1963, sass/psp-frontend.scss */
+#psp-projects span.psp-ali-title {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+/* line 1969, sass/psp-frontend.scss */
+#psp-projects span.psp-ali-dates {
+  font-size: 12px;
+  opacity: 0.8;
+}
+/* line 1974, sass/psp-frontend.scss */
+#psp-projects span.psp-ali-dates b {
+  padding: 0 5px;
+  opacity: 0.5;
+}
+/* line 1979, sass/psp-frontend.scss */
+#psp-projects .psp-ali-progress .psp-timebar {
+  float: none;
+  width: auto;
+  padding-top: 0px;
+  padding-bottom: 24px;
+}
+/* line 1986, sass/psp-frontend.scss */
+#psp-projects .psp-pager {
+  margin-top: 10px;
+}
+/* line 1990, sass/psp-frontend.scss */
+#psp-projects .psp-page-number {
+  display: inline-block;
+  padding: 5px 8px;
+  margin-right: 5px;
+  border-radius: 3px;
+  background: #ddd;
+  color: #333;
+  font-size: 12px;
+  cursor: pointer;
+  line-height: 1em;
+}
+/* line 2002, sass/psp-frontend.scss */
+#psp-projects .psp-page-number.active {
+  background: #3299bb;
+  color: #fff;
+}
+/* line 2009, sass/psp-frontend.scss */
+#psp-projects .psp-task-project h2.psp-project-title {
+  margin: -20px -20px 0px -20px;
+}
+/* line 2013, sass/psp-frontend.scss */
+#psp-projects .psp-task-project h2.psp-project-title a {
+  padding: 15px 20px 15px 20px;
+  color: #f1f1f1;
+  font-size: 18px;
+  text-decoration: none;
+  background: #2a3542;
+  display: block;
+  line-height: 1.25em;
+}
+/* line 2023, sass/psp-frontend.scss */
+#psp-projects .psp-task-project h2.psp-project-title strong {
+  font-size: 12px;
+  font-weight: bold;
+  color: #ddd;
+  display: block;
+}
+/* line 2030, sass/psp-frontend.scss */
+#psp-projects .psp-task-project h2 a:hover {
+  color: #fff;
+  background: #3b4553;
+}
+/* line 2036, sass/psp-frontend.scss */
+#psp-projects .psp-task-project ul,
+#psp-projects .psp-task-project li {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+/* line 2043, sass/psp-frontend.scss */
+#psp-projects .psp-task-project li {
+  padding-top: 8px;
+  padding-left: 0;
+  margin-left: 0;
+}
+/* line 2049, sass/psp-frontend.scss */
+#psp-projects .psp-task-project h3 {
+  margin: 30px 0 0;
+}
+/* line 2053, sass/psp-frontend.scss */
+#psp-projects .psp-task-content {
+  display: none;
+}
+/* line 2057, sass/psp-frontend.scss */
+#psp-projects .psp-tpt-content,
+#psp-projects .psp-tpt-content ul.psp-task-list {
+  display: block;
+}
+/* line 2062, sass/psp-frontend.scss */
+#psp-projects .psp-tpd-content {
+  padding: 20px;
+  border-bottom: 1px solid #efefef;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+/* line 2069, sass/psp-frontend.scss */
+#psp-projects .psp-tpd-content .psp-timebar {
+  float: none;
+  width: auto;
+  padding-bottom: 50px;
+}
+/* line 2075, sass/psp-frontend.scss */
+#psp-projects .psp-task-project h4 {
+  margin: 0 -20px;
+  padding: 0 20px;
+  border-bottom: 1px solid #efefef;
+}
+/* line 2081, sass/psp-frontend.scss */
+#psp-projects .psp-task-project h4.psp-open {
+  border-bottom: 0px;
+}
+/* line 2085, sass/psp-frontend.scss */
+#psp-projects .psp-task-toggle {
+  background: transparent url("../images/down-arrow.png") no-repeat scroll right center;
+  color: #333;
+  display: block;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 38px 0 0px;
+  text-decoration: none;
+  font-size: 16px;
+}
+/* line 2096, sass/psp-frontend.scss */
+#psp-projects .psp-task-toggle-closed {
+  background: url("../images/up-arrow.png") no-repeat right center;
+}
+/* line 2100, sass/psp-frontend.scss */
+#psp-projects .psp-element-tally {
+  text-align: center;
+  padding-top: 20px !important;
+  border-right: 1px solid #f1f1f1;
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+}
+/* line 2108, sass/psp-frontend.scss */
+#psp-projects .psp-element-tally:last-child {
+  border-right: 0px;
+}
+/* line 2112, sass/psp-frontend.scss */
+#psp-projects .psp-element-tally strong {
+  font-size: 24px;
+}
+/* line 2116, sass/psp-frontend.scss */
+#psp-projects .psp-element-tally span {
+  display: block;
+  text-align: center;
+  font-size: 11px;
+  color: #777;
+  text-transform: uppercase;
+}
+/* line 2124, sass/psp-frontend.scss */
+#psp-projects .psp-btn-bar {
+  display: block;
+  background: #2a3542;
+  color: #eee !important;
+  padding: 10px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin: 20px -20px -30px -20px;
+  font-weight: bold;
+}
+/* line 2136, sass/psp-frontend.scss */
+#psp-projects .psp-btn-bar:hover {
+  color: #fff;
+  background: #3b4653;
+}
+/* line 2143, sass/psp-frontend.scss */
+#psp-projects #psp-archive-menu {
+  position: relative;
+  background: #2a3542;
+  top: 0;
+  bottom: 0;
+  color: #fff;
+}
+/* line 2151, sass/psp-frontend.scss */
+#psp-projects .psp-archive-user {
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  margin-bottom: 40px;
+}
+/* line 2159, sass/psp-frontend.scss */
+#psp-projects .psp-archive-user img {
+  border-radius: 100%;
+  border: 10px solid rgba(255, 255, 255, 0.15);
+}
+/* line 2164, sass/psp-frontend.scss */
+#psp-projects .psp-archive-user p {
+  font-size: 18px;
+  margin-top: 5px;
+}
+/* line 2169, sass/psp-frontend.scss */
+#psp-projects .psp-project-list {
+  list-style: none;
+  margin: 0 0 30px 0;
+  padding: 0;
+}
+/* line 2175, sass/psp-frontend.scss */
+#psp-projects .psp-project-list li a {
+  color: #fff;
+  display: block;
+  padding: 5px 0;
+}
+/* line 2181, sass/psp-frontend.scss */
+#psp-projects .psp-project-list li a:hover {
+  color: #f9f9f9;
+}
+/* line 2187, sass/psp-frontend.scss */
+#psp-projects .form-submit input[type=submit],
+#psp-projects .document-update-dialog input[type=submit],
+#psp-projects .pano-btn {
+  border: 0 none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 7px 20px;
+  margin-right: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  background: #2a3542;
+  color: #fff !important;
+}
+/* line 2203, sass/psp-frontend.scss */
+#psp-projects .psp-logout-btn {
+  color: #2a3542 !important;
+  background: #fff;
+}
+/* line 2208, sass/psp-frontend.scss */
+#psp-projects #psp-project textarea#comment {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 2px;
+  width: 100%;
+}
+/* line 2217, sass/psp-frontend.scss */
+#psp-projects .psp-pull-right {
+  float: right;
+}
+/* line 2221, sass/psp-frontend.scss */
+#psp-projects .psp-pull-left {
+  float: left;
+}
+/* line 2225, sass/psp-frontend.scss */
+#psp-projects .psp-hide {
+  display: none;
+}
+/* line 2229, sass/psp-frontend.scss */
+#psp-projects .psp-pl-10 {
+  padding-left: 10px;
+}
+/* line 2233, sass/psp-frontend.scss */
+#psp-projects #lean_overlay {
+  position: fixed;
+  z-index: 100;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  display: none;
+}
+/* line 2246, sass/psp-frontend.scss */
+#psp-projects .psp-part-project,
+#psp-projects .psp-single-project,
+#psp-projects .single-project-phases {
+  margin: 15px 0;
+  padding: 15px 0;
+  clear: both;
+}
+/* line 2254, sass/psp-frontend.scss */
+#psp-projects .psp_project_list {
+  width: 100%;
+  background: #fdfdfd;
+  border: 1px solid #efefef;
+  padding: 5px;
+  border-collapse: collapse;
+  margin: 30px 0;
+}
+/* line 2263, sass/psp-frontend.scss */
+#psp-projects .psp_project_list th {
+  background: #2a3542;
+  color: #ddd !important;
+  text-align: left;
+  padding: 10px;
+  font-size: 115%;
+  font-weight: normal;
+}
+/* line 2272, sass/psp-frontend.scss */
+#psp-projects .psp_project_list td {
+  padding: 10px !important;
+  vertical-align: middle;
+  border: 0px !important;
+}
+/* line 2277, sass/psp-frontend.scss */
+#psp-projects .psp_project_list td a {
+  font-weight: bold;
+  color: #2a3542;
+  font-size: 125%;
+}
+/* line 2287, sass/psp-frontend.scss */
+#psp-projects .psp_project_list tr:nth-child(odd) td {
+  background: #f9f9f9;
+}
+/* line 2290, sass/psp-frontend.scss */
+#psp-projects .psp_project_list tr:nth-child(odd) td p.psp-progress {
+  background: #fff !important;
+}
+/* line 2296, sass/psp-frontend.scss */
+#psp-projects .psp_project_list tr p.psp-progress {
+  margin: 0 !important;
+  background: #f6f6f6 !important;
+}
+/* line 2305, sass/psp-frontend.scss */
+#psp-projects .psp_pl_col1 {
+  width: 30%;
+}
+/* line 2309, sass/psp-frontend.scss */
+#psp-projects .psp_pl_col2 {
+  width: 50%;
+}
+/* line 2315, sass/psp-frontend.scss */
+#psp-projects .psp-dashboard-widget {
+  padding: 20px;
+  background: #f3f3f3;
+}
+/* line 2319, sass/psp-frontend.scss */
+#psp-projects .psp-dashboard-widget hr {
+  clear: both;
+  border-bottom: 1px solid #ddd;
+  display: block;
+  padding: 20px 0;
+  background: transparent;
+}
+/* line 2327, sass/psp-frontend.scss */
+#psp-projects .psp-dashboard-widget .psp-dashboard-widget-table {
+  width: 100%;
+  border: 0px;
+  margin: 10px 0 30px 0;
+  border-collapse: collapse;
+}
+/* line 2333, sass/psp-frontend.scss */
+#psp-projects .psp-dashboard-widget .psp-dashboard-widget-table th {
+  background: #2A3542;
+  color: #ddd;
+  text-transform: uppercase;
+  text-align: left;
+  border: 0px;
+  padding: 5px;
+}
+/* line 2342, sass/psp-frontend.scss */
+#psp-projects .psp-dashboard-widget .psp-dashboard-widget-table tr {
+  background: #f9f9f9;
+}
+/* line 2346, sass/psp-frontend.scss */
+#psp-projects .psp-dashboard-widget .psp-dashboard-widget-table tr:nth-child(odd) {
+  background: #fcfcfc !important;
+}
+/* line 2350, sass/psp-frontend.scss */
+#psp-projects .psp-dashboard-widget .psp-dashboard-widget-table td {
+  padding: 5px;
+}
+/* line 2354, sass/psp-frontend.scss */
+#psp-projects .psp-dashboard-widget .psp-dashboard-widget-table p.psp-progress {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/* line 2359, sass/psp-frontend.scss */
+#psp-projects .psp-dashboard-widget .psp-dashboard-widget-table p.psp-progress strong {
+  color: #fff;
+  padding: 0 5px 0 0;
+}
+/* line 2368, sass/psp-frontend.scss */
+#psp-projects .psp-dashboard-widget .psp-projects-overview {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 2373, sass/psp-frontend.scss */
+#psp-projects .psp-dashboard-widget .psp-projects-overview li {
+  width: 25%;
+  padding: 5px 1.5%;
+  float: left;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 2382, sass/psp-frontend.scss */
+#psp-projects .psp-dashboard-widget .psp-projects-overview span {
+  display: block;
+  font-size: 64px;
+  line-height: 1em;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+/* line 2391, sass/psp-frontend.scss */
+#psp-projects .psp-dashboard-widget .psp-projects-overview strong {
+  padding: 4px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  color: #777;
+}
+/* line 2400, sass/psp-frontend.scss */
+#psp-projects .psp-dashboard-widget .psp-projects-overview .psp-dw-active {
+  color: #FF6B6B !important;
+}
+/* line 2408, sass/psp-frontend.scss */
+#psp-projects .psp-dashboard-widget #psp_dashboard_overview h4 {
+  text-align: center;
+  margin: 30px 0;
+  text-transform: uppercase;
+  color: #999;
+}
+/* line 2415, sass/psp-frontend.scss */
+#psp-projects .psp-dashboard-widget #psp_dashboard_overview hr {
+  border: 1px solid #efefef;
+  height: 1px;
+  display: block;
+  clear: both;
+}
+
+/* =============== */
+/* = Percetenages = */
+/* =============== */
+/* line 2433, sass/psp-frontend.scss */
+.psp-0 {
+  width: 0%;
+}
+
+/* line 2434, sass/psp-frontend.scss */
+.psp-1 {
+  width: 1%;
+}
+
+/* line 2435, sass/psp-frontend.scss */
+.psp-2 {
+  width: 2%;
+}
+
+/* line 2436, sass/psp-frontend.scss */
+.psp-3 {
+  width: 3%;
+}
+
+/* line 2437, sass/psp-frontend.scss */
+.psp-4 {
+  width: 4%;
+}
+
+/* line 2438, sass/psp-frontend.scss */
+.psp-5 {
+  width: 5%;
+}
+
+/* line 2439, sass/psp-frontend.scss */
+.psp-6 {
+  width: 6%;
+}
+
+/* line 2440, sass/psp-frontend.scss */
+.psp-7 {
+  width: 7%;
+}
+
+/* line 2441, sass/psp-frontend.scss */
+.psp-8 {
+  width: 8%;
+}
+
+/* line 2442, sass/psp-frontend.scss */
+.psp-9 {
+  width: 9%;
+}
+
+/* line 2443, sass/psp-frontend.scss */
+.psp-10 {
+  width: 10%;
+}
+
+/* line 2444, sass/psp-frontend.scss */
+.psp-11 {
+  width: 11%;
+}
+
+/* line 2445, sass/psp-frontend.scss */
+.psp-12 {
+  width: 12%;
+}
+
+/* line 2446, sass/psp-frontend.scss */
+.psp-13 {
+  width: 13%;
+}
+
+/* line 2447, sass/psp-frontend.scss */
+.psp-14 {
+  width: 14%;
+}
+
+/* line 2448, sass/psp-frontend.scss */
+.psp-15 {
+  width: 15%;
+}
+
+/* line 2449, sass/psp-frontend.scss */
+.psp-16 {
+  width: 16%;
+}
+
+/* line 2450, sass/psp-frontend.scss */
+.psp-17 {
+  width: 17%;
+}
+
+/* line 2451, sass/psp-frontend.scss */
+.psp-18 {
+  width: 18%;
+}
+
+/* line 2452, sass/psp-frontend.scss */
+.psp-19 {
+  width: 19%;
+}
+
+/* line 2453, sass/psp-frontend.scss */
+.psp-20 {
+  width: 20%;
+}
+
+/* line 2454, sass/psp-frontend.scss */
+.psp-21 {
+  width: 21%;
+}
+
+/* line 2455, sass/psp-frontend.scss */
+.psp-22 {
+  width: 22%;
+}
+
+/* line 2456, sass/psp-frontend.scss */
+.psp-23 {
+  width: 23%;
+}
+
+/* line 2457, sass/psp-frontend.scss */
+.psp-24 {
+  width: 24%;
+}
+
+/* line 2458, sass/psp-frontend.scss */
+.psp-25 {
+  width: 25%;
+}
+
+/* line 2459, sass/psp-frontend.scss */
+.psp-26 {
+  width: 26%;
+}
+
+/* line 2460, sass/psp-frontend.scss */
+.psp-27 {
+  width: 27%;
+}
+
+/* line 2461, sass/psp-frontend.scss */
+.psp-28 {
+  width: 28%;
+}
+
+/* line 2462, sass/psp-frontend.scss */
+.psp-29 {
+  width: 29%;
+}
+
+/* line 2463, sass/psp-frontend.scss */
+.psp-30 {
+  width: 30%;
+}
+
+/* line 2464, sass/psp-frontend.scss */
+.psp-31 {
+  width: 31%;
+}
+
+/* line 2465, sass/psp-frontend.scss */
+.psp-32 {
+  width: 32%;
+}
+
+/* line 2466, sass/psp-frontend.scss */
+.psp-33 {
+  width: 33%;
+}
+
+/* line 2467, sass/psp-frontend.scss */
+.psp-34 {
+  width: 34%;
+}
+
+/* line 2468, sass/psp-frontend.scss */
+.psp-35 {
+  width: 35%;
+}
+
+/* line 2469, sass/psp-frontend.scss */
+.psp-36 {
+  width: 36%;
+}
+
+/* line 2470, sass/psp-frontend.scss */
+.psp-37 {
+  width: 37%;
+}
+
+/* line 2471, sass/psp-frontend.scss */
+.psp-38 {
+  width: 38%;
+}
+
+/* line 2472, sass/psp-frontend.scss */
+.psp-39 {
+  width: 39%;
+}
+
+/* line 2473, sass/psp-frontend.scss */
+.psp-40 {
+  width: 40%;
+}
+
+/* line 2474, sass/psp-frontend.scss */
+.psp-41 {
+  width: 41%;
+}
+
+/* line 2475, sass/psp-frontend.scss */
+.psp-42 {
+  width: 42%;
+}
+
+/* line 2476, sass/psp-frontend.scss */
+.psp-43 {
+  width: 43%;
+}
+
+/* line 2477, sass/psp-frontend.scss */
+.psp-44 {
+  width: 44%;
+}
+
+/* line 2478, sass/psp-frontend.scss */
+.psp-45 {
+  width: 45%;
+}
+
+/* line 2479, sass/psp-frontend.scss */
+.psp-46 {
+  width: 46%;
+}
+
+/* line 2480, sass/psp-frontend.scss */
+.psp-47 {
+  width: 47%;
+}
+
+/* line 2481, sass/psp-frontend.scss */
+.psp-48 {
+  width: 48%;
+}
+
+/* line 2482, sass/psp-frontend.scss */
+.psp-49 {
+  width: 49%;
+}
+
+/* line 2483, sass/psp-frontend.scss */
+.psp-50 {
+  width: 50%;
+}
+
+/* line 2484, sass/psp-frontend.scss */
+.psp-51 {
+  width: 51%;
+}
+
+/* line 2485, sass/psp-frontend.scss */
+.psp-52 {
+  width: 52%;
+}
+
+/* line 2486, sass/psp-frontend.scss */
+.psp-53 {
+  width: 53%;
+}
+
+/* line 2487, sass/psp-frontend.scss */
+.psp-54 {
+  width: 54%;
+}
+
+/* line 2488, sass/psp-frontend.scss */
+.psp-55 {
+  width: 55%;
+}
+
+/* line 2489, sass/psp-frontend.scss */
+.psp-56 {
+  width: 56%;
+}
+
+/* line 2490, sass/psp-frontend.scss */
+.psp-57 {
+  width: 57%;
+}
+
+/* line 2491, sass/psp-frontend.scss */
+.psp-58 {
+  width: 58%;
+}
+
+/* line 2492, sass/psp-frontend.scss */
+.psp-59 {
+  width: 59%;
+}
+
+/* line 2493, sass/psp-frontend.scss */
+.psp-60 {
+  width: 60%;
+}
+
+/* line 2494, sass/psp-frontend.scss */
+.psp-61 {
+  width: 61%;
+}
+
+/* line 2495, sass/psp-frontend.scss */
+.psp-62 {
+  width: 62%;
+}
+
+/* line 2496, sass/psp-frontend.scss */
+.psp-63 {
+  width: 63%;
+}
+
+/* line 2497, sass/psp-frontend.scss */
+.psp-64 {
+  width: 64%;
+}
+
+/* line 2498, sass/psp-frontend.scss */
+.psp-65 {
+  width: 65%;
+}
+
+/* line 2499, sass/psp-frontend.scss */
+.psp-66 {
+  width: 66%;
+}
+
+/* line 2500, sass/psp-frontend.scss */
+.psp-67 {
+  width: 67%;
+}
+
+/* line 2501, sass/psp-frontend.scss */
+.psp-68 {
+  width: 68%;
+}
+
+/* line 2502, sass/psp-frontend.scss */
+.psp-69 {
+  width: 69%;
+}
+
+/* line 2503, sass/psp-frontend.scss */
+.psp-70 {
+  width: 70%;
+}
+
+/* line 2504, sass/psp-frontend.scss */
+.psp-71 {
+  width: 71%;
+}
+
+/* line 2505, sass/psp-frontend.scss */
+.psp-72 {
+  width: 72%;
+}
+
+/* line 2506, sass/psp-frontend.scss */
+.psp-73 {
+  width: 73%;
+}
+
+/* line 2507, sass/psp-frontend.scss */
+.psp-74 {
+  width: 74%;
+}
+
+/* line 2508, sass/psp-frontend.scss */
+.psp-75 {
+  width: 75%;
+}
+
+/* line 2509, sass/psp-frontend.scss */
+.psp-76 {
+  width: 76%;
+}
+
+/* line 2510, sass/psp-frontend.scss */
+.psp-77 {
+  width: 77%;
+}
+
+/* line 2511, sass/psp-frontend.scss */
+.psp-78 {
+  width: 78%;
+}
+
+/* line 2512, sass/psp-frontend.scss */
+.psp-79 {
+  width: 79%;
+}
+
+/* line 2513, sass/psp-frontend.scss */
+.psp-80 {
+  width: 80%;
+}
+
+/* line 2514, sass/psp-frontend.scss */
+.psp-81 {
+  width: 81%;
+}
+
+/* line 2515, sass/psp-frontend.scss */
+.psp-82 {
+  width: 82%;
+}
+
+/* line 2516, sass/psp-frontend.scss */
+.psp-83 {
+  width: 83%;
+}
+
+/* line 2517, sass/psp-frontend.scss */
+.psp-84 {
+  width: 84%;
+}
+
+/* line 2518, sass/psp-frontend.scss */
+.psp-85 {
+  width: 85%;
+}
+
+/* line 2519, sass/psp-frontend.scss */
+.psp-86 {
+  width: 86%;
+}
+
+/* line 2520, sass/psp-frontend.scss */
+.psp-87 {
+  width: 87%;
+}
+
+/* line 2521, sass/psp-frontend.scss */
+.psp-88 {
+  width: 88%;
+}
+
+/* line 2522, sass/psp-frontend.scss */
+.psp-89 {
+  width: 89%;
+}
+
+/* line 2523, sass/psp-frontend.scss */
+.psp-90 {
+  width: 90%;
+}
+
+/* line 2524, sass/psp-frontend.scss */
+.psp-91 {
+  width: 91%;
+}
+
+/* line 2525, sass/psp-frontend.scss */
+.psp-92 {
+  width: 92%;
+}
+
+/* line 2526, sass/psp-frontend.scss */
+.psp-93 {
+  width: 93%;
+}
+
+/* line 2527, sass/psp-frontend.scss */
+.psp-94 {
+  width: 94%;
+}
+
+/* line 2528, sass/psp-frontend.scss */
+.psp-95 {
+  width: 95%;
+}
+
+/* line 2529, sass/psp-frontend.scss */
+.psp-96 {
+  width: 96%;
+}
+
+/* line 2530, sass/psp-frontend.scss */
+.psp-97 {
+  width: 97%;
+}
+
+/* line 2531, sass/psp-frontend.scss */
+.psp-98 {
+  width: 98%;
+}
+
+/* line 2532, sass/psp-frontend.scss */
+.psp-99 {
+  width: 99%;
+}
+
+/* line 2533, sass/psp-frontend.scss */
+.psp-100 {
+  width: 100%;
+}
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+/* line 2543, sass/psp-frontend.scss */
+.psp-section:after,
+.cf:before,
+.cf:after,
+li.comment:before,
+li.comment:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 2551, sass/psp-frontend.scss */
+.cf:after,
+li.comment:after {
+  clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+/* line 2557, sass/psp-frontend.scss */
+.cf,
+li.comment {
+  *zoom: 1;
+}
+
+/*
+
+@media only screen and (max-width: 1680px) {
+
+    .wrapper {
+        width: 1500px !important;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
+
+@media only screen and (max-width: 1520px) {
+
+    .wrapper {
+        width: 1280px !important;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
+
+*/
+@media only screen and (max-width: 1685px) {
+  /* line 2588, sass/psp-frontend.scss */
+  #psp-projects #psp-essentials,
+  #psp-projects #psp-discussion,
+  #psp-projects #psp-phases {
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  /* line 2597, sass/psp-frontend.scss */
+  #psp-projects #psp-essentials.psp-shortcode,
+  #psp-projects #psp-discussion.psp-shortcode,
+  #psp-projects #psp-phases.psp-shortcode {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media only screen and (max-width: 1240px) {
+  /* line 2612, sass/psp-frontend.scss */
+  #psp-projects #psp-essentials .psp-timing li {
+    font-size: 12px;
+  }
+  /* line 2616, sass/psp-frontend.scss */
+  #psp-projects .psp-timing .cal {
+    width: 30px;
+  }
+  /* line 2620, sass/psp-frontend.scss */
+  #psp-projects .psp-date .cal .month {
+    font-size: 12px;
+  }
+  /* line 2624, sass/psp-frontend.scss */
+  #psp-projects .psp-timing .cal .day {
+    font-size: 18px;
+    padding: 8px 0;
+  }
+  /* line 2629, sass/psp-frontend.scss */
+  #psp-projects .psp-timing .cal .month {
+    line-height: 1.25em;
+    padding: 2px 0;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  /* line 2642, sass/psp-frontend.scss */
+  #psp-projects #psp-essentials {
+    padding: 0;
+    width: 100%;
+  }
+  /* line 2647, sass/psp-frontend.scss */
+  #psp-projects .wrapper {
+    width: 940px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 2653, sass/psp-frontend.scss */
+  #psp-projects .psp-phase {
+    width: 48%;
+  }
+  /* line 2657, sass/psp-frontend.scss */
+  #psp-projects .psp-icon {
+    display: none;
+  }
+  /* line 2661, sass/psp-frontend.scss */
+  #psp-projects .psp-documents-row li p.psp-doc-title {
+    padding-left: 0px;
+  }
+  /* line 2665, sass/psp-frontend.scss */
+  #psp-projects .psp-timing {
+    float: none;
+    width: 100%;
+  }
+  /* line 2670, sass/psp-frontend.scss */
+  #psp-projects .psp-timing li {
+    width: 48%;
+    margin-right: 2%;
+  }
+  /* line 2675, sass/psp-frontend.scss */
+  #psp-projects .psp-timing .cal {
+    width: 50%;
+    margin: 0 auto;
+  }
+  /* line 2680, sass/psp-frontend.scss */
+  #psp-projects .psp-timebar {
+    width: 100%;
+    float: none;
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  /* line 2693, sass/psp-frontend.scss */
+  #psp-projects .psp-project-tiles li {
+    margin-bottom: 30px;
+  }
+  /* line 2697, sass/psp-frontend.scss */
+  #psp-projects #psp-archive-content,
+  #psp-projects #psp-archive-menu {
+    float: none;
+  }
+}
+@media only screen and (max-width: 960px) {
+  /* line 2709, sass/psp-frontend.scss */
+  #psp-projects .wrapper {
+    width: 768px !important;
+  }
+  /* line 2711, sass/psp-frontend.scss */
+  #psp-projects ul.psp-milestones li p,
+  #psp-projects ul.psp-milestones li h4 {
+    padding: 0;
+    display: none;
+  }
+  /* line 2716, sass/psp-frontend.scss */
+  #psp-projects .progress-table,
+  #psp-projects .milestone-options-full {
+    display: block !important;
+  }
+  /* line 2718, sass/psp-frontend.scss */
+  #psp-projects p.psp-progress {
+    margin-bottom: 30px;
+  }
+  /* line 2720, sass/psp-frontend.scss */
+  #psp-projects .psp-phase {
+    width: 94%;
+  }
+}
+@media only screen and (max-width: 780px) {
+  /* line 2729, sass/psp-frontend.scss */
+  #psp-projects .wrapper,
+  #psp-projects .wrapper {
+    width: 600px !important;
+  }
+  /* line 2732, sass/psp-frontend.scss */
+  #psp-projects ul.psp-milestones {
+    display: none;
+  }
+  /* line 2734, sass/psp-frontend.scss */
+  #psp-projects .psp-single-project .psp-phase {
+    display: block;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  /* line 2742, sass/psp-frontend.scss */
+  #psp-projects .psp-row {
+    display: block;
+  }
+  /* line 2744, sass/psp-frontend.scss */
+  #psp-projects #psp-essentials #psp-description {
+    width: 96%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 2751, sass/psp-frontend.scss */
+  #psp-projects #psp-essentials #project-documents {
+    width: 96%;
+    padding: 3%;
+    float: none;
+  }
+  /* line 2757, sass/psp-frontend.scss */
+  #psp-projects #psp-title {
+    position: relative;
+    height: auto;
+    padding: 20px 0;
+  }
+  /* line 2763, sass/psp-frontend.scss */
+  #psp-projects .psp-standalone-page #overview {
+    padding-top: 0px;
+  }
+  /* line 2765, sass/psp-frontend.scss */
+  #psp-projects .psp-archive-list th {
+    display: none;
+  }
+  /* line 2769, sass/psp-frontend.scss */
+  #psp-projects .psp-archive-list td,
+  #psp-projects .psp-archive-list tr {
+    display: block;
+    width: 100%;
+  }
+  /* line 2775, sass/psp-frontend.scss */
+  #psp-projects .psp-archive-list tr,
+  #psp-projects .psp-task-project {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  /* line 2787, sass/psp-frontend.scss */
+  #psp-projects #psp-discussion ol.commentlist,
+  #psp-projects #psp-discussion #respond {
+    float: none;
+    width: 100%;
+  }
+  /* line 2793, sass/psp-frontend.scss */
+  #psp-projects .progress-table td {
+    text-align: left;
+  }
+  /* line 2797, sass/psp-frontend.scss */
+  #psp-projects .psp-standalone-page #psp-project {
+    padding-top: 0px;
+  }
+  /* line 2801, sass/psp-frontend.scss */
+  #psp-projects #psp-description-documents {
+    margin: 120px 3% 60px 3%;
+    width: auto;
+  }
+  /* line 2806, sass/psp-frontend.scss */
+  #psp-projects .wrapper {
+    width: 100% !important;
+    padding: 3%;
+  }
+  /* line 2811, sass/psp-frontend.scss */
+  #psp-projects #psp-essentials {
+    margin-top: 0px;
+  }
+  /* line 2813, sass/psp-frontend.scss */
+  #psp-projects #psp-quick-overview,
+  #psp-projects #psp-essentials #psp-description {
+    margin: 0 3% 60px 3%;
+    float: none;
+    width: auto;
+  }
+  /* line 2820, sass/psp-frontend.scss */
+  #psp-projects #psp-quick-overview h4 {
+    text-align: left !important;
+  }
+  /* line 2824, sass/psp-frontend.scss */
+  #psp-projects #psp-documents {
+    padding: 20px 6% !important;
+    width: 100% !important;
+    text-align: center;
+  }
+  /* line 2829, sass/psp-frontend.scss */
+  #psp-projects #psp-documents .psp-pager {
+    text-align: center;
+  }
+  /* line 2835, sass/psp-frontend.scss */
+  #psp-projects .psp-icon {
+    display: block;
+    position: static;
+    margin: 0 auto 8px auto;
+  }
+  /* line 2841, sass/psp-frontend.scss */
+  #psp-projects #project-documents li {
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+  }
+  /* line 2846, sass/psp-frontend.scss */
+  #psp-projects #psp-main-nav {
+    display: none;
+  }
+  /* line 2848, sass/psp-frontend.scss */
+  #psp-projects #psp-essentials div:first-child {
+    float: none;
+  }
+  /* line 2849, sass/psp-frontend.scss */
+  #psp-projects #psp-essentials .summary {
+    padding-right: 0px;
+  }
+  /* line 2851, sass/psp-frontend.scss */
+  #psp-projects .psp-phase {
+    display: block;
+    width: auto !important;
+  }
+  /* line 2856, sass/psp-frontend.scss */
+  #psp-projects #psp-progress {
+    padding: 75px 20px;
+  }
+  /* line 2858, sass/psp-frontend.scss */
+  #psp-projects #psp-essentials div h4 {
+    text-align: center;
+    margin: 20px 0 10px 0;
+  }
+  /* line 2863, sass/psp-frontend.scss */
+  #psp-projects ul.psp-timing {
+    width: 165px;
+    margin: 5px auto !important;
+  }
+  /* line 2868, sass/psp-frontend.scss */
+  #psp-projects #psp-discussion .wrapper,
+  #psp-projects #overview .wrapper {
+    padding: 0 !important;
+  }
+  /* line 2871, sass/psp-frontend.scss */
+  #psp-projects #psp-discussion .discussion-content {
+    padding: 15px;
+  }
+  /* line 2873, sass/psp-frontend.scss */
+  #psp-projects #psp-progress h2 {
+    font-size: 20px;
+  }
+  /* line 2875, sass/psp-frontend.scss */
+  #psp-projects .psp-phase-info {
+    float: none;
+    width: auto !important;
+  }
+  /* line 2880, sass/psp-frontend.scss */
+  #psp-projects .psp-chart {
+    float: none;
+    max-width: 420px;
+    margin: 20px auto;
+  }
+  /* line 2886, sass/psp-frontend.scss */
+  #psp-projects #psp-essentials.psp-shortcode .summary {
+    padding-right: 0px;
+  }
+  /* line 2888, sass/psp-frontend.scss */
+  #psp-projects #psp-title h1 {
+    line-height: 1.1em !important;
+    text-align: center;
+    float: none;
+  }
+  /* line 2894, sass/psp-frontend.scss */
+  #psp-projects #psp-title h1 span {
+    display: block;
+  }
+  /* line 2896, sass/psp-frontend.scss */
+  #psp-projects .psp_project_list th {
+    display: none;
+  }
+  /* line 2898, sass/psp-frontend.scss */
+  #psp-projects .psp_project_list tr {
+    display: block;
+  }
+  /* line 2900, sass/psp-frontend.scss */
+  #psp-projects .psp_project_list td {
+    display: block;
+    text-align: center;
+  }
+  /* line 2905, sass/psp-frontend.scss */
+  #psp-projects .psp-standalone-page code {
+    overflow: hidden;
+    white-space: normal;
+  }
+  /* line 2910, sass/psp-frontend.scss */
+  #psp-projects .psp-branding-wrapper {
+    margin: 0 15px;
+  }
+}
+/* ============================== */
+/* = Front End Template Styling = */
+/* ============================== */
+/* 960 PX */
+/* line 2925, sass/psp-frontend.scss */
+#psp-projects .psp-width-960 .wrapper {
+  max-width: 96%;
+  margin: 0 auto;
+}
+/* line 2932, sass/psp-frontend.scss */
+#psp-projects .psp-width-960 #psp-quick-overview .psp-timing {
+  width: 100%;
+  float: none;
+}
+/* line 2937, sass/psp-frontend.scss */
+#psp-projects .psp-width-960 #psp-quick-overview .psp-timebar {
+  width: auto;
+  float: none;
+}
+/* line 2944, sass/psp-frontend.scss */
+#psp-projects .psp-width-960 .psp-phase {
+  width: 44%;
+}
+
+/* line 2954, sass/psp-frontend.scss */
+#psp-projects.psp-width-single .wrapper {
+  width: 100%;
+  float: none;
+}
+/* line 2959, sass/psp-frontend.scss */
+#psp-projects.psp-width-single #psp-quick-overview,
+#psp-projects.psp-width-single #psp-essentials #psp-description,
+#psp-projects.psp-width-single #psp-description-documents,
+#psp-projects.psp-width-single #psp-documents,
+#psp-projects.psp-width-single .psp-phase {
+  width: 100% !important;
+  padding: 3% !important;
+  float: none !important;
+}
+/* line 2969, sass/psp-frontend.scss */
+#psp-projects.psp-width-single .psp-phase {
+  margin-bottom: 20px;
+}
+/* line 2973, sass/psp-frontend.scss */
+#psp-projects.psp-width-single ul.psp-milestones li p,
+#psp-projects.psp-width-single ul.psp-milestones li h4 {
+  padding: 0;
+  display: none;
+}
+/* line 2979, sass/psp-frontend.scss */
+#psp-projects.psp-width-single .progress-table,
+#psp-projects.psp-width-single .milestone-options-full {
+  display: block !important;
+}
+/* line 2984, sass/psp-frontend.scss */
+#psp-projects.psp-width-single #psp-progress {
+  padding: 50px 0;
+}
+/* line 2988, sass/psp-frontend.scss */
+#psp-projects.psp-width-single #psp-documents {
+  width: 100%;
+}
+/* line 2992, sass/psp-frontend.scss */
+#psp-projects.psp-width-single #psp-documents .psp-pager {
+  text-align: center;
+}
+
+/* Font Library */
+/*!
+ *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("fonts/fontawesome-webfont.eot?v=4.2.0");
+  src: url("fonts/fontawesome-webfont.eot?#iefix&v=4.2.0") format("embedded-opentype"), url("fonts/fontawesome-webfont.woff?v=4.2.0") format("woff"), url("fonts/fontawesome-webfont.ttf?v=4.2.0") format("truetype"), url("fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 3006, sass/psp-frontend.scss */
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: .75em;
+  vertical-align: -15%;
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-2x {
+  font-size: 2em;
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-3x {
+  font-size: 3em;
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-4x {
+  font-size: 4em;
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-5x {
+  font-size: 5em;
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-ul > li {
+  position: relative;
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: .14285714em;
+  text-align: center;
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-li.fa-lg {
+  left: -1.85714286em;
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-border {
+  padding: .2em .25em .15em;
+  border: solid .08em #eee;
+  border-radius: .1em;
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.pull-right {
+  float: right;
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.pull-left {
+  float: left;
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa.pull-left {
+  margin-right: .3em;
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa.pull-right {
+  margin-left: .3em;
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+/* line 3006, sass/psp-frontend.scss */
+.fa-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+/* line 3006, sass/psp-frontend.scss */
+:root .fa-rotate-90, :root .fa-rotate-180, :root .fa-rotate-270, :root .fa-flip-horizontal, :root .fa-flip-vertical {
+  filter: none;
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-stack-1x, .fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-stack-1x {
+  line-height: inherit;
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-stack-2x {
+  font-size: 2em;
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-inverse {
+  color: #fff;
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-glass:before {
+  content: "\f000";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-music:before {
+  content: "\f001";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-search:before {
+  content: "\f002";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-envelope-o:before {
+  content: "\f003";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-heart:before {
+  content: "\f004";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-star:before {
+  content: "\f005";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-star-o:before {
+  content: "\f006";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-user:before {
+  content: "\f007";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-film:before {
+  content: "\f008";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-th-large:before {
+  content: "\f009";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-th:before {
+  content: "\f00a";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-th-list:before {
+  content: "\f00b";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-check:before {
+  content: "\f00c";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-remove:before, .fa-close:before, .fa-times:before {
+  content: "\f00d";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-search-plus:before {
+  content: "\f00e";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-search-minus:before {
+  content: "\f010";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-power-off:before {
+  content: "\f011";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-signal:before {
+  content: "\f012";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-gear:before, .fa-cog:before {
+  content: "\f013";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-trash-o:before {
+  content: "\f014";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-home:before {
+  content: "\f015";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-file-o:before {
+  content: "\f016";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-clock-o:before {
+  content: "\f017";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-road:before {
+  content: "\f018";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-download:before {
+  content: "\f019";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-arrow-circle-o-down:before {
+  content: "\f01a";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-arrow-circle-o-up:before {
+  content: "\f01b";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-inbox:before {
+  content: "\f01c";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-play-circle-o:before {
+  content: "\f01d";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-rotate-right:before, .fa-repeat:before {
+  content: "\f01e";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-refresh:before {
+  content: "\f021";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-list-alt:before {
+  content: "\f022";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-lock:before {
+  content: "\f023";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-flag:before {
+  content: "\f024";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-headphones:before {
+  content: "\f025";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-volume-off:before {
+  content: "\f026";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-volume-down:before {
+  content: "\f027";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-volume-up:before {
+  content: "\f028";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-qrcode:before {
+  content: "\f029";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-barcode:before {
+  content: "\f02a";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-tag:before {
+  content: "\f02b";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-tags:before {
+  content: "\f02c";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-book:before {
+  content: "\f02d";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-bookmark:before {
+  content: "\f02e";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-print:before {
+  content: "\f02f";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-camera:before {
+  content: "\f030";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-font:before {
+  content: "\f031";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-bold:before {
+  content: "\f032";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-italic:before {
+  content: "\f033";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-text-height:before {
+  content: "\f034";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-text-width:before {
+  content: "\f035";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-align-left:before {
+  content: "\f036";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-align-center:before {
+  content: "\f037";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-align-right:before {
+  content: "\f038";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-align-justify:before {
+  content: "\f039";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-list:before {
+  content: "\f03a";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-dedent:before, .fa-outdent:before {
+  content: "\f03b";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-indent:before {
+  content: "\f03c";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-video-camera:before {
+  content: "\f03d";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-photo:before, .fa-image:before, .fa-picture-o:before {
+  content: "\f03e";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-pencil:before {
+  content: "\f040";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-map-marker:before {
+  content: "\f041";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-adjust:before {
+  content: "\f042";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-tint:before {
+  content: "\f043";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-edit:before, .fa-pencil-square-o:before {
+  content: "\f044";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-share-square-o:before {
+  content: "\f045";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-check-square-o:before {
+  content: "\f046";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-arrows:before {
+  content: "\f047";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-step-backward:before {
+  content: "\f048";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-fast-backward:before {
+  content: "\f049";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-backward:before {
+  content: "\f04a";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-play:before {
+  content: "\f04b";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-pause:before {
+  content: "\f04c";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-stop:before {
+  content: "\f04d";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-forward:before {
+  content: "\f04e";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-fast-forward:before {
+  content: "\f050";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-step-forward:before {
+  content: "\f051";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-eject:before {
+  content: "\f052";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-chevron-left:before {
+  content: "\f053";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-chevron-right:before {
+  content: "\f054";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-plus-circle:before {
+  content: "\f055";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-minus-circle:before {
+  content: "\f056";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-times-circle:before {
+  content: "\f057";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-check-circle:before {
+  content: "\f058";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-question-circle:before {
+  content: "\f059";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-info-circle:before {
+  content: "\f05a";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-crosshairs:before {
+  content: "\f05b";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-times-circle-o:before {
+  content: "\f05c";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-check-circle-o:before {
+  content: "\f05d";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-ban:before {
+  content: "\f05e";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-arrow-left:before {
+  content: "\f060";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-arrow-right:before {
+  content: "\f061";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-arrow-up:before {
+  content: "\f062";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-arrow-down:before {
+  content: "\f063";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-mail-forward:before, .fa-share:before {
+  content: "\f064";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-expand:before {
+  content: "\f065";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-compress:before {
+  content: "\f066";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-plus:before {
+  content: "\f067";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-minus:before {
+  content: "\f068";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-asterisk:before {
+  content: "\f069";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-exclamation-circle:before {
+  content: "\f06a";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-gift:before {
+  content: "\f06b";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-leaf:before {
+  content: "\f06c";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-fire:before {
+  content: "\f06d";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-eye:before {
+  content: "\f06e";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-eye-slash:before {
+  content: "\f070";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-warning:before, .fa-exclamation-triangle:before {
+  content: "\f071";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-plane:before {
+  content: "\f072";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-calendar:before {
+  content: "\f073";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-random:before {
+  content: "\f074";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-comment:before {
+  content: "\f075";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-magnet:before {
+  content: "\f076";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-chevron-up:before {
+  content: "\f077";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-chevron-down:before {
+  content: "\f078";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-retweet:before {
+  content: "\f079";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-shopping-cart:before {
+  content: "\f07a";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-folder:before {
+  content: "\f07b";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-folder-open:before {
+  content: "\f07c";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-arrows-v:before {
+  content: "\f07d";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-arrows-h:before {
+  content: "\f07e";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-bar-chart-o:before, .fa-bar-chart:before {
+  content: "\f080";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-twitter-square:before {
+  content: "\f081";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-facebook-square:before {
+  content: "\f082";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-camera-retro:before {
+  content: "\f083";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-key:before {
+  content: "\f084";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-gears:before, .fa-cogs:before {
+  content: "\f085";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-comments:before {
+  content: "\f086";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-thumbs-o-up:before {
+  content: "\f087";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-thumbs-o-down:before {
+  content: "\f088";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-star-half:before {
+  content: "\f089";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-heart-o:before {
+  content: "\f08a";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-sign-out:before {
+  content: "\f08b";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-linkedin-square:before {
+  content: "\f08c";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-thumb-tack:before {
+  content: "\f08d";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-external-link:before {
+  content: "\f08e";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-sign-in:before {
+  content: "\f090";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-trophy:before {
+  content: "\f091";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-github-square:before {
+  content: "\f092";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-upload:before {
+  content: "\f093";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-lemon-o:before {
+  content: "\f094";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-phone:before {
+  content: "\f095";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-square-o:before {
+  content: "\f096";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-bookmark-o:before {
+  content: "\f097";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-phone-square:before {
+  content: "\f098";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-twitter:before {
+  content: "\f099";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-facebook:before {
+  content: "\f09a";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-github:before {
+  content: "\f09b";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-unlock:before {
+  content: "\f09c";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-credit-card:before {
+  content: "\f09d";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-rss:before {
+  content: "\f09e";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-hdd-o:before {
+  content: "\f0a0";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-bullhorn:before {
+  content: "\f0a1";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-bell:before {
+  content: "\f0f3";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-certificate:before {
+  content: "\f0a3";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-hand-o-right:before {
+  content: "\f0a4";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-hand-o-left:before {
+  content: "\f0a5";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-hand-o-up:before {
+  content: "\f0a6";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-hand-o-down:before {
+  content: "\f0a7";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-arrow-circle-left:before {
+  content: "\f0a8";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-arrow-circle-right:before {
+  content: "\f0a9";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-arrow-circle-up:before {
+  content: "\f0aa";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-arrow-circle-down:before {
+  content: "\f0ab";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-globe:before {
+  content: "\f0ac";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-wrench:before {
+  content: "\f0ad";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-tasks:before {
+  content: "\f0ae";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-filter:before {
+  content: "\f0b0";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-briefcase:before {
+  content: "\f0b1";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-arrows-alt:before {
+  content: "\f0b2";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-group:before, .fa-users:before {
+  content: "\f0c0";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-chain:before, .fa-link:before {
+  content: "\f0c1";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-cloud:before {
+  content: "\f0c2";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-flask:before {
+  content: "\f0c3";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-cut:before, .fa-scissors:before {
+  content: "\f0c4";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-copy:before, .fa-files-o:before {
+  content: "\f0c5";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-paperclip:before {
+  content: "\f0c6";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-save:before, .fa-floppy-o:before {
+  content: "\f0c7";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-square:before {
+  content: "\f0c8";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+  content: "\f0c9";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-list-ul:before {
+  content: "\f0ca";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-list-ol:before {
+  content: "\f0cb";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-strikethrough:before {
+  content: "\f0cc";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-underline:before {
+  content: "\f0cd";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-table:before {
+  content: "\f0ce";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-magic:before {
+  content: "\f0d0";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-truck:before {
+  content: "\f0d1";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-pinterest:before {
+  content: "\f0d2";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-pinterest-square:before {
+  content: "\f0d3";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-google-plus-square:before {
+  content: "\f0d4";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-google-plus:before {
+  content: "\f0d5";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-money:before {
+  content: "\f0d6";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-caret-down:before {
+  content: "\f0d7";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-caret-up:before {
+  content: "\f0d8";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-caret-left:before {
+  content: "\f0d9";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-caret-right:before {
+  content: "\f0da";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-columns:before {
+  content: "\f0db";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-unsorted:before, .fa-sort:before {
+  content: "\f0dc";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-sort-down:before, .fa-sort-desc:before {
+  content: "\f0dd";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-sort-up:before, .fa-sort-asc:before {
+  content: "\f0de";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-envelope:before {
+  content: "\f0e0";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-linkedin:before {
+  content: "\f0e1";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-rotate-left:before, .fa-undo:before {
+  content: "\f0e2";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-legal:before, .fa-gavel:before {
+  content: "\f0e3";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-dashboard:before, .fa-tachometer:before {
+  content: "\f0e4";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-comment-o:before {
+  content: "\f0e5";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-comments-o:before {
+  content: "\f0e6";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-flash:before, .fa-bolt:before {
+  content: "\f0e7";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-sitemap:before {
+  content: "\f0e8";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-umbrella:before {
+  content: "\f0e9";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-paste:before, .fa-clipboard:before {
+  content: "\f0ea";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-lightbulb-o:before {
+  content: "\f0eb";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-exchange:before {
+  content: "\f0ec";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-cloud-download:before {
+  content: "\f0ed";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-cloud-upload:before {
+  content: "\f0ee";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-user-md:before {
+  content: "\f0f0";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-stethoscope:before {
+  content: "\f0f1";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-suitcase:before {
+  content: "\f0f2";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-bell-o:before {
+  content: "\f0a2";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-coffee:before {
+  content: "\f0f4";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-cutlery:before {
+  content: "\f0f5";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-file-text-o:before {
+  content: "\f0f6";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-building-o:before {
+  content: "\f0f7";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-hospital-o:before {
+  content: "\f0f8";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-ambulance:before {
+  content: "\f0f9";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-medkit:before {
+  content: "\f0fa";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-fighter-jet:before {
+  content: "\f0fb";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-beer:before {
+  content: "\f0fc";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-h-square:before {
+  content: "\f0fd";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-plus-square:before {
+  content: "\f0fe";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-angle-double-left:before {
+  content: "\f100";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-angle-double-right:before {
+  content: "\f101";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-angle-double-up:before {
+  content: "\f102";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-angle-double-down:before {
+  content: "\f103";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-angle-left:before {
+  content: "\f104";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-angle-right:before {
+  content: "\f105";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-angle-up:before {
+  content: "\f106";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-angle-down:before {
+  content: "\f107";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-desktop:before {
+  content: "\f108";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-laptop:before {
+  content: "\f109";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-tablet:before {
+  content: "\f10a";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-mobile-phone:before, .fa-mobile:before {
+  content: "\f10b";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-circle-o:before {
+  content: "\f10c";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-quote-left:before {
+  content: "\f10d";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-quote-right:before {
+  content: "\f10e";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-spinner:before {
+  content: "\f110";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-circle:before {
+  content: "\f111";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-mail-reply:before, .fa-reply:before {
+  content: "\f112";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-github-alt:before {
+  content: "\f113";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-folder-o:before {
+  content: "\f114";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-folder-open-o:before {
+  content: "\f115";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-smile-o:before {
+  content: "\f118";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-frown-o:before {
+  content: "\f119";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-meh-o:before {
+  content: "\f11a";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-gamepad:before {
+  content: "\f11b";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-keyboard-o:before {
+  content: "\f11c";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-flag-o:before {
+  content: "\f11d";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-flag-checkered:before {
+  content: "\f11e";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-terminal:before {
+  content: "\f120";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-code:before {
+  content: "\f121";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-mail-reply-all:before, .fa-reply-all:before {
+  content: "\f122";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-star-half-empty:before, .fa-star-half-full:before, .fa-star-half-o:before {
+  content: "\f123";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-location-arrow:before {
+  content: "\f124";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-crop:before {
+  content: "\f125";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-code-fork:before {
+  content: "\f126";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-unlink:before, .fa-chain-broken:before {
+  content: "\f127";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-question:before {
+  content: "\f128";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-info:before {
+  content: "\f129";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-exclamation:before {
+  content: "\f12a";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-superscript:before {
+  content: "\f12b";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-subscript:before {
+  content: "\f12c";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-eraser:before {
+  content: "\f12d";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-puzzle-piece:before {
+  content: "\f12e";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-microphone:before {
+  content: "\f130";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-microphone-slash:before {
+  content: "\f131";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-shield:before {
+  content: "\f132";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-calendar-o:before {
+  content: "\f133";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-fire-extinguisher:before {
+  content: "\f134";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-rocket:before {
+  content: "\f135";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-maxcdn:before {
+  content: "\f136";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-chevron-circle-left:before {
+  content: "\f137";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-chevron-circle-right:before {
+  content: "\f138";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-chevron-circle-up:before {
+  content: "\f139";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-chevron-circle-down:before {
+  content: "\f13a";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-html5:before {
+  content: "\f13b";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-css3:before {
+  content: "\f13c";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-anchor:before {
+  content: "\f13d";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-unlock-alt:before {
+  content: "\f13e";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-bullseye:before {
+  content: "\f140";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-ellipsis-h:before {
+  content: "\f141";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-ellipsis-v:before {
+  content: "\f142";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-rss-square:before {
+  content: "\f143";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-play-circle:before {
+  content: "\f144";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-ticket:before {
+  content: "\f145";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-minus-square:before {
+  content: "\f146";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-minus-square-o:before {
+  content: "\f147";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-level-up:before {
+  content: "\f148";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-level-down:before {
+  content: "\f149";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-check-square:before {
+  content: "\f14a";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-pencil-square:before {
+  content: "\f14b";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-external-link-square:before {
+  content: "\f14c";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-share-square:before {
+  content: "\f14d";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-compass:before {
+  content: "\f14e";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-toggle-down:before, .fa-caret-square-o-down:before {
+  content: "\f150";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-toggle-up:before, .fa-caret-square-o-up:before {
+  content: "\f151";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-toggle-right:before, .fa-caret-square-o-right:before {
+  content: "\f152";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-euro:before, .fa-eur:before {
+  content: "\f153";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-gbp:before {
+  content: "\f154";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-dollar:before, .fa-usd:before {
+  content: "\f155";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-rupee:before, .fa-inr:before {
+  content: "\f156";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-cny:before, .fa-rmb:before, .fa-yen:before, .fa-jpy:before {
+  content: "\f157";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-ruble:before, .fa-rouble:before, .fa-rub:before {
+  content: "\f158";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-won:before, .fa-krw:before {
+  content: "\f159";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-bitcoin:before, .fa-btc:before {
+  content: "\f15a";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-file:before {
+  content: "\f15b";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-file-text:before {
+  content: "\f15c";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-sort-alpha-asc:before {
+  content: "\f15d";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-sort-alpha-desc:before {
+  content: "\f15e";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-sort-amount-asc:before {
+  content: "\f160";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-sort-amount-desc:before {
+  content: "\f161";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-sort-numeric-asc:before {
+  content: "\f162";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-sort-numeric-desc:before {
+  content: "\f163";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-thumbs-up:before {
+  content: "\f164";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-thumbs-down:before {
+  content: "\f165";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-youtube-square:before {
+  content: "\f166";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-youtube:before {
+  content: "\f167";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-xing:before {
+  content: "\f168";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-xing-square:before {
+  content: "\f169";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-youtube-play:before {
+  content: "\f16a";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-dropbox:before {
+  content: "\f16b";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-stack-overflow:before {
+  content: "\f16c";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-instagram:before {
+  content: "\f16d";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-flickr:before {
+  content: "\f16e";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-adn:before {
+  content: "\f170";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-bitbucket:before {
+  content: "\f171";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-bitbucket-square:before {
+  content: "\f172";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-tumblr:before {
+  content: "\f173";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-tumblr-square:before {
+  content: "\f174";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-long-arrow-down:before {
+  content: "\f175";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-long-arrow-up:before {
+  content: "\f176";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-long-arrow-left:before {
+  content: "\f177";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-long-arrow-right:before {
+  content: "\f178";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-apple:before {
+  content: "\f179";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-windows:before {
+  content: "\f17a";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-android:before {
+  content: "\f17b";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-linux:before {
+  content: "\f17c";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-dribbble:before {
+  content: "\f17d";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-skype:before {
+  content: "\f17e";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-foursquare:before {
+  content: "\f180";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-trello:before {
+  content: "\f181";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-female:before {
+  content: "\f182";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-male:before {
+  content: "\f183";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-gittip:before {
+  content: "\f184";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-sun-o:before {
+  content: "\f185";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-moon-o:before {
+  content: "\f186";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-archive:before {
+  content: "\f187";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-bug:before {
+  content: "\f188";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-vk:before {
+  content: "\f189";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-weibo:before {
+  content: "\f18a";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-renren:before {
+  content: "\f18b";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-pagelines:before {
+  content: "\f18c";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-stack-exchange:before {
+  content: "\f18d";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-arrow-circle-o-right:before {
+  content: "\f18e";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-arrow-circle-o-left:before {
+  content: "\f190";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-toggle-left:before, .fa-caret-square-o-left:before {
+  content: "\f191";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-dot-circle-o:before {
+  content: "\f192";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-wheelchair:before {
+  content: "\f193";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-vimeo-square:before {
+  content: "\f194";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-turkish-lira:before, .fa-try:before {
+  content: "\f195";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-plus-square-o:before {
+  content: "\f196";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-space-shuttle:before {
+  content: "\f197";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-slack:before {
+  content: "\f198";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-envelope-square:before {
+  content: "\f199";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-wordpress:before {
+  content: "\f19a";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-openid:before {
+  content: "\f19b";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-institution:before, .fa-bank:before, .fa-university:before {
+  content: "\f19c";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-mortar-board:before, .fa-graduation-cap:before {
+  content: "\f19d";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-yahoo:before {
+  content: "\f19e";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-google:before {
+  content: "\f1a0";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-reddit:before {
+  content: "\f1a1";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-reddit-square:before {
+  content: "\f1a2";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-stumbleupon-circle:before {
+  content: "\f1a3";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-stumbleupon:before {
+  content: "\f1a4";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-delicious:before {
+  content: "\f1a5";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-digg:before {
+  content: "\f1a6";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-pied-piper:before {
+  content: "\f1a7";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-pied-piper-alt:before {
+  content: "\f1a8";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-drupal:before {
+  content: "\f1a9";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-joomla:before {
+  content: "\f1aa";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-language:before {
+  content: "\f1ab";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-fax:before {
+  content: "\f1ac";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-building:before {
+  content: "\f1ad";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-child:before {
+  content: "\f1ae";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-paw:before {
+  content: "\f1b0";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-spoon:before {
+  content: "\f1b1";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-cube:before {
+  content: "\f1b2";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-cubes:before {
+  content: "\f1b3";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-behance:before {
+  content: "\f1b4";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-behance-square:before {
+  content: "\f1b5";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-steam:before {
+  content: "\f1b6";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-steam-square:before {
+  content: "\f1b7";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-recycle:before {
+  content: "\f1b8";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-automobile:before, .fa-car:before {
+  content: "\f1b9";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-cab:before, .fa-taxi:before {
+  content: "\f1ba";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-tree:before {
+  content: "\f1bb";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-spotify:before {
+  content: "\f1bc";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-deviantart:before {
+  content: "\f1bd";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-soundcloud:before {
+  content: "\f1be";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-database:before {
+  content: "\f1c0";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-file-pdf-o:before {
+  content: "\f1c1";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-file-word-o:before {
+  content: "\f1c2";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-file-excel-o:before {
+  content: "\f1c3";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-file-powerpoint-o:before {
+  content: "\f1c4";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-file-photo-o:before, .fa-file-picture-o:before, .fa-file-image-o:before {
+  content: "\f1c5";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-file-zip-o:before, .fa-file-archive-o:before {
+  content: "\f1c6";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-file-sound-o:before, .fa-file-audio-o:before {
+  content: "\f1c7";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-file-movie-o:before, .fa-file-video-o:before {
+  content: "\f1c8";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-file-code-o:before {
+  content: "\f1c9";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-vine:before {
+  content: "\f1ca";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-codepen:before {
+  content: "\f1cb";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-jsfiddle:before {
+  content: "\f1cc";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-life-bouy:before, .fa-life-buoy:before, .fa-life-saver:before, .fa-support:before, .fa-life-ring:before {
+  content: "\f1cd";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-circle-o-notch:before {
+  content: "\f1ce";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-ra:before, .fa-rebel:before {
+  content: "\f1d0";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-ge:before, .fa-empire:before {
+  content: "\f1d1";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-git-square:before {
+  content: "\f1d2";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-git:before {
+  content: "\f1d3";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-hacker-news:before {
+  content: "\f1d4";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-tencent-weibo:before {
+  content: "\f1d5";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-qq:before {
+  content: "\f1d6";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-wechat:before, .fa-weixin:before {
+  content: "\f1d7";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-send:before, .fa-paper-plane:before {
+  content: "\f1d8";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-send-o:before, .fa-paper-plane-o:before {
+  content: "\f1d9";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-history:before {
+  content: "\f1da";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-circle-thin:before {
+  content: "\f1db";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-header:before {
+  content: "\f1dc";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-paragraph:before {
+  content: "\f1dd";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-sliders:before {
+  content: "\f1de";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-share-alt:before {
+  content: "\f1e0";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-share-alt-square:before {
+  content: "\f1e1";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-bomb:before {
+  content: "\f1e2";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-soccer-ball-o:before, .fa-futbol-o:before {
+  content: "\f1e3";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-tty:before {
+  content: "\f1e4";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-binoculars:before {
+  content: "\f1e5";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-plug:before {
+  content: "\f1e6";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-slideshare:before {
+  content: "\f1e7";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-twitch:before {
+  content: "\f1e8";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-yelp:before {
+  content: "\f1e9";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-newspaper-o:before {
+  content: "\f1ea";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-wifi:before {
+  content: "\f1eb";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-calculator:before {
+  content: "\f1ec";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-paypal:before {
+  content: "\f1ed";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-google-wallet:before {
+  content: "\f1ee";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-cc-visa:before {
+  content: "\f1f0";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-cc-mastercard:before {
+  content: "\f1f1";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-cc-discover:before {
+  content: "\f1f2";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-cc-amex:before {
+  content: "\f1f3";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-cc-paypal:before {
+  content: "\f1f4";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-cc-stripe:before {
+  content: "\f1f5";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-bell-slash:before {
+  content: "\f1f6";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-bell-slash-o:before {
+  content: "\f1f7";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-trash:before {
+  content: "\f1f8";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-copyright:before {
+  content: "\f1f9";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-at:before {
+  content: "\f1fa";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-eyedropper:before {
+  content: "\f1fb";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-paint-brush:before {
+  content: "\f1fc";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-birthday-cake:before {
+  content: "\f1fd";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-area-chart:before {
+  content: "\f1fe";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-pie-chart:before {
+  content: "\f200";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-line-chart:before {
+  content: "\f201";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-lastfm:before {
+  content: "\f202";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-lastfm-square:before {
+  content: "\f203";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-toggle-off:before {
+  content: "\f204";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-toggle-on:before {
+  content: "\f205";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-bicycle:before {
+  content: "\f206";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-bus:before {
+  content: "\f207";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-ioxhost:before {
+  content: "\f208";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-angellist:before {
+  content: "\f209";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-cc:before {
+  content: "\f20a";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-shekel:before, .fa-sheqel:before, .fa-ils:before {
+  content: "\f20b";
+}
+
+/* line 3006, sass/psp-frontend.scss */
+.fa-meanpath:before {
+  content: "\f20c";
+}
+
+/* PSP Grid */

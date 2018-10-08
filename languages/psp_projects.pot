@@ -1,0 +1,1185 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Project Panorama Lite\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 20:09+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: lib/psp-timing.php:128 lib/psp-timing.php:229
+msgid " days remaining"
+msgstr ""
+
+#: lib/psp-data-model.php:77 lib/psp-helpers.php:783 lib/psp-view.php:296
+msgid "% Complete"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:155
+msgid "0%"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:157
+msgid "10%"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:175
+msgid "100%"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:158
+msgid "15%"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:377
+msgid "1st Milestone"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:159
+msgid "20%"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:160
+msgid "25%"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:456
+msgid "2nd Milestone"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:161
+msgid "30%"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:162
+msgid "35%"
+msgstr ""
+
+#. Author of the plugin
+msgid "37 MEDIA"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:535
+msgid "3rd Milestone"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:163
+msgid "40%"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:164
+msgid "45%"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:614
+msgid "4th Milestone"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:156
+msgid "5%"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:165
+msgid "50%"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:166
+msgid "55%"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:167
+msgid "60%"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:168
+msgid "65%"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:169
+msgid "70%"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:170
+msgid "75%"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:171
+msgid "80%"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:172
+msgid "85%"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:173
+msgid "90%"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:174
+msgid "95%"
+msgstr ""
+
+#: lib/templates/psp-comment-part.php:32 lib/templates/psp-comment-part.php:51
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"A project management and project visualization plugin designed to impress "
+"clients, save time and let you bill more."
+msgstr ""
+
+#: psp-license.php:374
+msgid "Accent Color #1"
+msgstr ""
+
+#: psp-license.php:382
+msgid "Accent Color #1 Text"
+msgstr ""
+
+#: psp-license.php:390
+msgid "Accent Color #2"
+msgstr ""
+
+#: psp-license.php:398
+msgid "Accent Color #2 Text"
+msgstr ""
+
+#: psp-license.php:406
+msgid "Accent Color #3"
+msgstr ""
+
+#: psp-license.php:414
+msgid "Accent Color #3 Text"
+msgstr ""
+
+#: psp-license.php:422
+msgid "Accent Color #4"
+msgstr ""
+
+#: psp-license.php:430
+msgid "Accent Color #4 Text"
+msgstr ""
+
+#: psp-license.php:438
+msgid "Accent Color #5"
+msgstr ""
+
+#: psp-license.php:446
+msgid "Accent Color #5 Text"
+msgstr ""
+
+#: psp-license.php:286
+msgid "Accent Text"
+msgstr ""
+
+#: license.php:51 license.php:61 psp-license.php:81 psp-license.php:91
+msgid "Activate License"
+msgstr ""
+
+#: license.php:55 psp-license.php:85 lib/psp-base-shortcodes.php:329
+#: lib/shortcodes.php:167 lib/templates/archive-psp_projects.php:80
+msgid "Active"
+msgstr ""
+
+#: lib/psp-view.php:481 lib/view.php:516
+msgid "active"
+msgstr ""
+
+#: lib/templates/archive-psp_projects.php:99
+#: lib/templates/archive-psp_projects.php:122
+msgid "Active Projects"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:57
+msgid "Add Document"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:54
+msgid "Add documents to the project for download"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:190
+msgid "Add individual tasks for this phase"
+msgstr ""
+
+#: lib/data_model.php:21 lib/psp-data-model.php:21
+msgid "Add New Project"
+msgstr ""
+
+#: lib/psp-data-model.php:187
+msgid "Add or remove project statues"
+msgstr ""
+
+#: lib/data_model.php:117 lib/psp-data-model.php:153
+msgid "Add or remove project types"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:125
+msgid "Add Phase"
+msgstr ""
+
+#: lib/psp-data-model.php:182
+msgid "Add Project Status"
+msgstr ""
+
+#: lib/data_model.php:112 lib/psp-data-model.php:148
+msgid "Add Project Type"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:195
+msgid "Add Task"
+msgstr ""
+
+#: lib/psp-base-shortcodes.php:328 lib/shortcodes.php:166
+msgid "All"
+msgstr ""
+
+#: lib/psp-data-model.php:178
+msgid "All Project Statuses"
+msgstr ""
+
+#: lib/data_model.php:108 lib/psp-data-model.php:144
+msgid "All Project Types"
+msgstr ""
+
+#: lib/data_model.php:19 lib/psp-data-model.php:19
+msgid "All Projects"
+msgstr ""
+
+#: psp-license.php:50
+msgid "Appearance"
+msgstr ""
+
+#: lib/psp-helpers.php:979 lib/lite/psp-lite-fields.php:106
+#: lib/templates/parts/documents.php:64
+msgid "Approved"
+msgstr ""
+
+#: lib/psp-timing.php:8 lib/psp-timing.php:46
+msgid "Apr"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:31
+msgid "Assigned Users"
+msgstr ""
+
+#: lib/psp-timing.php:12 lib/psp-timing.php:50
+msgid "Aug"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:237
+msgid "Automatic Phase Progress"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:225
+msgid "Automatic Progress"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:240
+msgid "Automatically calculate phase completion based on tasks"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:228
+msgid "Automatically calculate progress based on completion of phases (below)"
+msgstr ""
+
+#: lib/psp-view.php:300
+msgid "Back"
+msgstr ""
+
+#: psp-license.php:107
+msgid "Back Button Link"
+msgstr ""
+
+#: psp-license.php:313
+msgid "Body"
+msgstr ""
+
+#: psp-license.php:318
+msgid "Body Background"
+msgstr ""
+
+#: psp-license.php:326
+msgid "Body Heading"
+msgstr ""
+
+#: psp-license.php:342
+msgid "Body Link"
+msgstr ""
+
+#: psp-license.php:334
+msgid "Body Text"
+msgstr ""
+
+#: psp-license.php:139
+msgid "Calendar Language"
+msgstr ""
+
+#: lib/psp-base-shortcodes.php:359 lib/shortcodes.php:180
+#: lib/lite/psp-lite-shortcodes.php:257
+msgid "Cancel"
+msgstr ""
+
+#: project-panorama.php:72
+msgid "Check it out here."
+msgstr ""
+
+#: lib/data_model.php:118 lib/psp-data-model.php:154 lib/psp-data-model.php:188
+msgid "Choose from the most used items"
+msgstr ""
+
+#: lib/templates/parts/email.php:23
+msgid "Click here to view."
+msgstr ""
+
+#: lib/psp-base-shortcodes.php:174 lib/psp-data-model.php:75
+#: lib/psp-helpers.php:782
+msgid "Client"
+msgstr ""
+
+#: lib/templates/psp-comment-part.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#: lib/psp-view.php:475 lib/view.php:275 lib/acf/slider/acf-slider-v4.php:182
+#: lib/acf/slider/acf-slider-v5.php:151 lib/templates/parts/phases-lite.php:89
+#: lib/templates/parts/phases.php:94
+msgid "Complete"
+msgstr ""
+
+#: lib/templates/parts/tasks.php:39
+msgid "complete"
+msgstr ""
+
+#: lib/psp-base-shortcodes.php:330 lib/psp-data-model.php:298
+#: lib/psp-view.php:480 lib/shortcodes.php:168 lib/view.php:283
+#: lib/view.php:285 lib/view.php:515 lib/templates/archive-psp_projects.php:85
+#: lib/templates/parts/phases-lite.php:105 lib/templates/parts/phases.php:111
+msgid "Completed"
+msgstr ""
+
+#: lib/view.php:325 lib/templates/parts/phases-lite.php:143
+#: lib/templates/parts/phases.php:156
+msgid "completed"
+msgstr ""
+
+#: lib/psp-view.php:195 lib/view.php:377
+#: lib/lite/CMB2-task/class-cmb2-render-task-field.php:20
+msgid "Completion"
+msgstr ""
+
+#: lib/lite/psp-lite-shortcodes.php:215 lib/lite/psp-lite-shortcodes.php:248
+msgid "Condensed"
+msgstr ""
+
+#: lib/psp-base-shortcodes.php:338
+msgid "Creation Date"
+msgstr ""
+
+#: lib/templates/parts/email.php:13
+msgid "Current Status"
+msgstr ""
+
+#: psp-license.php:463
+msgid "Custom CSS"
+msgstr ""
+
+#: psp-license.php:459
+msgid "Custom Styling"
+msgstr ""
+
+#: lib/psp-data-model.php:308 lib/psp-view.php:302
+msgid "Dashboard"
+msgstr ""
+
+#: lib/psp-timing.php:126 lib/psp-timing.php:227
+msgid "days past project end date."
+msgstr ""
+
+#: license.php:57 psp-license.php:87
+msgid "Deactivate License"
+msgstr ""
+
+#: lib/psp-timing.php:16 lib/psp-timing.php:54
+msgid "Dec"
+msgstr ""
+
+#: psp-license.php:514
+msgid "Default Message"
+msgstr ""
+
+#: psp-license.php:506
+msgid "Default Subject Line"
+msgstr ""
+
+#: lib/view.php:294 lib/lite/psp-lite-fields.php:79
+#: lib/lite/psp-lite-fields.php:180 lib/lite/psp-lite-fields.php:435
+#: lib/lite/psp-lite-fields.php:514 lib/lite/psp-lite-fields.php:593
+#: lib/lite/psp-lite-fields.php:700 lib/templates/parts/phases-lite.php:126
+#: lib/templates/parts/phases.php:131
+msgid "Description"
+msgstr ""
+
+#: license.php:98
+msgid "Disable Flush Rewrites"
+msgstr ""
+
+#: psp-license.php:531
+msgid "Disable WYSIWYG Buttons"
+msgstr ""
+
+#: lib/psp-view.php:298
+msgid "Discussion"
+msgstr ""
+
+#: lib/lite/psp-lite-shortcodes.php:234
+msgid "Display"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:341
+msgid "Display Milestones"
+msgstr ""
+
+#: lib/templates/parts/documents.php:96
+msgid "Document Status Updated"
+msgstr ""
+
+#: lib/view.php:64 lib/lite/psp-lite-fields.php:47
+#: lib/lite/psp-lite-shortcodes.php:238 lib/templates/parts/overview.php:24
+msgid "Documents"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:56
+msgid "Documents {#}"
+msgstr ""
+
+#: lib/data_model.php:23 lib/psp-data-model.php:23
+msgid "Edit Project"
+msgstr ""
+
+#: lib/psp-data-model.php:183
+msgid "Edit Project Status"
+msgstr ""
+
+#: lib/data_model.php:113 lib/psp-data-model.php:149
+msgid "Edit Project Type"
+msgstr ""
+
+#: lib/psp-timing.php:214
+msgid "End"
+msgstr ""
+
+#: lib/psp-base-shortcodes.php:340 lib/view.php:47
+#: lib/lite/psp-lite-fields.php:301
+msgid "End Date"
+msgstr ""
+
+#: lib/psp-timing.php:454
+msgid "End: "
+msgstr ""
+
+#: license.php:45 psp-license.php:75
+msgid "Enter your license key"
+msgstr ""
+
+#: lib/psp-timing.php:6 lib/psp-timing.php:44
+msgid "Feb"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:85
+msgid "File"
+msgstr ""
+
+#: psp-license.php:350
+msgid "Footer Background"
+msgstr ""
+
+#: psp-license.php:488
+msgid "From E-mail"
+msgstr ""
+
+#: psp-license.php:480
+msgid "From Name"
+msgstr ""
+
+#: lib/lite/psp-lite-shortcodes.php:186
+msgid "Full Project"
+msgstr ""
+
+#: lib/lite/psp-lite-shortcodes.php:216 lib/lite/psp-lite-shortcodes.php:247
+msgid "Full Width"
+msgstr ""
+
+#: psp-license.php:49
+msgid "General"
+msgstr ""
+
+#: psp-license.php:264
+msgid "Header"
+msgstr ""
+
+#: psp-license.php:270
+msgid "Header Background"
+msgstr ""
+
+#: psp-license.php:278
+msgid "Header Text"
+msgstr ""
+
+#: lib/templates/parts/email.php:8
+msgid "Hello"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.projectpanorama.com"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:92
+msgid "If a link is provided it will take priority over any file attached"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:337
+msgid ""
+"If desired, describe what will be completed at key points in the project."
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:408
+msgid ""
+"If you'd like to label key milestones please turn \"Display Milestones\" on "
+"(above)."
+msgstr ""
+
+#: lib/psp-view.php:474
+msgid "In Progress"
+msgstr ""
+
+#: lib/psp-helpers.php:983 lib/lite/psp-lite-fields.php:104
+#: lib/templates/parts/documents.php:65
+msgid "In Review"
+msgstr ""
+
+#: license.php:59 psp-license.php:89
+msgid "Inactive"
+msgstr ""
+
+#: psp-license.php:497
+msgid "Include Logo"
+msgstr ""
+
+#: lib/lite/psp-lite-shortcodes.php:179
+msgid "Insert a Project Overview"
+msgstr ""
+
+#: lib/lite/psp-lite-shortcodes.php:257
+msgid "Insert Project"
+msgstr ""
+
+#: lib/psp-base-shortcodes.php:359 lib/shortcodes.php:180
+msgid "Insert Project List"
+msgstr ""
+
+#: lib/psp-timing.php:5 lib/psp-timing.php:43
+msgid "Jan"
+msgstr ""
+
+#: lib/psp-timing.php:11 lib/psp-timing.php:49
+msgid "Jul"
+msgstr ""
+
+#: lib/psp-timing.php:10 lib/psp-timing.php:48
+msgid "Jun"
+msgstr ""
+
+#: lib/psp-base-shortcodes.php:174 lib/psp-helpers.php:787
+msgid "Last Updated"
+msgstr ""
+
+#: license.php:41 psp-license.php:71
+msgid "License Key"
+msgstr ""
+
+#: project-panorama.php:72
+msgid ""
+"Like Project Panorama Lite? We have a full featured premium version that you "
+"might like even better!"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:91
+msgid "Link"
+msgstr ""
+
+#: license.php:83 psp-license.php:125
+msgid "Logo for Project Pages"
+msgstr ""
+
+#: lib/psp-view.php:306
+msgid "Logout"
+msgstr ""
+
+#: lib/psp-timing.php:7 lib/psp-timing.php:45
+msgid "Mar"
+msgstr ""
+
+#: lib/psp-timing.php:9 lib/psp-timing.php:47
+msgid "May"
+msgstr ""
+
+#: psp-license.php:294
+msgid "Menu Background"
+msgstr ""
+
+#: psp-license.php:302
+msgid "Menu Text"
+msgstr ""
+
+#: lib/templates/parts/documents.php:88
+msgid "Message"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:352
+msgid "Milestone Frequency"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:330 lib/lite/psp-lite-fields.php:334
+#: lib/lite/psp-lite-shortcodes.php:212 lib/lite/psp-lite-shortcodes.php:245
+msgid "Milestones"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:215
+msgid "Name of the client or project"
+msgstr ""
+
+#: lib/data_model.php:22 lib/psp-data-model.php:22
+msgid "New Project"
+msgstr ""
+
+#: lib/psp-data-model.php:181
+msgid "New Project Status"
+msgstr ""
+
+#: lib/data_model.php:111 lib/psp-data-model.php:147
+msgid "New Project Type"
+msgstr ""
+
+#: lib/templates/psp-comment-part.php:33 lib/templates/psp-comment-part.php:52
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: lib/templates/archive-psp_projects.php:132
+msgid "No active projects at this time"
+msgstr ""
+
+#: lib/templates/psp-comment-part.php:58
+msgid "No discussions posted at this time"
+msgstr ""
+
+#: lib/lite/psp-lite-shortcodes.php:217
+msgid "No Milestones"
+msgstr ""
+
+#: lib/lite/psp-lite-shortcodes.php:196
+msgid "No Overview"
+msgstr ""
+
+#: lib/lite/psp-lite-shortcodes.php:226
+msgid "No Phases"
+msgstr ""
+
+#: lib/lite/psp-lite-shortcodes.php:206
+msgid "No Progress Bar"
+msgstr ""
+
+#: lib/lite/psp-lite-shortcodes.php:50 lib/lite/psp-lite-shortcodes.php:126
+msgid "No project with that ID"
+msgstr ""
+
+#: lib/data_model.php:26 lib/psp-base-shortcodes.php:208
+#: lib/psp-base-shortcodes.php:294 lib/psp-data-model.php:26
+#: lib/shortcodes.php:131
+msgid "No projects found"
+msgstr ""
+
+#: lib/data_model.php:27 lib/psp-data-model.php:27
+msgid "No projects found in Trash"
+msgstr ""
+
+#: project-panorama.php:72
+msgid "No thanks!"
+msgstr ""
+
+#: lib/lite/psp-lite-shortcodes.php:249
+msgid "None"
+msgstr ""
+
+#: lib/data_model.php:119 lib/psp-data-model.php:155 lib/psp-data-model.php:189
+msgid "Not Found"
+msgstr ""
+
+#: lib/psp-view.php:473
+msgid "Not Started"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:394 lib/lite/psp-lite-fields.php:473
+#: lib/lite/psp-lite-fields.php:636 lib/lite/psp-lite-fields.php:654
+msgid "Note:"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:552
+msgid "Note: "
+msgstr ""
+
+#: lib/templates/parts/documents.php:97
+msgid "Notifications have been sent."
+msgstr ""
+
+#: lib/templates/parts/documents.php:71
+msgid "Notify"
+msgstr ""
+
+#: lib/psp-timing.php:15 lib/psp-timing.php:53
+msgid "Nov"
+msgstr ""
+
+#: lib/psp-timing.php:14 lib/psp-timing.php:52
+msgid "Oct"
+msgstr ""
+
+#: lib/view.php:325 lib/templates/parts/phases-lite.php:143
+#: lib/templates/parts/phases.php:156
+msgid "of"
+msgstr ""
+
+#: lib/templates/psp-comment-part.php:26
+#, php-format
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/shortcodes.php:175
+msgid "Only display projects current user has permission to access"
+msgstr ""
+
+#: lib/psp-base-shortcodes.php:335
+msgid "Order By"
+msgstr ""
+
+#: lib/lite/psp-lite-shortcodes.php:239
+msgid "Overall Progress"
+msgstr ""
+
+#: lib/view.php:102 lib/templates/parts/milestones.php:3
+msgid "Overall Project Completion"
+msgstr ""
+
+#: lib/psp-view.php:295 lib/lite/psp-lite-shortcodes.php:192
+#: lib/lite/psp-lite-shortcodes.php:237
+msgid "Overview"
+msgstr ""
+
+#: lib/psp-data-model.php:179
+msgid "Parent Project Status"
+msgstr ""
+
+#: lib/psp-data-model.php:180
+msgid "Parent Project Status:"
+msgstr ""
+
+#: lib/data_model.php:109 lib/psp-data-model.php:145
+msgid "Parent Project Type"
+msgstr ""
+
+#: lib/data_model.php:110 lib/psp-data-model.php:146
+msgid "Parent Project Type:"
+msgstr ""
+
+#: lib/data_model.php:18 lib/psp-data-model.php:18
+msgid "Parent Project:"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:260
+msgid "Percent Complete"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:147
+msgid "Percentage Complete"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:148
+msgid "percentage_complete"
+msgstr ""
+
+#: lib/psp-view.php:192 lib/view.php:374
+msgid "Phase"
+msgstr ""
+
+#: psp-license.php:369 lib/psp-view.php:297 lib/lite/psp-lite-fields.php:114
+#: lib/lite/psp-lite-shortcodes.php:222 lib/lite/psp-lite-shortcodes.php:240
+msgid "Phases"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:124
+msgid "Phases {#}"
+msgstr ""
+
+#: lib/psp-base-shortcodes.php:136
+msgid "Please Login to View Projects"
+msgstr ""
+
+#: lib/lite/psp-lite-shortcodes.php:186
+msgid "Portion of Project"
+msgstr ""
+
+#: lib/data_model.php:15 lib/psp-data-model.php:15
+msgctxt "Post Type General Name"
+msgid "Projects"
+msgstr ""
+
+#: lib/data_model.php:16 lib/psp-data-model.php:16
+msgctxt "Post Type Singular Name"
+msgid "Project"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:24
+msgid "Private Project"
+msgstr ""
+
+#: lib/psp-base-shortcodes.php:162 lib/psp-base-shortcodes.php:225
+#: lib/psp-view.php:491 lib/shortcodes.php:102 lib/view.php:526
+msgid "Progress"
+msgstr ""
+
+#: lib/lite/psp-lite-shortcodes.php:202
+msgid "Progress Bar"
+msgstr ""
+
+#: lib/psp-base-shortcodes.php:161 lib/psp-base-shortcodes.php:224
+#: lib/psp-view.php:490 lib/shortcodes.php:101 lib/view.php:525
+msgid "Project"
+msgstr ""
+
+#: lib/psp-timing.php:359
+msgid "Project Calendar"
+msgstr ""
+
+#: lib/view.php:12 lib/lite/psp-lite-fields.php:283
+#: lib/templates/parts/overview.php:14
+msgid "Project Description"
+msgstr ""
+
+#: lib/templates/psp-comment-part.php:26 lib/templates/psp-comment-part.php:58
+msgid "Project Discussion"
+msgstr ""
+
+#: lib/psp-base-shortcodes.php:312 lib/shortcodes.php:150
+msgid "Project Listing"
+msgstr ""
+
+#: lib/lite/psp-notices.php:46
+msgid "Project Panorama"
+msgstr ""
+
+#: license.php:20
+msgid "Project Panorama License Options"
+msgstr ""
+
+#. Name of the plugin
+msgid "Project Panorama Lite"
+msgstr ""
+
+#: psp-license.php:26
+msgid "Project Panorama Options"
+msgstr ""
+
+#: lib/templates/parts/short-progress.php:11
+msgid "Project Progress"
+msgstr ""
+
+#: license.php:75 psp-license.php:99
+msgid "Project Slug"
+msgstr ""
+
+#: lib/psp-base-shortcodes.php:325 lib/psp-data-model.php:177
+#: lib/shortcodes.php:163
+msgid "Project Status"
+msgstr ""
+
+#: lib/psp-timing.php:205 lib/view.php:23
+msgid "Project Timing"
+msgstr ""
+
+#: lib/psp-base-shortcodes.php:316 lib/shortcodes.php:154
+msgid "Project Type"
+msgstr ""
+
+#: lib/data_model.php:107 lib/psp-data-model.php:143 lib/psp-helpers.php:785
+msgid "Project Types"
+msgstr ""
+
+#: lib/data_model.php:17 lib/data_model.php:37 lib/psp-data-model.php:17
+#: lib/psp-data-model.php:37 lib/psp-view.php:479 lib/view.php:514
+#: lib/templates/archive-psp_projects.php:14
+#: lib/templates/archive-psp_projects.php:75
+#: lib/templates/archive-psp_projects.php:80
+#: lib/templates/archive-psp_projects.php:85
+#: lib/templates/archive-psp_projects.php:90
+msgid "Projects"
+msgstr ""
+
+#: lib/psp-helpers.php:773
+msgid "Projects Assigned to"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:122
+msgid "Projects can be broken up into individual phases"
+msgstr ""
+
+#: lib/psp-base-shortcodes.php:346
+msgid "Projects to show"
+msgstr ""
+
+#: lib/data_model.php:36 lib/psp-data-model.php:36
+msgid "psp_projects"
+msgstr ""
+
+#: lib/psp-view.php:487 lib/view.php:522
+msgid "Recently Updated"
+msgstr ""
+
+#: lib/psp-helpers.php:991 lib/lite/psp-lite-fields.php:107
+#: lib/templates/parts/documents.php:67
+msgid "Rejected"
+msgstr ""
+
+#: lib/view.php:288 lib/templates/parts/phases-lite.php:110
+#: lib/templates/parts/phases.php:116
+msgid "Remaining"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:58
+msgid "Remove Document"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:126
+msgid "Remove Phase"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:25
+msgid "Restrict access to specific users"
+msgstr ""
+
+#: lib/psp-helpers.php:987 lib/lite/psp-lite-fields.php:105
+#: lib/templates/parts/documents.php:66
+msgid "Revisions"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:32
+msgid "Search for users to add to this project"
+msgstr ""
+
+#: lib/psp-data-model.php:186
+msgid "Search Project Statuses"
+msgstr ""
+
+#: lib/data_model.php:116 lib/psp-data-model.php:152
+msgid "Search Project Types"
+msgstr ""
+
+#: lib/data_model.php:25 lib/psp-data-model.php:25
+msgid "Search Projects"
+msgstr ""
+
+#: lib/lite/psp-lite-shortcodes.php:180
+msgid "Select a project below to add it to your post or page."
+msgstr ""
+
+#: lib/psp-base-shortcodes.php:313 lib/shortcodes.php:151
+msgid "Select from the options below to output a list of projects."
+msgstr ""
+
+#: lib/psp-timing.php:13 lib/psp-timing.php:51
+msgid "Sep"
+msgstr ""
+
+#: lib/data_model.php:115 lib/psp-data-model.php:151 lib/psp-data-model.php:185
+msgid "Separate items with commas"
+msgstr ""
+
+#: lib/lite/psp-lite-shortcodes.php:195
+msgid "Show Overview"
+msgstr ""
+
+#: lib/lite/psp-lite-shortcodes.php:225
+msgid "Show Phases"
+msgstr ""
+
+#: lib/lite/psp-lite-shortcodes.php:205
+msgid "Show Progress Bar"
+msgstr ""
+
+#: lib/psp-base-shortcodes.php:163 lib/psp-timing.php:209
+msgid "Start"
+msgstr ""
+
+#: lib/psp-base-shortcodes.php:339 lib/view.php:38
+#: lib/lite/psp-lite-fields.php:292
+msgid "Start Date"
+msgstr ""
+
+#: lib/psp-timing.php:446
+msgid "Start: "
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:98 lib/templates/parts/documents.php:60
+msgid "Status"
+msgstr ""
+
+#: psp-license.php:833
+msgid "Support"
+msgstr ""
+
+#: lib/psp-view.php:191 lib/view.php:373
+#: lib/lite/CMB2-task/class-cmb2-render-task-field.php:12
+msgid "Task"
+msgstr ""
+
+#: lib/view.php:336 lib/lite/psp-lite-fields.php:189
+#: lib/templates/parts/phases-lite.php:145 lib/templates/parts/phases.php:95
+#: lib/templates/parts/phases.php:170
+msgid "Tasks"
+msgstr ""
+
+#: lib/psp-data-model.php:175
+msgctxt "Taxonomy General Name"
+msgid "Project Status"
+msgstr ""
+
+#: lib/data_model.php:105 lib/psp-data-model.php:141
+msgctxt "Taxonomy General Name"
+msgid "Project Types"
+msgstr ""
+
+#: lib/psp-data-model.php:176
+msgctxt "Taxonomy Singular Name"
+msgid "Project Status"
+msgstr ""
+
+#: lib/data_model.php:106 lib/psp-data-model.php:142
+msgctxt "Taxonomy Singular Name"
+msgid "Project Type"
+msgstr ""
+
+#: psp-license.php:43
+msgid "The Project Panorama settings have been updated"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:668
+msgid ""
+"These fields are only available if you select \"Fifths\" on the milestone "
+"frequency field."
+msgstr ""
+
+#: lib/templates/psp-comment-part.php:9
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: lib/templates/custom-template-single.php:58 lib/templates/login.php:74
+msgid "This Project is Password Protected"
+msgstr ""
+
+#: lib/templates/custom-template-single.php:49 lib/templates/login.php:60
+msgid "This Project Requires a Login"
+msgstr ""
+
+#: lib/psp-base-shortcodes.php:226 lib/psp-data-model.php:78
+msgid "Time Elapsed"
+msgstr ""
+
+#: psp-license.php:358
+msgid "Timeline"
+msgstr ""
+
+#: lib/psp-helpers.php:784
+msgid "Timing"
+msgstr ""
+
+#: lib/psp-base-shortcodes.php:341 lib/psp-helpers.php:781
+#: lib/lite/psp-lite-fields.php:72 lib/lite/psp-lite-fields.php:140
+#: lib/lite/psp-lite-fields.php:412 lib/lite/psp-lite-fields.php:491
+#: lib/lite/psp-lite-fields.php:570 lib/lite/psp-lite-fields.php:672
+msgid "Title"
+msgstr ""
+
+#: lib/templates/archive-psp_projects.php:75
+msgid "Total"
+msgstr ""
+
+#: lib/psp-view.php:482 lib/view.php:517
+msgid "Types"
+msgstr ""
+
+#: lib/templates/archive-psp_projects.php:90
+msgid "Unstarted"
+msgstr ""
+
+#: lib/templates/parts/tasks.php:39
+msgid "update"
+msgstr ""
+
+#: lib/data_model.php:24 lib/psp-data-model.php:24
+msgid "Update Project"
+msgstr ""
+
+#: lib/psp-data-model.php:184
+msgid "Update Project Status"
+msgstr ""
+
+#: lib/data_model.php:114 lib/psp-data-model.php:150
+msgid "Update Project Type"
+msgstr ""
+
+#: lib/templates/parts/documents.php:59
+msgid "Update Status"
+msgstr ""
+
+#: lib/psp-view.php:492 lib/view.php:527
+msgid "Updated"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:18
+msgid "User Access"
+msgstr ""
+
+#: lib/psp-data-model.php:76
+msgid "Users"
+msgstr ""
+
+#: lib/psp-view.php:510 lib/view.php:544
+msgid "View"
+msgstr ""
+
+#: lib/data_model.php:20 lib/psp-data-model.php:20
+msgid "View Project"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:181
+msgid "Write a description for this phase"
+msgstr ""
+
+#: lib/lite/psp-lite-fields.php:230 lib/lite/psp-lite-fields.php:345
+msgid "Yes"
+msgstr ""
+
+#: lib/templates/custom-template-single.php:53 lib/templates/login.php:66
+msgid "You don't have permission to access this project"
+msgstr ""

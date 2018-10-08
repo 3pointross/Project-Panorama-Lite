@@ -1,0 +1,10 @@
+TODO: Shortcode for before, active, completed phase descriptions
+TODO: Custom milestone points
+TODO: Account tab on project page
+TODO: Time keeping addon (BOOM!)
+TODO: Google iCal addon (BOOM!)
+
+TODO: Project tags
+TODO: Why doesn't comments work with evolve theme? Supply own comments template?
+TODO: Add print button
+TODO: BUG: "dd/mm/yy" in overview.php -- Can this be determined by WP options?
